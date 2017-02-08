@@ -29,6 +29,7 @@ Data source: automatic
 Data available since: UD v2.0
 License: CC BY-NC-SA 4.0
 Genre: news
-Contributors: Bhat, Riyaz Ahmad
+Contributors: Bhat, Riyaz Ahmad; Zeman, Daniel
+Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
 
