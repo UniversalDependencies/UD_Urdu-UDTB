@@ -644,7 +644,7 @@
 13	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	12	case	_	ChunkId=NP5|ChunkType=child
 14	بدترین	بدترین	ADJ	JJ	_	15	amod	_	ChunkId=NP6|ChunkType=child
 15	قتل	قتل	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	advmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
-16	عام	عام	ADJ	JJ	_	0	root	_	ChunkId=NP6|ChunkType=child
+16	عام	عام	ADJ	JJ	_	6	dep	_	ChunkId=NP6|ChunkType=child
 17	کے	کے	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP6|ChunkType=child
 18	بعد	بعد	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	15	case	_	AltTag=ADP-NOUN|ChunkId=NP6|ChunkType=child
 19	دو	دو	NUM	QC	NumType=Card	20	nummod	_	ChunkId=NP7|ChunkType=child
@@ -752,7 +752,7 @@
 21	کے	کے	ADP	PSP	AdpType=Post	20	case	_	ChunkId=NP8|ChunkType=child
 22	لئے	لئے	ADP	PSP	AdpType=Post	20	case	_	ChunkId=NP8|ChunkType=child
 23	اےک	اےک	NUM	QC	NumType=Card	26	nummod	_	ChunkId=NP9|ChunkType=child
-24	اعلیٰ	اعلیٰ	ADJ	JJ	_	0	root	_	ChunkId=NP9|ChunkType=child
+24	اعلیٰ	اعلیٰ	ADJ	JJ	_	11	dep	_	ChunkId=NP9|ChunkType=child
 25	اختیاری	اختیاری	ADJ	JJ	_	26	amod	_	ChunkId=NP9|ChunkType=child
 26	کمیٹی	کمیٹی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	28	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 27	قائم	قائم	ADJ	JJ	_	28	compound	_	ChunkId=JJP|ChunkType=head
@@ -3103,12 +3103,12 @@
 17	اہتمام	زیر_اہتمام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	41	advmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 18	جلسہ	جلسہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	28	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 19	تذکرہ	تذکرہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	26	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
-20	شیخ	شیخ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
-21	الاسلام	الاسلام	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
-22	امام	امام	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
-23	انوراللہ	انوراللہ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
-24	فاوقی	فاوقی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
-25	چشتی	چشتی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
+20	شیخ	شیخ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	dep	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
+21	الاسلام	الاسلام	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	dep	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
+22	امام	امام	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	dep	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
+23	انوراللہ	انوراللہ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	dep	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
+24	فاوقی	فاوقی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	dep	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
+25	چشتی	چشتی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	dep	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 26	بانی	بانی	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	28	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 27	جامعہ	جامعہ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	28	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 28	نظامیہ	نظامیہ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	41	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
@@ -3124,7 +3124,7 @@
 38	جڑچرلہ	جڑچرلہ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	41	advmod	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 39	مےں	مےں	ADP	PSP	AdpType=Post	38	case	_	ChunkId=NP9|ChunkType=child
 40	منعقد	منعقد	ADJ	JJ	_	41	compound	_	ChunkId=JJP|ChunkType=head
-41	کیا	کر	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
+41	کیا	کر	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	dep	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 42	جا	جا	AUX	VAUX	_	41	aux	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=child
 43	رہا	رہ	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	42	aux	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=child
 44	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child
@@ -5544,7 +5544,7 @@
 29	ریاست	ریاست	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	34	nmod	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 30	مےں	مےں	ADP	PSP	AdpType=Post	29	case	_	ChunkId=NP9|ChunkType=child
 31	اےک	اےک	NUM	QC	NumType=Card	34	nummod	_	ChunkId=NP10|ChunkType=child
-32	نئے	نیا	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ChunkId=NP10|ChunkType=child
+32	نئے	نیا	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	22	dep	_	ChunkId=NP10|ChunkType=child
 33	سیاسی	سیاسی	ADJ	JJ	Case=Nom	34	amod	_	ChunkId=NP10|ChunkType=child
 34	انقلاب	انقلاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	38	nmod	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 35	اور	اور	CCONJ	CC	_	36	cc	_	ChunkId=CCP3|ChunkType=head
@@ -5790,7 +5790,7 @@
 29	ریاست	ریاست	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	34	nmod	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 30	مےں	مےں	ADP	PSP	AdpType=Post	29	case	_	ChunkId=NP9|ChunkType=child
 31	اےک	اےک	NUM	QC	NumType=Card	34	nummod	_	ChunkId=NP10|ChunkType=child
-32	نئے	نیا	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ChunkId=NP10|ChunkType=child
+32	نئے	نیا	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	22	dep	_	ChunkId=NP10|ChunkType=child
 33	سیاسی	سیاسی	ADJ	JJ	Case=Nom	34	amod	_	ChunkId=NP10|ChunkType=child
 34	انقلاب	انقلاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	38	nmod	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 35	اور	اور	CCONJ	CC	_	36	cc	_	ChunkId=CCP3|ChunkType=head
@@ -7413,7 +7413,7 @@
 12	کو	کو	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP5|ChunkType=child
 13	سبقت	سبقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	obj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 14	حاصل	حاصل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
-15	رہی	رہ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
+15	رہی	رہ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	2	dep	_	SpaceAfter=No|Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 16	۔	۔	PUNCT	SYM	_	15	punct	_	ChunkId=VGF|ChunkType=child
 
 # sent_id = dev-s257
@@ -7479,7 +7479,7 @@
 14	ہی	ہی	PART	RP	_	12	dep	_	ChunkId=NP4|ChunkType=child
 15	سبقت	سبقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 16	حاصل	حاصل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
-17	رہی	رہ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
+17	رہی	رہ	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	5	dep	_	SpaceAfter=No|Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 18	۔	۔	PUNCT	SYM	_	17	punct	_	ChunkId=VGF|ChunkType=child
 
 # sent_id = dev-s260
@@ -8216,7 +8216,7 @@
 10	کہا	کہہ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 11	کہ	کہ	SCONJ	CC	_	22	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
 12	دو	دو	NUM	QC	NumType=Card	15	nummod	_	ChunkId=NP4|ChunkType=child
-13	سکھوئی	سکھوئی	ADJ	JJ	_	0	root	_	ChunkId=NP4|ChunkType=child
+13	سکھوئی	سکھوئی	ADJ	JJ	_	10	dep	_	ChunkId=NP4|ChunkType=child
 14	جنگی	جنگی	ADJ	JJ	Case=Acc	15	amod	_	ChunkId=NP4|ChunkType=child
 15	طیاروں	طیارہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	22	iobj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 16	کو	کو	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP4|ChunkType=child
@@ -11927,7 +11927,7 @@
 13	برج	برج	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 14	لال	لال	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 15	نے	نے	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP3|ChunkType=child
-16	بتایا	بتا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
+16	بتایا	بتا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	dep	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 17	کہ	کہ	SCONJ	CC	_	51	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
 18	اے	اے	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
 19	آئی	آئی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
@@ -12138,7 +12138,7 @@
 16	کے	کے	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP6|ChunkType=child
 17	تحت	تحت	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	15	case	_	AltTag=ADP-NOUN|ChunkId=NP6|ChunkType=child
 18	اےک	اےک	NUM	QC	NumType=Card	21	nummod	_	ChunkId=NP7|ChunkType=child
-19	عبوری	عبوری	ADJ	JJ	_	0	root	_	ChunkId=NP7|ChunkType=child
+19	عبوری	عبوری	ADJ	JJ	_	12	dep	_	ChunkId=NP7|ChunkType=child
 20	متحدہ	متحدہ	ADJ	JJ	Case=Nom	21	amod	_	ChunkId=NP7|ChunkType=child
 21	حکومت	حکومت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	23	obj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 22	قائم	قائم	ADJ	JJ	_	23	compound	_	ChunkId=JJP|ChunkType=head
@@ -15008,7 +15008,7 @@
 11	کے	کے	ADP	PSP	AdpType=Post	10	case	_	ChunkId=NP2|ChunkType=child
 12	حوالہ	حوالہ	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing	10	case	_	ChunkId=NP2|ChunkType=child
 13	سے	سے	ADP	PSP	AdpType=Post	10	case	_	ChunkId=NP2|ChunkType=child
-14	کہا	کہہ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
+14	کہا	کہہ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	dep	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 15	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child
 16	کہ	کہ	SCONJ	CC	_	23	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP2|ChunkType=head
 17	بمبار	بمبار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
@@ -15510,7 +15510,7 @@
 3	اےک	اےک	NUM	QC	NumType=Card	6	nummod	_	ChunkId=NP2|ChunkType=child
 4	آزاد	آزاد	ADJ	JJ	_	0	root	_	ChunkId=NP2|ChunkType=child
 5	مرکزی	مرکزی	ADJ	JJ	_	6	amod	_	ChunkId=NP2|ChunkType=child
-6	ادارہ	ادارہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
+6	ادارہ	ادارہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	dep	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 7	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative
 8	جو	جو	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 9	بیرون	بیرون	ADJ	JJ	Case=Nom	10	amod	_	ChunkId=NP4|ChunkType=child
