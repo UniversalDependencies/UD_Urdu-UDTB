@@ -31,6 +31,8 @@ Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Urdu to UD_Urdu-UDTB.
 * 2017-11-15 v2.1
   * No changes.
 * 2017-03-01 v2.0
