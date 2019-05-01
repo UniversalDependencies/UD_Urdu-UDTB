@@ -31,6 +31,10 @@ Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma
 
 # Changelog
 
+* 2019-05-15 v2.4
+  * Normalized Unicode.
+  * Fixed punctuation.
+  * Fixed some other errors reported by the new validator.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Urdu to UD_Urdu-UDTB.
 * 2017-11-15 v2.1

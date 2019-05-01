@@ -6,8 +6,11 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>5130</sentences><tokens>138077</tokens><words>138077</words><fused>0</fused></total>
+    <train><sentences>4043</sentences><tokens>108690</tokens><words>108690</words><fused>0</fused></train>
+    <dev><sentences>552</sentences><tokens>14581</tokens><words>14581</words><fused>0</fused></dev>
+    <test><sentences>535</sentences><tokens>14806</tokens><words>14806</words><fused>0</fused></test>
   </size>
-  <lemmas unique="9518" /><!-- کا, ۔, کر, ہے, کے, نے, یہ, سے, مےں, اور, کو, ہو, جا, کہ, وہ -->
+  <lemmas unique="9517" /><!-- کا, ۔, کر, ہے, کے, نے, یہ, سے, مےں, اور, کو, ہو, جا, کہ, وہ -->
   <forms unique="10802" /><!-- کے, ۔, کی, ہے, نے, سے, مےں, اور, کو, کہ, کا, اس, پر, میں, کیا -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -79,7 +82,7 @@
     <dep name="acl">812</dep>
     <dep name="acl:relcl">863</dep>
     <dep name="advcl">1864</dep>
-    <dep name="advmod">10714</dep>
+    <dep name="advmod">2131</dep>
     <dep name="amod">7002</dep>
     <dep name="aux">8781</dep>
     <dep name="case">26360</dep>
@@ -96,7 +99,7 @@
     <dep name="nsubj">7311</dep>
     <dep name="nummod">2131</dep>
     <dep name="obj">6547</dep>
-    <dep name="obl">2052</dep>
+    <dep name="obl">10635</dep>
     <dep name="punct">6967</dep>
     <dep name="root">5130</dep>
     <dep name="vocative">15</dep>
