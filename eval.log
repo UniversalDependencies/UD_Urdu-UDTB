@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Urdu-UDTB:
-commit 5fe7f5b62ac4c2eefcc0a0943dea2784c46aeec3
-Merge: 5df8c06 a6ba27d
+commit 0663f941c97e5987dfc89e9a831452bd73507700
+Merge: d112bd0 98e7a5e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 138077 of 138077 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.8556230011275.
@@ -19,7 +19,7 @@ Features: 115933 out of 138077 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 9263 bugs.
+Udapi: found 3429 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 138077 words.
 Genres: found 1 out of 17 known.
 validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.713373780851407) = 0.182916354064463
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.329142435018142) = 0.101274595390198
+(weight=0.307692307692308) * (score{udapi}=0.751660305481724) = 0.231280093994377
 (weight=0.0769230769230769) * (score{udeprels}=0.518918918918919) = 0.0399168399168399
-(TOTAL score=0.560910202644502) * (availability=1) * (validity=1) = 0.560910202644502
-STARS = 3
-UD_Urdu-UDTB	0.560910202644502	3
+(TOTAL score=0.690915701248681) * (availability=1) * (validity=1) = 0.690915701248681
+STARS = 3.5
+UD_Urdu-UDTB	0.690915701248681	3.5
