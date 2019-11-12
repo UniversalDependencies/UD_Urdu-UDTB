@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Urdu-UDTB:
-commit 0663f941c97e5987dfc89e9a831452bd73507700
-Merge: d112bd0 98e7a5e
+commit ee30508fc26ac9d76f22d9bd86a62dc6f9fae0eb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:47:15 2019 +0200
 Size: counted 138077 of 138077 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.8556230011275.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,12 +23,81 @@ Udapi: found 3429 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 138077 words.
 Genres: found 1 out of 17 known.
 validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-dev.conllu
-*** PASSED ***
+[Line 136 Sent dev-s5 Node 7]: [L3 Syntax rel-upos-case] 'case' should not be 'NUM'
+[Line 306 Sent dev-s9 Node 49]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 318 Sent dev-s9 Node 61]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 307 Sent dev-s9 Node 50]: [L5 Morpho aux-lemma] 'لگا' is not an auxiliary verb in language [ur]
+[Line 588 Sent dev-s18 Node 6]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 681 Sent dev-s21 Node 4]: [L5 Morpho aux-lemma] 'چاہ' is not an auxiliary verb in language [ur]
+[Line 765 Sent dev-s23 Node 34]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 808 Sent dev-s24 Node 20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 965 Sent dev-s31 Node 1]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'ADP'
+[Line 1058 Sent dev-s34 Node 11]: [L5 Morpho aux-lemma] 'دکھا' is not an auxiliary verb in language [ur]
+[Line 1315 Sent dev-s44 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 1372 Sent dev-s46 Node 22]: [L3 Syntax rel-upos-case] 'case' should not be 'NUM'
+...suppressing further errors regarding Syntax
+[Line 1731 Sent dev-s63 Node 33]: [L5 Morpho aux-lemma] 'کا' is not an auxiliary verb in language [ur]
+[Line 1751 Sent dev-s64 Node 11]: [L5 Morpho aux-lemma] 'کا' is not an auxiliary verb in language [ur]
+[Line 2499 Sent dev-s91 Node 9]: [L5 Morpho aux-lemma] 'کا' is not an auxiliary verb in language [ur]
+[Line 3953 Sent dev-s148 Node 18]: [L5 Morpho aux-lemma] 'چاہئے' is not an auxiliary verb in language [ur]
+[Line 4057 Sent dev-s152 Node 14]: [L5 Morpho aux-lemma] 'چاہئے' is not an auxiliary verb in language [ur]
+[Line 4177 Sent dev-s156 Node 27]: [L5 Morpho aux-lemma] 'چاہئیں' is not an auxiliary verb in language [ur]
+...suppressing further errors regarding Morpho
+Morpho errors: 28
+Syntax errors: 124
+*** FAILED *** with 152 errors
+Exit code: 1
 validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-test.conllu
-*** PASSED ***
+[Line 288 Sent test-s7 Node 18]: [L5 Morpho aux-lemma] 'کا' is not an auxiliary verb in language [ur]
+[Line 347 Sent test-s10 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 454 Sent test-s15 Node 11]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
+[Line 689 Sent test-s24 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 700 Sent test-s24 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 904 Sent test-s32 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 1088 Sent test-s39 Node 42]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON'
+[Line 1140 Sent test-s40 Node 41]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 1156 Sent test-s40 Node 57]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 1170 Sent test-s41 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+...suppressing further errors regarding Syntax
+[Line 1994 Sent test-s59 Node 38]: [L5 Morpho aux-lemma] 'چاہ' is not an auxiliary verb in language [ur]
+[Line 3252 Sent test-s99 Node 10]: [L5 Morpho aux-lemma] 'بنا' is not an auxiliary verb in language [ur]
+[Line 3364 Sent test-s106 Node 15]: [L5 Morpho aux-lemma] 'بنا' is not an auxiliary verb in language [ur]
+[Line 3469 Sent test-s111 Node 18]: [L5 Morpho aux-lemma] 'بنا' is not an auxiliary verb in language [ur]
+[Line 3552 Sent test-s116 Node 5]: [L5 Morpho aux-lemma] 'بنا' is not an auxiliary verb in language [ur]
+[Line 4456 Sent test-s145 Node 35]: [L5 Morpho aux-lemma] 'چاہ' is not an auxiliary verb in language [ur]
+[Line 5494 Sent test-s177 Node 30]: [L5 Morpho aux-lemma] 'چاہئے' is not an auxiliary verb in language [ur]
+[Line 6833 Sent test-s221 Node 9]: [L5 Morpho aux-lemma] 'والا' is not an auxiliary verb in language [ur]
+...suppressing further errors regarding Morpho
+Morpho errors: 17
+Syntax errors: 129
+*** FAILED *** with 146 errors
+Exit code: 1
 validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 31 Sent train-s1 Node 29]: [L5 Morpho aux-lemma] 'رہا' is not an auxiliary verb in language [ur]
+[Line 101 Sent train-s4 Node 21]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PROPN'
+[Line 236 Sent train-s10 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 291 Sent train-s12 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 326 Sent train-s13 Node 27]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'advcl'
+[Line 324 Sent train-s13 Node 25]: [L5 Morpho aux-lemma] 'والا' is not an auxiliary verb in language [ur]
+[Line 461 Sent train-s17 Node 12]: [L5 Morpho aux-lemma] 'گے' is not an auxiliary verb in language [ur]
+[Line 994 Sent train-s36 Node 13]: [L5 Morpho aux-lemma] 'گا' is not an auxiliary verb in language [ur]
+[Line 1034 Sent train-s38 Node 10]: [L3 Syntax rel-upos-compound] 'compound' should not be 'AUX'
+[Line 1034 Sent train-s38 Node 10]: [L5 Morpho aux-lemma] 'والی' is not an auxiliary verb in language [ur]
+[Line 1051 Sent train-s39 Node 4]: [L3 Syntax rel-upos-case] 'case' should not be 'PROPN'
+[Line 1081 Sent train-s40 Node 7]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'mark'
+[Line 1082 Sent train-s40 Node 8]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PROPN'
+[Line 1117 Sent train-s41 Node 25]: [L5 Morpho aux-lemma] 'لیا' is not an auxiliary verb in language [ur]
+[Line 1232 Sent train-s45 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+...suppressing further errors regarding Syntax
+[Line 1546 Sent train-s58 Node 10]: [L5 Morpho aux-lemma] 'چاہیے' is not an auxiliary verb in language [ur]
+[Line 1594 Sent train-s59 Node 44]: [L5 Morpho aux-lemma] 'چاہیے' is not an auxiliary verb in language [ur]
+[Line 1826 Sent train-s67 Node 12]: [L5 Morpho aux-lemma] 'اٹھا' is not an auxiliary verb in language [ur]
+...suppressing further errors regarding Morpho
+Morpho errors: 552
+Syntax errors: 1040
+*** FAILED *** with 1592 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -37,6 +106,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.751660305481724) = 0.231280093994377
 (weight=0.0769230769230769) * (score{udeprels}=0.518918918918919) = 0.0399168399168399
-(TOTAL score=0.690915701248681) * (availability=1) * (validity=1) = 0.690915701248681
-STARS = 3.5
-UD_Urdu-UDTB	0.690915701248681	3.5
+(TOTAL score=0.690915701248681) * (availability=1) * (validity=0.01) = 0.00690915701248681
+STARS = 0
+UD_Urdu-UDTB	0.00690915701248681	0
