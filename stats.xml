@@ -78,21 +78,22 @@
     <feat name="Voice" value="Pass" upos="ADJ,AUX,NOUN,VERB">1234</feat><!-- کیا, کی, کر, کریں, دی, دیا, کیے, کہا, کئے, ہو -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="25">
+  <deps unique="26">
     <dep name="acl">812</dep>
     <dep name="acl:relcl">863</dep>
     <dep name="advcl">1864</dep>
-    <dep name="advmod">2131</dep>
+    <dep name="advmod">2132</dep>
     <dep name="amod">7002</dep>
     <dep name="aux">8781</dep>
     <dep name="case">26360</dep>
     <dep name="cc">3345</dep>
     <dep name="compound">18199</dep>
-    <dep name="conj">3894</dep>
+    <dep name="conj">3895</dep>
     <dep name="cop">1187</dep>
     <dep name="dep">2350</dep>
     <dep name="det">2435</dep>
     <dep name="dislocated">344</dep>
+    <dep name="flat">4</dep>
     <dep name="iobj">918</dep>
     <dep name="mark">4653</dep>
     <dep name="nmod">13749</dep>
@@ -100,7 +101,7 @@
     <dep name="nummod">2131</dep>
     <dep name="obj">6547</dep>
     <dep name="obl">10635</dep>
-    <dep name="punct">6967</dep>
+    <dep name="punct">6961</dep>
     <dep name="root">5130</dep>
     <dep name="vocative">15</dep>
     <dep name="xcomp">454</dep>
