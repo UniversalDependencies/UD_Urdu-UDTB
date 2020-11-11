@@ -8080,17 +8080,17 @@
 
 # sent_id = test-s262
 # text = شیخ امتیاز علی، شیخ فیروز علی برادران عروس اور اقربا خاندان نے مہمانوں کا استقبال کیا۔
-1	شیخ	شیخ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
-2	امتیاز	امتیاز	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
-3	علی	علی	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP|ChunkType=head
-4	،	،	PUNCT	SYM	_	3	punct	_	ChunkId=NP|ChunkType=child
-5	شیخ	شیخ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	punct	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
-6	فیروز	فیروز	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	punct	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
-7	علی	علی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	punct	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|CycleHead=7
-8	برادران	برادر	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	conj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
+1	شیخ	شیخ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+2	امتیاز	امتیاز	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	flat	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+3	علی	علی	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	1	flat	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP|ChunkType=head
+4	،	،	PUNCT	SYM	_	5	punct	_	ChunkId=NP|ChunkType=child
+5	شیخ	شیخ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	conj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
+6	فیروز	فیروز	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	flat	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
+7	علی	علی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	flat	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|CycleHead=7
+8	برادران	برادر	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	conj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 9	عروس	عروس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 10	اور	اور	CCONJ	CC	_	11	cc	_	ChunkId=CCP|ChunkType=head
-11	اقربا	قَرِیبی	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Plur|Person=3	3	conj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
+11	اقربا	قَرِیبی	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Plur|Person=3	1	conj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 12	خاندان	خاندان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
 13	نے	نے	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP4|ChunkType=child
 14	مہمانوں	مہمان	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	16	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
