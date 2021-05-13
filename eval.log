@@ -1,11 +1,11 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Urdu-UDTB:
-commit bf36a45d7f1cf795b552bbc5c7f05f60601e956d
-Merge: 22e8712 2a0ebf6
+commit 330259d699416a49af36ee54a7c054a409655438
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed Nov 11 20:19:50 2020 +0100
 Size: counted 138077 of 138077 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.8556230011275.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,6 +19,8 @@ Features: 115933 out of 138077 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 25 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
+Udapi:
+               TOTAL       3415
 Udapi: found 3415 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 138077 words.
 Genres: found 1 out of 17 known.
@@ -81,21 +83,21 @@ validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-train.conllu
 [Line 324 Sent train-s13 Node 25]: [L5 Morpho aux-lemma] 'والا' is not an auxiliary verb in language [ur]
 [Line 461 Sent train-s17 Node 12]: [L5 Morpho aux-lemma] 'گے' is not an auxiliary verb in language [ur]
 [Line 994 Sent train-s36 Node 13]: [L5 Morpho aux-lemma] 'گا' is not an auxiliary verb in language [ur]
-[Line 1034 Sent train-s38 Node 10]: [L3 Syntax rel-upos-compound] 'compound' should not be 'AUX'
 [Line 1034 Sent train-s38 Node 10]: [L5 Morpho aux-lemma] 'والی' is not an auxiliary verb in language [ur]
 [Line 1051 Sent train-s39 Node 4]: [L3 Syntax rel-upos-case] 'case' should not be 'PROPN'
 [Line 1081 Sent train-s40 Node 7]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'mark'
 [Line 1082 Sent train-s40 Node 8]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PROPN'
 [Line 1117 Sent train-s41 Node 25]: [L5 Morpho aux-lemma] 'لیا' is not an auxiliary verb in language [ur]
 [Line 1232 Sent train-s45 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-...suppressing further errors regarding Syntax
+[Line 1480 Sent train-s56 Node 2]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADJ'
 [Line 1546 Sent train-s58 Node 10]: [L5 Morpho aux-lemma] 'چاہیے' is not an auxiliary verb in language [ur]
 [Line 1594 Sent train-s59 Node 44]: [L5 Morpho aux-lemma] 'چاہیے' is not an auxiliary verb in language [ur]
+...suppressing further errors regarding Syntax
 [Line 1826 Sent train-s67 Node 12]: [L5 Morpho aux-lemma] 'اٹھا' is not an auxiliary verb in language [ur]
 ...suppressing further errors regarding Morpho
 Morpho errors: 552
-Syntax errors: 1035
-*** FAILED *** with 1587 errors
+Syntax errors: 1016
+*** FAILED *** with 1568 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
