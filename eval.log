@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Urdu-UDTB:
-commit 256d269185eb4458f7ce16d604b4c9bf050d0b70
+commit 006d57bd63d2591b89caba2d24130bbdaf438478
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 10:03:06 2021 +0200
+Date:   Wed Nov 3 17:08:46 2021 +0100
 Size: counted 138077 of 138077 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.8556230011275.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -46,8 +46,8 @@ validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-dev.conllu
 [Line 4177 Sent dev-s156 Node 27]: [L5 Morpho aux-lemma] 'چاہئیں' is not an auxiliary verb in language [ur]
 ...suppressing further errors regarding Morpho
 Morpho errors: 28
-Syntax errors: 124
-*** FAILED *** with 152 errors
+Syntax errors: 123
+*** FAILED *** with 151 errors
 Exit code: 1
 validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-test.conllu
 [Line 288 Sent test-s7 Node 18]: [L5 Morpho aux-lemma] 'کا' is not an auxiliary verb in language [ur]
@@ -96,8 +96,8 @@ validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-train.conllu
 [Line 1826 Sent train-s67 Node 12]: [L5 Morpho aux-lemma] 'اٹھا' is not an auxiliary verb in language [ur]
 ...suppressing further errors regarding Morpho
 Morpho errors: 552
-Syntax errors: 1016
-*** FAILED *** with 1568 errors
+Syntax errors: 1013
+*** FAILED *** with 1565 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
