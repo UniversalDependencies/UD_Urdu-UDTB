@@ -8599,7 +8599,7 @@
 15	ہیلی	ہیلی	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 16	کاپٹر	کاپٹر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 17	AS	AS	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
-18	-	-	PUNCT	SYM	_	19	nsubj	_	ChunkId=NP4|ChunkType=child
+18	-	-	PUNCT	SYM	_	19	punct	_	ChunkId=NP4|ChunkType=child
 19	B350-B-3	B350-B-3	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 20	مےں	مےں	ADP	PSP	AdpType=Post	19	advmod	_	ChunkId=NP4|ChunkType=child
 21	مسٹر	مسٹر	PART	RP	_	23	dep	_	ChunkId=NP5|ChunkType=child

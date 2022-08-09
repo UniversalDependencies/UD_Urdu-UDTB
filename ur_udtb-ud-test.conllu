@@ -1710,7 +1710,7 @@
 28	لایا	لا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 29	گیا	جا	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	28	case	_	Vib=یا1|Tam=yA1|ChunkId=VGF|ChunkType=child
 30	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	case	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child
-31	۔	۔	PUNCT	SYM	_	28	case	_	ChunkId=VGF|ChunkType=child
+31	۔	۔	PUNCT	SYM	_	28	punct	_	ChunkId=VGF|ChunkType=child
 
 # sent_id = test-s53
 # text = انھوں نے مزید کہا کہ تلنگانہ جوائنٹ ایکشن کمیٹی حکومتوں کے مخالف تلنگانہ رویہ کے خلاف اپنے احتجاج مےں شدت پیدا کرنے کا لائحہ_عمل تیار کر رہی ہے۔
@@ -7874,13 +7874,13 @@
 8	موٹر	موٹر	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	14	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 9	سائیکل	سائیکل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 10	نمبر	نمبر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
-11	(	(	PUNCT	SYM	_	14	case	_	SpaceAfter=No|ChunkId=NP2|ChunkType=child
+11	(	(	PUNCT	SYM	_	14	punct	_	SpaceAfter=No|ChunkId=NP2|ChunkType=child
 12	ap11	ap11	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
-13	-	-	PUNCT	SYM	_	14	case	_	ChunkId=NP2|ChunkType=child
+13	-	-	PUNCT	SYM	_	14	punct	_	ChunkId=NP2|ChunkType=child
 14	H	H	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
-15	-	-	PUNCT	SYM	_	14	nmod	_	ChunkId=NP2|ChunkType=child
+15	-	-	PUNCT	SYM	_	14	punct	_	ChunkId=NP2|ChunkType=child
 16	1801	1801	NUM	QC	NumType=Card	14	nmod	_	SpaceAfter=No|ChunkId=NP2|ChunkType=child
-17	)	)	PUNCT	SYM	_	14	nmod	_	ChunkId=NP2|ChunkType=child
+17	)	)	PUNCT	SYM	_	14	punct	_	ChunkId=NP2|ChunkType=child
 18	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	ChunkId=NP2|ChunkType=child
 19	سرقہ	سرقہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 20	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	19	case	_	ChunkId=NP3|ChunkType=child
@@ -15746,7 +15746,7 @@
 43	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	42	mark	_	ChunkId=VGNN|ChunkType=child
 44	اختیار	اختیار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	46	compound	_	Vib=0|Tam=0|ChunkId=NP17|ChunkType=head
 45	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	46	nmod	_	SpaceAfter=No|ChunkId=NEGP|ChunkType=head
-46	۔	۔	PUNCT	SYM	_	25	obj	_	ChunkId=VGF4|ChunkType=head
+46	۔	۔	PUNCT	SYM	_	25	punct	_	ChunkId=VGF4|ChunkType=head
 
 # sent_id = test-s514
 # text = پونے کے گھوڑوں کے فارم ہاؤس کے مالک حسن علی خان, جن پر ٹیکس سے بچنے کا الزام ہے, ان کے لیے 1997 مےں اقبال سنگھ نے بحیثیت رکن راجیہ سبھا انھیں جلد پاسپورٹ جاری کرنے کی سفارش کی تھی۔
