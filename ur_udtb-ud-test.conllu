@@ -3209,7 +3209,7 @@
 7	ٹیلر	ٹیلر	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 8	نے	نے	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP3|ChunkType=child
 9	47	47	NUM	QC	NumType=Card	12	nummod	_	ChunkId=NP4|ChunkType=child
-10	ناٹ	ناٹ	ADJ	JJC	Case=Nom	11	nummod	_	ChunkId=NP4|ChunkType=child
+10	ناٹ	ناٹ	ADJ	JJC	Case=Nom	11	compound	_	ChunkId=NP4|ChunkType=child
 11	آوٹ	آوٹ	ADJ	JJ	Case=Nom	12	amod	_	ChunkId=NP4|ChunkType=child
 12	رن	رن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 13	بناتے	بنا	VERB	VM	Aspect=Imp|VerbForm=Part	17	advcl	_	Vib=تا|Tam=wA|ChunkId=VGNF|ChunkType=head
@@ -8716,7 +8716,7 @@
 8	تیواری	تیوری	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 9	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	8	case	_	ChunkId=NP3|ChunkType=child
 10	60	60	NUM	QC	NumType=Card	13	nummod	_	ChunkId=NP4|ChunkType=child
-11	ناٹ	ناٹ	ADJ	JJC	_	12	nummod	_	ChunkId=NP4|ChunkType=child
+11	ناٹ	ناٹ	ADJ	JJC	_	12	compound	_	ChunkId=NP4|ChunkType=child
 12	آوٹ	آوٹ	ADJ	JJ	_	13	amod	_	ChunkId=NP4|ChunkType=child
 13	رنوں	رن	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	18	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 14	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	13	case	_	ChunkId=NP4|ChunkType=child
@@ -13536,7 +13536,7 @@
 7	منعقد	منعقد	ADJ	JJ	_	8	compound	_	ChunkId=JJP|ChunkType=head
 8	ہوئے	ہو	VERB	VM	Aspect=Perf|VerbForm=Part	12	acl	_	Vib=یا|Tam=yA|ChunkId=VGNF|ChunkType=head
 9	اےک	اےک	NUM	QC	NumType=Card	12	nummod	_	ChunkId=NP3|ChunkType=child
-10	اعلی	اعلی	ADJ	JJC	_	11	nummod	_	ChunkId=NP3|ChunkType=child
+10	اعلی	اعلی	ADJ	JJC	_	11	compound	_	ChunkId=NP3|ChunkType=child
 11	سطحی	سطحی	ADJ	JJ	_	12	amod	_	ChunkId=NP3|ChunkType=child
 12	اجلاس	اجلاس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	31	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 13	مےں	مےں	ADP	PSP	AdpType=Post	12	case	_	ChunkId=NP3|ChunkType=child
