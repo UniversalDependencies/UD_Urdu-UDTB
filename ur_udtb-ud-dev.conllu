@@ -5461,7 +5461,7 @@
 38	درج	درج	ADJ	JJ	_	39	compound	_	ChunkId=JJP2|ChunkType=head
 39	کر	کر	VERB	VM	_	43	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head
 40	کے	کر	AUX	VAUX	_	39	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child
-41	ڈان	ڈان	X	UNK	Foreign=Yes	42	aux	_	ChunkId=NP13|ChunkType=child
+41	ڈان	ڈان	X	UNK	Foreign=Yes	42	compound	_	ChunkId=NP13|ChunkType=child
 42	لوڈ	لوڈ	X	UNK	Foreign=Yes	43	compound	_	ChunkId=NP13|ChunkType=head
 43	کر	کر	VERB	VM	Voice=Act	16	advcl	_	Vib=0|Tam=0|ChunkId=VGF3|ChunkType=head|Stype=declarative
 44	سکتے	سک	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	43	aux	_	Vib=تا|Tam=wA|ChunkId=VGF3|ChunkType=child
@@ -9622,7 +9622,7 @@
 17	بعد	بعد	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	15	case	_	AltTag=ADP-NOUN|ChunkId=NP4|ChunkType=child
 18	کی	کر	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	21	amod	_	Vib=یا|Tam=yA|ChunkId=VGNF|ChunkType=head
 19	گئی	جا	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	18	aux	_	Vib=یا1|Tam=yA1|ChunkId=VGNF|ChunkType=child
-20	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	21	aux	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
+20	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	21	det	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 21	کارروائی	کارروائی	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	24	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 22	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	21	case	_	ChunkId=NP5|ChunkType=child
 23	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	case	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child

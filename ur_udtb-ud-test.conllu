@@ -3362,7 +3362,7 @@
 13	رن	رن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 14	بنا	بنا	VERB	VM	_	18	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head
 15	کر	بنا	AUX	VAUX	_	14	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child
-16	ناٹ	ناٹ	ADJ	JJC	_	17	aux	_	ChunkId=JJP|ChunkType=child
+16	ناٹ	ناٹ	ADJ	JJC	_	17	compound	_	ChunkId=JJP|ChunkType=child
 17	آوٹ	آوٹ	ADJ	JJ	_	18	xcomp	_	ChunkId=JJP|ChunkType=head
 18	رہے	رہ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 19	جبکہ	جبکہ	CCONJ	CC	_	26	cc	_	ChunkId=CCP|ChunkType=head
@@ -3633,7 +3633,7 @@
 26	رن	رن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 27	بنا	بنا	VERB	VM	_	31	advcl	_	Vib=0|Tam=0|ChunkId=VGNF2|ChunkType=head
 28	کر	کر	AUX	VAUX	_	27	aux	_	Vib=0|Tam=0|ChunkId=VGNF2|ChunkType=child
-29	ناٹ	ناٹ	ADJ	JJC	_	30	aux	_	ChunkId=JJP|ChunkType=child
+29	ناٹ	ناٹ	ADJ	JJC	_	30	compound	_	ChunkId=JJP|ChunkType=child
 30	آوٹ	آوٹ	ADJ	JJ	_	31	xcomp	_	ChunkId=JJP|ChunkType=head
 31	رہے	رہ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	conj	_	Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 32	جبکہ	جبکہ	CCONJ	CC	_	49	cc	_	ChunkId=CCP3|ChunkType=head
@@ -3651,7 +3651,7 @@
 44	رن	رن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	45	obj	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head
 45	بنا	بنا	VERB	VM	_	49	advcl	_	Vib=0|Tam=0|ChunkId=VGNF3|ChunkType=head
 46	کر	کر	AUX	VAUX	_	45	aux	_	Vib=0|Tam=0|ChunkId=VGNF3|ChunkType=child
-47	ناٹ	ناٹ	ADJ	JJC	_	48	aux	_	ChunkId=JJP2|ChunkType=child
+47	ناٹ	ناٹ	ADJ	JJC	_	48	compound	_	ChunkId=JJP2|ChunkType=child
 48	آوٹ	آوٹ	ADJ	JJ	_	49	xcomp	_	ChunkId=JJP2|ChunkType=head
 49	رہے	رہ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	12	conj	_	SpaceAfter=No|Vib=یا|Tam=yA|ChunkId=VGF3|ChunkType=head|Stype=declarative
 50	۔	۔	PUNCT	SYM	_	49	punct	_	ChunkId=VGF3|ChunkType=child
@@ -4096,7 +4096,7 @@
 33	حاصل	حاصل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	compound	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
 34	کرتے	کر	VERB	VM	Aspect=Imp|VerbForm=Part	38	advcl	_	Vib=تا|Tam=wA|ChunkId=VGNF|ChunkType=head
 35	ہوئے	ہو	AUX	VAUX	Aspect=Perf|VerbForm=Part	34	aux	_	Vib=یا|Tam=yA|ChunkId=VGNF|ChunkType=child
-36	کافی	کافی	ADV	INTF	AdvType=Deg	37	aux	_	ChunkId=NP13|ChunkType=child
+36	کافی	کافی	ADV	INTF	AdvType=Deg	37	advmod	_	ChunkId=NP13|ChunkType=child
 37	آگے	آگے	ADV	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	38	advmod	_	AltTag=ADV-NOUN|ChunkId=NP13|ChunkType=head
 38	نکل	نکل	VERB	VM	Voice=Act	22	conj	_	Vib=0|Tam=0|ChunkId=VGF4|ChunkType=head|Stype=declarative
 39	گئے	جا	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	38	aux	_	Vib=یا1|Tam=yA1|ChunkId=VGF4|ChunkType=child

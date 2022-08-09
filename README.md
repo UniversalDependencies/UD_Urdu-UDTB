@@ -31,6 +31,8 @@ Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma
 
 # Changelog
 
+* 2022-11-15 v2.11
+  * Fixed a number of various validation errors.
 * 2019-05-15 v2.4
   * Normalized Unicode.
   * Fixed punctuation.
