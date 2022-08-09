@@ -14458,7 +14458,7 @@
 26	و	و	CCONJ	CC	_	27	cc	_	ChunkId=CCP2|ChunkType=head
 27	بیش	بیش	DET	QF	PronType=Ind	25	conj	_	AltTag=ADJ-DET|ChunkId=JJP3|ChunkType=head
 28	ایسے	ایسا	DET	DEM	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	31	det	_	ChunkId=NP6|ChunkType=child
-29	19	19	NUM	QCC	NumType=Card	30	det	_	ChunkId=NP6|ChunkType=child
+29	19	19	NUM	QCC	NumType=Card	30	compound	_	ChunkId=NP6|ChunkType=child
 30	لاکھ	لاکھ	NUM	QC	NumType=Card	31	nummod	_	ChunkId=NP6|ChunkType=child
 31	بچے	بچہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	37	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 32	نہایت	نہایت	ADJ	JJ	Case=Acc	33	amod	_	ChunkId=NP7|ChunkType=child
