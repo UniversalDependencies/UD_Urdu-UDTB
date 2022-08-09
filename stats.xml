@@ -87,11 +87,11 @@
     <dep name="aux">8781</dep>
     <dep name="case">26360</dep>
     <dep name="cc">3345</dep>
-    <dep name="compound">18199</dep>
+    <dep name="compound">18205</dep>
     <dep name="conj">3895</dep>
     <dep name="cop">1187</dep>
     <dep name="dep">2350</dep>
-    <dep name="det">2435</dep>
+    <dep name="det">2429</dep>
     <dep name="dislocated">344</dep>
     <dep name="flat">4</dep>
     <dep name="iobj">918</dep>
