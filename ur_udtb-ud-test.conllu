@@ -451,7 +451,7 @@
 8	کی	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	7	case	_	ChunkId=NP4|ChunkType=child
 9	جانب	جانب	ADP	NST	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing|Person=3	7	case	_	AltTag=ADP-NOUN|ChunkId=NP4|ChunkType=child
 10	سے	سے	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP4|ChunkType=child
-11	سوچے	سوچ	ADJ	JJC	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	12	case	_	Vib=یا|Tam=yA|ChunkId=NP5|ChunkType=child
+11	سوچے	سوچ	ADJ	JJC	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	12	compound	_	Vib=یا|Tam=yA|ChunkId=NP5|ChunkType=child
 12	سمجھے	سمجھ	ADJ	JJ	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	13	amod	_	Vib=یا|Tam=yA|ChunkId=NP5|ChunkType=child
 13	منصوبہ	منصوبہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 14	کے	کے	ADP	PSP	AdpType=Post	13	case	_	ChunkId=NP5|ChunkType=child
@@ -2234,7 +2234,7 @@
 17	فلورنگ	فلورنگ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	24	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 18	کے	کے	ADP	PSP	AdpType=Post	17	case	_	ChunkId=NP7|ChunkType=child
 19	لئے	لئے	ADP	PSP	AdpType=Post	17	case	_	ChunkId=NP7|ChunkType=child
-20	25	25	NUM	QCC	NumType=Card	21	case	_	ChunkId=NP8|ChunkType=child
+20	25	25	NUM	QCC	NumType=Card	21	compound	_	ChunkId=NP8|ChunkType=child
 21	لاکھ	لاکھ	NUM	QC	NumType=Card	23	nmod	_	ChunkId=NP8|ChunkType=head
 22	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	21	case	_	ChunkId=NP8|ChunkType=child
 23	تخمینہ	تخمینہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
@@ -2354,7 +2354,7 @@
 6	کے	کے	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child
 7	لئے	لئے	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child
 8	سالانہ	سالانہ	ADV	RB	_	16	advmod	_	ChunkId=RBP|ChunkType=head
-9	28	28	NUM	QCC	NumType=Card	10	advmod	_	ChunkId=NP3|ChunkType=child
+9	28	28	NUM	QCC	NumType=Card	10	compound	_	ChunkId=NP3|ChunkType=child
 10	لاکھ	لاکھ	NUM	QC	NumType=Card	11	nummod	_	ChunkId=NP3|ChunkType=child
 11	روپئے	روپیہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 12	گرانٹ	گرانٹ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
@@ -2542,9 +2542,9 @@
 6	مدد	مدد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 7	مےں	مےں	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP3|ChunkType=child
 8	سالانہ	سالانہ	ADV	RB	_	21	advmod	_	ChunkId=RBP|ChunkType=head
-9	18	18	NUM	QCC	NumType=Card	12	advmod	_	ChunkId=NP4|ChunkType=child
-10	لاکھ	لاکھ	NUM	QCC	NumType=Card	12	advmod	_	ChunkId=NP4|ChunkType=child
-11	25	25	NUM	QCC	NumType=Card	12	advmod	_	ChunkId=NP4|ChunkType=child
+9	18	18	NUM	QCC	NumType=Card	12	compound	_	ChunkId=NP4|ChunkType=child
+10	لاکھ	لاکھ	NUM	QCC	NumType=Card	12	compound	_	ChunkId=NP4|ChunkType=child
+11	25	25	NUM	QCC	NumType=Card	12	compound	_	ChunkId=NP4|ChunkType=child
 12	ہزار	ہزار	NUM	QC	NumType=Card	13	nummod	_	ChunkId=NP4|ChunkType=child
 13	روپئے	روپیہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	15	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 14	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	13	case	_	ChunkId=NP4|ChunkType=child
@@ -2640,7 +2640,7 @@
 2	مرمت	مرمت	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	کے	کے	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child
 4	لئے	لئے	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child
-5	25	25	NUM	QCC	NumType=Card	6	case	_	ChunkId=NP2|ChunkType=child
+5	25	25	NUM	QCC	NumType=Card	6	compound	_	ChunkId=NP2|ChunkType=child
 6	لاکھ	لاکھ	NUM	QC	NumType=Card	7	nummod	_	ChunkId=NP2|ChunkType=child
 7	روپئے	روپیہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 8	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	7	case	_	ChunkId=NP2|ChunkType=child
@@ -2823,8 +2823,8 @@
 
 # sent_id = test-s86
 # text = وزیر اقلیتی بہبود کے اس اعلان کے اےک سال گذرنے کے بعد بھی متعلقہ ضلعی عہدیدار برائے اقلیتی بہبود کے پاس اتنی فرصت نہیں ہے کہ وہ بلا آواز کے جنریٹر اور پانی کی صفائی کے لئے تکنیکی اقدامات کا تخمینہ حاصل کریں۔
-1	وزیر	وزیر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
-2	اقلیتی	اقلیتی	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+1	وزیر	وزیر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+2	اقلیتی	اقلیتی	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 3	بہبود	بہبود	NOUN	NNC	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 4	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	ChunkId=NP|ChunkType=child
 5	اس	یہ	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	6	det	_	ChunkId=NP2|ChunkType=child
@@ -3370,7 +3370,7 @@
 21	شرما	شرما	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	26	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 22	صفر	صفر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	26	obl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 23	پر	پر	ADP	PSP	AdpType=Post	22	case	_	ChunkId=NP6|ChunkType=child
-24	رن	رن	ADJ	JJC	_	25	case	_	ChunkId=JJP2|ChunkType=child
+24	رن	رن	ADJ	JJC	_	25	compound	_	ChunkId=JJP2|ChunkType=child
 25	آوٹ	آوٹ	ADJ	JJ	_	26	compound	_	ChunkId=JJP2|ChunkType=head
 26	ہوئے	ہو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	18	conj	_	SpaceAfter=No|Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 27	۔	۔	PUNCT	SYM	_	26	punct	_	ChunkId=VGF2|ChunkType=child
@@ -3481,7 +3481,7 @@
 6	ہی	ہی	PART	RP	_	5	dep	_	ChunkId=NP3|ChunkType=child
 7	گیند	گیند	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 8	پر	پر	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP4|ChunkType=child
-9	کیچ	کیچ	ADJ	JJC	_	10	case	_	ChunkId=JJP|ChunkType=child
+9	کیچ	کیچ	ADJ	JJC	_	10	compound	_	ChunkId=JJP|ChunkType=child
 10	آوٹ	آوٹ	ADJ	JJ	_	11	compound	_	ChunkId=JJP|ChunkType=head
 11	کیا	کر	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 12	۔	۔	PUNCT	SYM	_	11	punct	_	ChunkId=VGF|ChunkType=child
@@ -4617,7 +4617,7 @@
 5	کو	کو	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP|ChunkType=child
 6	ٹیم	ٹیم	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 7	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	6	case	_	ChunkId=NP2|ChunkType=child
-8	نائب	نائب	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	case	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
+8	نائب	نائب	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 9	کپتان	کپتان	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	acl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 10	مقرر	مقرر	ADJ	JJ	_	11	compound	_	ChunkId=JJP|ChunkType=head
 11	کیا	کر	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
@@ -6185,7 +6185,7 @@
 1	دارالحکومت	دارالحکومت	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 2	دہلی	دہلی	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child
-4	شمال	شمال	ADJ	JJC	Case=Nom	5	case	_	ChunkId=NP2|ChunkType=child
+4	شمال	شمال	ADJ	JJC	Case=Nom	5	compound	_	ChunkId=NP2|ChunkType=child
 5	مغربی	مغربی	ADJ	JJ	Case=Acc	6	amod	_	ChunkId=NP2|ChunkType=child
 6	علاقہ	علاقہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 7	مےں	مےں	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP2|ChunkType=child
@@ -7546,8 +7546,8 @@
 29	ریاست	ریاست	NOUN	NNZ	Case=Nom|Gender=Fem|Number=Sing|Person=3	37	iobj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 30	کرناٹک	کرناٹک	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	29	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child
 31	کو	کو	ADP	PSP	AdpType=Post	29	case	_	ChunkId=NP8|ChunkType=child
-32	21	21	NUM	QCC	NumType=Card	34	case	_	ChunkId=NP9|ChunkType=child
-33	ہزار	ہزار	NUM	QCC	NumType=Card	34	case	_	ChunkId=NP9|ChunkType=child
+32	21	21	NUM	QCC	NumType=Card	34	compound	_	ChunkId=NP9|ChunkType=child
+33	ہزار	ہزار	NUM	QCC	NumType=Card	34	compound	_	ChunkId=NP9|ChunkType=child
 34	کروڑ	کروڑ	NUM	QC	NumType=Card	35	nummod	_	ChunkId=NP9|ChunkType=child
 35	روپئے	روپیہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	37	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 36	مختص	مختص	ADJ	JJ	_	37	compound	_	ChunkId=JJP2|ChunkType=head
@@ -7573,7 +7573,7 @@
 13	ہےں	ہے	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 14	جن	جو	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 15	مےں	مےں	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP5|ChunkType=child
-16	11	11	NUM	QCC	NumType=Card	17	case	_	ChunkId=NP6|ChunkType=child
+16	11	11	NUM	QCC	NumType=Card	17	compound	_	ChunkId=NP6|ChunkType=child
 17	ہزار	ہزار	NUM	QC	NumType=Card	18	nummod	_	ChunkId=NP6|ChunkType=child
 18	طلبا	طلبا	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	20	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 19	زیر	زیر	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	20	case	_	AltTag=ADP-NOUN|ChunkId=NP7|ChunkType=child
@@ -7871,7 +7871,7 @@
 5	گنج	گنج	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 6	بیدر	بیدر	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 7	مےں	مےں	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP|ChunkType=child
-8	موٹر	موٹر	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	14	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
+8	موٹر	موٹر	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	14	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 9	سائیکل	سائیکل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 10	نمبر	نمبر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 11	(	(	PUNCT	SYM	_	14	punct	_	SpaceAfter=No|ChunkId=NP2|ChunkType=child
@@ -9078,7 +9078,7 @@
 3	موضع	موضع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 4	بلارم	بلارم	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 5	میں	میں	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP2|ChunkType=child
-6	10	10	NUM	QCC	NumType=Card	7	case	_	ChunkId=NP3|ChunkType=child
+6	10	10	NUM	QCC	NumType=Card	7	compound	_	ChunkId=NP3|ChunkType=child
 7	لاکھ	لاکھ	NUM	QC	NumType=Card	8	nummod	_	ChunkId=NP3|ChunkType=child
 8	روپئے	روپیہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 9	لاگت	لاگت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
@@ -9251,9 +9251,9 @@
 15	منصوبہ	منصوبہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	27	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 16	کے	کے	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP5|ChunkType=child
 17	تحت	تحت	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP5|ChunkType=child
-18	سات	سات	NUM	QCC	NumType=Card	21	case	_	ChunkId=NP6|ChunkType=child
-19	لاکھ	لاکھ	NUM	QCC	NumType=Card	21	case	_	ChunkId=NP6|ChunkType=child
-20	41	41	NUM	QCC	NumType=Card	21	case	_	ChunkId=NP6|ChunkType=child
+18	سات	سات	NUM	QCC	NumType=Card	21	compound	_	ChunkId=NP6|ChunkType=child
+19	لاکھ	لاکھ	NUM	QCC	NumType=Card	21	compound	_	ChunkId=NP6|ChunkType=child
+20	41	41	NUM	QCC	NumType=Card	21	compound	_	ChunkId=NP6|ChunkType=child
 21	ہزار	ہزار	NUM	QC	NumType=Card	22	nummod	_	ChunkId=NP6|ChunkType=child
 22	روپیوں	روپیہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	24	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 23	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	22	case	_	ChunkId=NP6|ChunkType=child
@@ -9663,7 +9663,7 @@
 1	مرزا	مرزا	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 2	جاوید	جاوید	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 3	بیگ	بیگ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
-4	منیجر	منیجر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+4	منیجر	منیجر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 5	سرکس	سرکس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 6	نے	نے	ADP	PSP	AdpType=Post	5	nsubj	_	ChunkId=NP|ChunkType=child
 7	مہمانوں	مہمان	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
@@ -9998,7 +9998,7 @@
 
 # sent_id = test-s330
 # text = 120 کروڑ روپیوں کی لاگت سے افزائش مویشیان کے محکمہ کو ترقی دینے کے لئے مرکز سے منظور کروایا گیا ہے۔
-1	120	120	NUM	QCC	NumType=Card	2	punct	_	ChunkId=NP|ChunkType=child
+1	120	120	NUM	QCC	NumType=Card	2	compound	_	ChunkId=NP|ChunkType=child
 2	کروڑ	کروڑ	NUM	QC	NumType=Card	3	nummod	_	ChunkId=NP|ChunkType=child
 3	روپیوں	روپیہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	5	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 4	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	3	case	_	ChunkId=NP|ChunkType=child
@@ -12611,7 +12611,7 @@
 11	بنانے	بنا	VERB	VM	Case=Acc|VerbForm=Inf	23	advcl	_	Vib=نا|Tam=nA|ChunkId=VGNN|ChunkType=head
 12	کے	کے	ADP	PSP	AdpType=Post	11	mark	_	ChunkId=VGNN|ChunkType=child
 13	لیے	لیے	ADP	PSP	AdpType=Post	11	mark	_	ChunkId=VGNN|ChunkType=child
-14	60	60	NUM	QCC	NumType=Card	15	mark	_	ChunkId=NP4|ChunkType=child
+14	60	60	NUM	QCC	NumType=Card	15	compound	_	ChunkId=NP4|ChunkType=child
 15	ہزار	ہزار	NUM	QC	NumType=Card	20	nummod	_	ChunkId=NP4|ChunkType=head
 16	سے	سے	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP4|ChunkType=child
 17	زائد	زائد	ADJ	JJ	Case=Acc	18	amod	_	ChunkId=NP5|ChunkType=child
@@ -13697,7 +13697,7 @@
 13	جائےگی	جا	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=child
 14	حکومت	حکومت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	18	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 15	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	14	case	_	ChunkId=NP5|ChunkType=child
-16	اعلی	اعلی	ADJ	JJC	_	17	case	_	ChunkId=NP6|ChunkType=child
+16	اعلی	اعلی	ADJ	JJC	_	17	compound	_	ChunkId=NP6|ChunkType=child
 17	سطحی	سطحی	ADJ	JJ	Case=Acc	18	amod	_	ChunkId=NP6|ChunkType=child
 18	اجلاس	اجلاس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	31	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 19	نے	نے	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP6|ChunkType=child
@@ -13933,7 +13933,7 @@
 24	جان	جان	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	25	obj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 25	گئی	جا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	3	obj	_	SpaceAfter=No|Vib=1یا|Tam=yA1|ChunkId=VGF2|ChunkType=head|Stype=declarative
 26	,	,	PUNCT	SYM	_	29	punct	_	ChunkId=VGF2|ChunkType=child
-27	مسلم	مسلم	ADJ	JJC	_	28	punct	_	ChunkId=NP12|ChunkType=child
+27	مسلم	مسلم	ADJ	JJC	_	28	compound	_	ChunkId=NP12|ChunkType=child
 28	اکثریتی	اکثریتی	ADJ	JJ	Case=Nom	29	amod	_	ChunkId=NP12|ChunkType=child
 29	دیہات	دیہات	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	conj	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
 30	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF3|ChunkType=head|Stype=declarative
@@ -14098,7 +14098,7 @@
 1	شیو	شیو	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 2	سینا	سینا	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child
-4	ایگزیکیٹو	ایگزیکیٹو	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
+4	ایگزیکیٹو	ایگزیکیٹو	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 5	صدر	صدر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 6	ادھو	ادھو	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 7	ٹھاکرے	ٹھاکرے	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
@@ -14711,7 +14711,7 @@
 15	کے	کے	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP6|ChunkType=child
 16	پیش	پیش	ADV	NSTC	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	14	case	_	AltTag=ADV-NOUN|ChunkId=NP6|ChunkType=child
 17	نظر	پیش	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	14	case	_	AltTag=ADP-NOUN|ChunkId=NP6|ChunkType=child
-18	امریکی	امریکی	ADJ	JJC	_	19	case	_	ChunkId=NP7|ChunkType=child
+18	امریکی	امریکی	ADJ	JJC	_	19	compound	_	ChunkId=NP7|ChunkType=child
 19	پالیسی_ساز	پالیسی_ساز	ADJ	JJ	Case=Acc	20	amod	_	ChunkId=NP7|ChunkType=child
 20	اداروں	ادارہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	36	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 21	نے	نے	ADP	PSP	AdpType=Post	20	case	_	ChunkId=NP7|ChunkType=child
@@ -15657,7 +15657,7 @@
 # text = پڈوچیری کے لیفٹننٹ گورنر اقبال سنگھ نے آج مرکزی وزیر داخلہ پی چدمبرم سے ملاقات کی اور انفورسمنٹ ڈائرکٹوریٹ سے پوچھتاچھ کے بارے مےں انھیں واقف کروایا جبکہ اپوزیشن کی جانب سے ان کی برطرفی کا مطالبہ شدت اختیار کر رہا ہے۔
 1	پڈوچیری	پڈوچیری	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 2	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	1	case	_	ChunkId=NP|ChunkType=child
-3	لیفٹننٹ	لیفٹننٹ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
+3	لیفٹننٹ	لیفٹننٹ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 4	گورنر	گورنر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 5	اقبال	اقبال	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 6	سنگھ	سنگھ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
@@ -15828,7 +15828,7 @@
 1	الیکشن	الیکشن	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 2	کمیشن	کمیشن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child
-4	ڈائرکٹر	ڈائرکٹر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
+4	ڈائرکٹر	ڈائرکٹر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 5	جنرل	جنرل	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 6	اکشے	اکشے	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 7	راوت	راوت	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
