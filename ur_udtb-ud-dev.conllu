@@ -3662,8 +3662,8 @@
 33	سوسائٹی	سوسائٹی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=child
 34	ورنگل	ورنگل	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	42	nmod	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 35	و	و	CCONJ	CC	_	40	cc	_	ChunkId=CCP|ChunkType=head
-36	ڈپارٹمنٹ	ڈپارٹمنٹ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	40	cc	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
-37	آف	آف	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	40	cc	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
+36	ڈپارٹمنٹ	ڈپارٹمنٹ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	40	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
+37	آف	آف	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	40	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
 38	کلچرل	کلچرل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	40	cc	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
 39	حکومت	حکومت	NOUN	NNZ	Case=Nom|Gender=Fem|Number=Sing|Person=3	40	cc	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
 40	آندھراپردیش	آندھراپردیش	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	34	conj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head

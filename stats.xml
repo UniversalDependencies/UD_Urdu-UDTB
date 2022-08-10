@@ -25,11 +25,11 @@
     <tag name="NOUN">32969</tag><!-- حکومت, حاصل, پولیس, رکن, بات, آج, ضلع, عہدیدار, پارٹی, قائد -->
     <tag name="NUM">2461</tag><!-- اےک, ایک, دو, تین, لاکھ, ہزار, چھ, چار, کروڑ, پانچ -->
     <tag name="PART">3040</tag><!-- بھی, نہیں, مسٹر, ہی, نہ, صرف, جناب, کہ, تو, بغیر -->
-    <tag name="PRON">5596</tag><!-- وہ, یہ, جو, اپنا, کوئی, اب, یہاں, مےں, جب, جہاں -->
+    <tag name="PRON">5597</tag><!-- وہ, یہ, جو, اپنا, کوئی, اب, یہاں, مےں, جب, جہاں -->
     <tag name="PROPN">17137</tag><!-- پی, سی, ایس, کانگریس, آئی, بی, ہندوستان, ریڈی, اے, سنگھ -->
-    <tag name="PUNCT">6913</tag><!-- ۔, ,, ،, -, '', ), (, ", ', ؟ -->
+    <tag name="PUNCT">6911</tag><!-- ۔, ,, ،, -, '', ), (, ", ', ؟ -->
     <tag name="SCONJ">2673</tag><!-- کہ, تو, اگر, کیونکہ, تاکہ, بلکہ, حالانکہ, چنانچہ, ,, کیوں -->
-    <tag name="VERB">11862</tag><!-- کر, ہو, کہہ, دے, ہے, بتا, آ, رہ, رکھ, بنا -->
+    <tag name="VERB">11863</tag><!-- کر, ہو, کہہ, دے, ہے, بتا, آ, رہ, رکھ, بنا -->
     <tag name="X">22</tag><!-- کاش, افسوس, خدارا, کتنا, آخر, ئن, جا, را, لوڈ, نئچ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -78,16 +78,17 @@
     <feat name="Voice" value="Pass" upos="ADJ,AUX,NOUN,VERB">1234</feat><!-- کیا, کی, کر, کریں, دی, دیا, کیے, کہا, کئے, ہو -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="26">
-    <dep name="acl">806</dep>
+  <deps unique="27">
+    <dep name="acl">808</dep>
     <dep name="acl:relcl">861</dep>
     <dep name="advcl">1854</dep>
     <dep name="advmod">2133</dep>
     <dep name="amod">7002</dep>
     <dep name="aux">8745</dep>
-    <dep name="case">26358</dep>
-    <dep name="cc">3345</dep>
-    <dep name="compound">18209</dep>
+    <dep name="case">26359</dep>
+    <dep name="cc">3330</dep>
+    <dep name="ccomp">1</dep>
+    <dep name="compound">18223</dep>
     <dep name="conj">3882</dep>
     <dep name="cop">1187</dep>
     <dep name="dep">2349</dep>
@@ -96,12 +97,12 @@
     <dep name="flat">4</dep>
     <dep name="iobj">918</dep>
     <dep name="mark">4656</dep>
-    <dep name="nmod">13750</dep>
+    <dep name="nmod">13748</dep>
     <dep name="nsubj">7308</dep>
     <dep name="nummod">2120</dep>
     <dep name="obj">6534</dep>
-    <dep name="obl">10636</dep>
-    <dep name="punct">7038</dep>
+    <dep name="obl">10637</dep>
+    <dep name="punct">7036</dep>
     <dep name="root">5130</dep>
     <dep name="vocative">15</dep>
     <dep name="xcomp">454</dep>
