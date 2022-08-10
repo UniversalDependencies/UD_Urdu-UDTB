@@ -12750,7 +12750,7 @@
 
 # sent_id = dev-s436
 # text = صدر جمہوریہ ہند نے کہا کہ انہیں یقین ہے کہ تیز رفتار معاشی و تجارتی تعلقات مےں ترقی ہند۔ ماریشیس دفاعی شراکت_داری کا 21 ویں صدی مےں بنیادی عنصر بن جائےگی۔
-1	صدر	صدر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
+1	صدر	صدر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 2	جمہوریہ	جمہوریہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 3	ہند	ہند	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 4	نے	نے	ADP	PSP	AdpType=Post	1	dislocated	_	ChunkId=FRAGP|ChunkType=head

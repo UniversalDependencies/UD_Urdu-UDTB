@@ -86,9 +86,9 @@
     <dep name="amod">7002</dep>
     <dep name="aux">8745</dep>
     <dep name="case">26209</dep>
-    <dep name="cc">3330</dep>
+    <dep name="cc">3331</dep>
     <dep name="ccomp">1</dep>
-    <dep name="compound">18436</dep>
+    <dep name="compound">18468</dep>
     <dep name="conj">3882</dep>
     <dep name="cop">1187</dep>
     <dep name="dep">2349</dep>
@@ -96,9 +96,9 @@
     <dep name="dislocated">344</dep>
     <dep name="flat">4</dep>
     <dep name="iobj">918</dep>
-    <dep name="mark">4636</dep>
+    <dep name="mark">4639</dep>
     <dep name="nmod">13748</dep>
-    <dep name="nsubj">7308</dep>
+    <dep name="nsubj">7272</dep>
     <dep name="nummod">2120</dep>
     <dep name="obj">6534</dep>
     <dep name="obl">10637</dep>
