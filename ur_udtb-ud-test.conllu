@@ -8070,7 +8070,7 @@
 9	،	،	PUNCT	SYM	_	8	punct	_	ChunkId=NP4|ChunkType=child
 10	انجینئرز	انجینئر	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	4	conj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 11	اور	اور	CCONJ	CC	_	14	cc	_	ChunkId=CCP|ChunkType=head
-12	دیگر	دیگر	PRON	PRP	_	14	cc	_	ChunkId=NP6|ChunkType=child
+12	دیگر	دیگر	PRON	PRP	_	14	det	_	ChunkId=NP6|ChunkType=child
 13	سربرآوردہ	سربرآوردہ	ADJ	JJ	Case=Acc	14	amod	_	ChunkId=NP6|ChunkType=child
 14	شخصیتوں	شخصیت	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	4	conj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 15	نے	نے	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP6|ChunkType=child
@@ -9478,7 +9478,7 @@
 4	فیصد	فیصد	DET	QF	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 5	حاضری	حاضری	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 6	اور	اور	CCONJ	CC	_	9	cc	_	ChunkId=CCP|ChunkType=head
-7	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	cc	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
+7	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 8	دوسرے	دوسرا	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	ChunkId=NP3|ChunkType=child
 9	ٹیوشن	ٹیوشن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	conj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 10	و	و	CCONJ	CC	_	11	cc	_	ChunkId=CCP2|ChunkType=head
@@ -13656,7 +13656,7 @@
 28	لاحق	لاحق	ADJ	JJ	_	29	compound	_	ChunkId=JJP2|ChunkType=head
 29	ہوگا	ہو	VERB	VM	Gender=Masc|Number=Sing|Person=3|Voice=Act	48	acl:relcl	_	Vib=گا|Tam=ga|ChunkId=VGF2|ChunkType=head|Stype=declarative
 30	اور	اور	CCONJ	CC	_	42	cc	_	ChunkId=CCP3|ChunkType=head
-31	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	34	cc	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
+31	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	34	det	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
 32	بھی	بھی	PART	RP	_	34	dep	_	ChunkId=NP11|ChunkType=child
 33	ناگہانی	ناگہانی	ADJ	JJ	Case=Acc	34	amod	_	ChunkId=NP11|ChunkType=child
 34	صورت_حال	صورت_حال	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	42	obl	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head

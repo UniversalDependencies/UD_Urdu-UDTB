@@ -3664,8 +3664,8 @@
 35	و	و	CCONJ	CC	_	40	cc	_	ChunkId=CCP|ChunkType=head
 36	ڈپارٹمنٹ	ڈپارٹمنٹ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	40	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
 37	آف	آف	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	40	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
-38	کلچرل	کلچرل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	40	cc	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
-39	حکومت	حکومت	NOUN	NNZ	Case=Nom|Gender=Fem|Number=Sing|Person=3	40	cc	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
+38	کلچرل	کلچرل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	40	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
+39	حکومت	حکومت	NOUN	NNZ	Case=Nom|Gender=Fem|Number=Sing|Person=3	40	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
 40	آندھراپردیش	آندھراپردیش	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	34	conj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 41	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	40	conj	_	ChunkId=NP11|ChunkType=child
 42	اشتراک	اشتراک	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	45	obl	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
@@ -8741,7 +8741,7 @@
 20	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	19	case	_	ChunkId=NP6|ChunkType=child
 21	ہو	ہو	VERB	VM	Voice=Act	13	advcl	_	Vib=0|Tam=0|ChunkId=VGF2|ChunkType=head|Stype=declarative
 22	یا	یا	CCONJ	CC	_	25	cc	_	ChunkId=CCP|ChunkType=head
-23	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	25	cc	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child
+23	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	25	det	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child
 24	دوسرا	دوسرا	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	25	amod	_	ChunkId=NP7|ChunkType=child
 25	کام	کام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	conj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 26	جبکہ	جبکہ	CCONJ	CC	_	34	cc	_	ChunkId=CCP2|ChunkType=head
@@ -8801,7 +8801,7 @@
 41	رائےدہندگان	رائےدہندگان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	42	obj	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=head
 42	ہو	ہو	VERB	VM	Voice=Act	38	conj	_	Vib=0|Tam=0|ChunkId=VGF5|ChunkType=head|Stype=declarative
 43	یا	یا	CCONJ	CC	_	46	cc	_	ChunkId=CCP4|ChunkType=head
-44	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	46	cc	_	Vib=ْ|Tam=0|ChunkId=NP17|ChunkType=child
+44	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	46	det	_	Vib=ْ|Tam=0|ChunkId=NP17|ChunkType=child
 45	دوسرا	دوسرا	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	46	amod	_	ChunkId=NP17|ChunkType=child
 46	کام	کام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	38	conj	_	Vib=0|Tam=0|ChunkId=NP17|ChunkType=head
 47	سونپ	سونپ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	48	compound	_	Vib=0|Tam=0|ChunkId=NP18|ChunkType=head
