@@ -11426,14 +11426,14 @@
 31	اسرائیل	اسرائیل	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	34	nmod	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 32	کے	کے	ADP	PSP	AdpType=Post	31	case	_	ChunkId=NP11|ChunkType=child
 33	ساتھ	ساتھ	ADP	NST	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	31	case	_	AltTag=ADP-NOUN|ChunkId=NP11|ChunkType=child
-34	امن	امن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	40	obj	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
+34	امن	امن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	46	obj	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
 35	یا	یا	CCONJ	CC	_	39	cc	_	ChunkId=CCP4|ChunkType=head
 36	حماس	حماس	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	39	nmod	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head
 37	کے	کا	ADP	PSP	AdpType=Post	36	case	_	ChunkId=NP13|ChunkType=child
 38	ساتھ	ساتھ	ADP	NST	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	36	case	_	AltTag=ADP-NOUN|ChunkId=NP13|ChunkType=child
 39	امن	امن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	34	conj	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=head
 40	مےں	مےں	ADP	PSP	_	46	case	_	ChunkId=FRAGP|ChunkType=head
-41	سے	سے	ADP	PSP	AdpType=Post	40	case	_	ChunkId=FRAGP|ChunkType=child
+41	سے	سے	ADP	PSP	AdpType=Post	46	case	_	ChunkId=FRAGP|ChunkType=child
 42	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	45	nmod	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head
 43	اےک	اےک	NUM	QC	NumType=Card	42	nmod	_	ChunkId=NP15|ChunkType=child
 44	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	42	nmod	_	ChunkId=NP15|ChunkType=child

@@ -2299,12 +2299,12 @@
 # sent_id = test-s71
 # text = محکمہ عمارات و شوارع کی جانب سے تخمینہ لگانے کے باوجود کام شروع نہ کئے جانے کے متعلق بتایا جاتا ہے کہ حکومت کی جانب سے سردمہری اور بجٹ کی عدم_اجرائی کے سبب مکہ مسجد کی چھت کی مرمت شروع نہیں کی جا سکی۔
 1	محکمہ	محکمہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
-2	عمارات	عمارات	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
+2	عمارات	عمارات	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 3	و	و	CCONJ	CC	_	4	cc	_	ChunkId=CCP|ChunkType=head
 4	شوارع	شوارع	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	conj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 5	کی	کی	ADP	PSP	_	9	case	_	ChunkId=FRAGP|ChunkType=head
-6	جانب	جانب	ADV	NST	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing|Person=3	5	advmod	_	AltTag=ADV-NOUN|ChunkId=FRAGP|ChunkType=child
-7	سے	سے	ADP	PSP	AdpType=Post	5	case	_	ChunkId=FRAGP|ChunkType=child
+6	جانب	جانب	ADV	NST	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing|Person=3	9	advmod	_	AltTag=ADV-NOUN|ChunkId=FRAGP|ChunkType=child
+7	سے	سے	ADP	PSP	AdpType=Post	9	case	_	ChunkId=FRAGP|ChunkType=child
 8	تخمینہ	تخمینہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 9	لگانے	لگا	VERB	VM	Case=Acc|VerbForm=Inf	15	advcl	_	Vib=نا|Tam=nA|ChunkId=VGNN|ChunkType=head
 10	کے	کے	ADP	PSP	AdpType=Post	9	mark	_	ChunkId=VGNN|ChunkType=child
