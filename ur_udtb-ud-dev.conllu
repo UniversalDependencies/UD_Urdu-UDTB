@@ -585,7 +585,7 @@
 3	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child
 4	بیان	بیان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 5	کو	کو	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP2|ChunkType=child
-6	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	case	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
+6	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 7	اہمیت	اہمیت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 8	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	9	advmod	_	ChunkId=VGF|ChunkType=child
 9	دی	دے	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
@@ -1600,7 +1600,7 @@
 
 # sent_id = dev-s59
 # text = کسی شاعر نے مشاعروں کے تعلق سے اپنے احساسات کو ان الفاظ مےں قلم_بند کیا کہ مشاعرہ اےک تہذیبی ادارہ ہے جو صدیوں سے قائم ہے۔
-1	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+1	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	det	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 2	شاعر	شاعر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	نے	نے	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child
 4	مشاعروں	مشاعرہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	15	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
@@ -2109,7 +2109,7 @@
 13	لئے	لئے	ADP	PSP	AdpType=Post	11	mark	_	ChunkId=VGNN|ChunkType=child
 14	فنڈس	فنڈس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 15	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	14	case	_	ChunkId=NP4|ChunkType=child
-16	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	case	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
+16	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	det	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 17	کمی	کمی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 18	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	19	advmod	_	ChunkId=VGF2|ChunkType=child
 19	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	obj	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
@@ -2342,7 +2342,7 @@
 
 # sent_id = dev-s84
 # text = کسی قسم کی شکایت پر سخت کارروائی کی جائےگی۔
-1	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+1	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	det	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 2	قسم	قسم	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	4	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child
 4	شکایت	شکایت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	8	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
@@ -5249,7 +5249,7 @@
 7	ضلع	ضلع	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 8	بیدر	بیدر	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 9	سے	سے	ADP	PSP	AdpType=Post	8	case	_	ChunkId=NP3|ChunkType=child
-10	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	case	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
+10	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	det	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
 11	مسلمان	مسلمان	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 12	کو	کو	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP4|ChunkType=child
 13	بحیثیت	بحیثیت	ADP	PSP	_	14	case	_	ChunkId=NP5|ChunkType=child
@@ -5627,7 +5627,7 @@
 23	سے	سے	ADP	PSP	AdpType=Post	22	case	_	ChunkId=NP5|ChunkType=child
 24	اقلیتوں	اقلیت	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	31	obj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 25	کو	کو	ADP	PSP	AdpType=Post	24	case	_	ChunkId=NP6|ChunkType=child
-26	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	case	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child
+26	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	det	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child
 27	بھی	بھی	PART	RP	_	28	dep	_	ChunkId=NP7|ChunkType=child
 28	طاقت	طاقت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	31	acl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 29	جدا	جدا	ADJ	JJ	_	31	compound	_	ChunkId=JJP|ChunkType=head
@@ -8486,7 +8486,7 @@
 5	نے	نے	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP2|ChunkType=child
 6	بھوٹان	بھوٹان	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 7	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	6	case	_	ChunkId=NP3|ChunkType=child
-8	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	case	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
+8	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	det	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
 9	مقام	مقام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 10	پر	پر	ADP	PSP	AdpType=Post	9	case	_	ChunkId=NP4|ChunkType=child
 11	اس	یہ	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	13	det	_	ChunkId=NP5|ChunkType=child
@@ -8723,7 +8723,7 @@
 2	سال	سال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	ٹیچرس	ٹیچرس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	iobj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 4	کو	کو	ADP	PSP	AdpType=Post	3	case	_	ChunkId=NP2|ChunkType=child
-5	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	case	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
+5	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 6	نہ	نہ	PART	RP	_	8	dep	_	ChunkId=NP3|ChunkType=child
 7	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	dep	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 8	ڈیوٹی	ڈیوٹی	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
@@ -9249,7 +9249,7 @@
 20	خرچ	خرچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 21	کرنے	کر	VERB	VM	Case=Acc|VerbForm=Inf	27	advmod	_	Vib=نا|Tam=nA|ChunkId=VGNN2|ChunkType=head
 22	مےں	مےں	ADP	PSP	AdpType=Post	21	mark	_	ChunkId=VGNN2|ChunkType=child
-23	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	mark	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
+23	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	det	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
 24	قباحت	قباحت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	xcomp	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 25	محسوس	محسوس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	compound	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
 26	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	27	advmod	_	ChunkId=VGF2|ChunkType=child
@@ -9266,7 +9266,7 @@
 37	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	36	case	_	ChunkId=NP15|ChunkType=child
 38	دل	دل	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	43	obl	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=head
 39	مےں	مےں	ADP	PSP	AdpType=Post	38	case	_	ChunkId=NP16|ChunkType=child
-40	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	41	case	_	Vib=0|Tam=0|ChunkId=NP17|ChunkType=child
+40	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	41	det	_	Vib=0|Tam=0|ChunkId=NP17|ChunkType=child
 41	خواہش	خواہش	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	43	compound	_	Vib=0|Tam=0|ChunkId=NP17|ChunkType=head
 42	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	43	advmod	_	ChunkId=VGF3|ChunkType=child
 43	ہوتی	ہو	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	5	conj	_	SpaceAfter=No|Vib=تا|Tam=wA|ChunkId=VGF3|ChunkType=head|Stype=declarative
@@ -9625,7 +9625,7 @@
 20	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	21	det	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 21	کارروائی	کارروائی	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	24	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 22	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	21	case	_	ChunkId=NP5|ChunkType=child
-23	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	case	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child
+23	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	det	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child
 24	اہمیت	اہمیت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	obj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 25	ہو	ہو	VERB	VM	Voice=Act	2	acl	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=head|Stype=declarative
 26	سکتی	سک	AUX	VAUX	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	25	aux	_	Vib=تا|Tam=wA|ChunkId=VGF|ChunkType=child
@@ -9742,7 +9742,7 @@
 14	مرحلے	مرحلہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 15	کے	کے	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP5|ChunkType=child
 16	بعد	بعد	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	14	case	_	AltTag=ADP-NOUN|ChunkId=NP5|ChunkType=child
-17	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	case	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child
+17	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	det	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child
 18	بھی	بھی	PART	RP	_	19	dep	_	ChunkId=NP6|ChunkType=child
 19	شخص	شخص	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	obj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 20	اجلاس	اجلاس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	22	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
@@ -10545,7 +10545,7 @@
 6	کارروائیوں	کارروائی	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	13	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 7	کے	کے	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP2|ChunkType=child
 8	دوران	دوران	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	6	case	_	AltTag=ADP-NOUN|ChunkId=NP2|ChunkType=child
-9	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	case	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
+9	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 10	فرد	فرد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	iobj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 11	کو	کو	ADP	PSP	AdpType=Post	10	case	_	ChunkId=NP3|ChunkType=child
 12	نشانہ	نشانہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
@@ -10657,7 +10657,7 @@
 13	ان	یہ	DET	DEM	Case=Acc|Number=Plur|Person=3|PronType=Dem	14	det	_	ChunkId=NP6|ChunkType=child
 14	ذخائر	ذخیرہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 15	پر	پر	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP6|ChunkType=child
-16	کسی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	case	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child
+16	کسی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	det	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child
 17	طرح	طرح	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 18	اپنا	اپنا	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 19	کنٹرول	کنٹرول	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
@@ -10880,7 +10880,7 @@
 25	کرنا	کر	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Pass	0	root	_	Vib=نا|Tam=nA|ChunkId=VGF|ChunkType=head|Stype=imperative
 26	چاہئے	چاہئے	AUX	VAUX	_	25	aux	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=child
 27	کیونکہ	کیونکہ	SCONJ	CC	_	25	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
-28	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	mark	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
+28	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	det	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
 29	بھی	بھی	PART	RP	_	30	dep	_	ChunkId=NP11|ChunkType=child
 30	قانون	قانون	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	42	nsubj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 31	اےک	اےک	NUM	QC	NumType=Card	32	nummod	_	ChunkId=NP12|ChunkType=child
@@ -11613,7 +11613,7 @@
 
 # sent_id = dev-s390
 # text = کسی ڈاکٹر کی فیس سو روپئے تو کسی کی چار سو، پانچ سو روپئے ہے, جس کی ڈاکٹر کی جانب سے رسید بھی نہیں دی جاتی۔
-1	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+1	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	det	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 2	ڈاکٹر	ڈاکٹر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child
 4	فیس	فیس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
@@ -13560,7 +13560,7 @@
 6	اس	یہ	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	7	det	_	ChunkId=NP3|ChunkType=child
 7	تعلق	تعلق	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 8	سے	سے	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP3|ChunkType=child
-9	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	case	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
+9	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	det	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
 10	قطعی	قطعی	ADJ	JJ	Case=Nom	11	amod	_	ChunkId=NP4|ChunkType=child
 11	فیصلہ	فیصلہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 12	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	13	advmod	_	ChunkId=VGF2|ChunkType=child
@@ -14383,7 +14383,7 @@
 13	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	12	case	_	ChunkId=NP4|ChunkType=child
 14	احاطہ	احاطہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 15	مےں	مےں	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP5|ChunkType=child
-16	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	case	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child
+16	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	det	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child
 17	بڑا	بڑا	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	ChunkId=NP6|ChunkType=child
 18	نقصان	نقصان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 19	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	20	advmod	_	ChunkId=VGF3|ChunkType=child
