@@ -2302,9 +2302,9 @@
 2	عمارات	عمارات	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 3	و	و	CCONJ	CC	_	4	cc	_	ChunkId=CCP|ChunkType=head
 4	شوارع	شوارع	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	conj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
-5	کی	کی	ADP	PSP	_	9	advmod	_	ChunkId=FRAGP|ChunkType=head
+5	کی	کی	ADP	PSP	_	9	case	_	ChunkId=FRAGP|ChunkType=head
 6	جانب	جانب	ADV	NST	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing|Person=3	5	advmod	_	AltTag=ADV-NOUN|ChunkId=FRAGP|ChunkType=child
-7	سے	سے	ADP	PSP	AdpType=Post	5	advmod	_	ChunkId=FRAGP|ChunkType=child
+7	سے	سے	ADP	PSP	AdpType=Post	5	case	_	ChunkId=FRAGP|ChunkType=child
 8	تخمینہ	تخمینہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 9	لگانے	لگا	VERB	VM	Case=Acc|VerbForm=Inf	15	advcl	_	Vib=نا|Tam=nA|ChunkId=VGNN|ChunkType=head
 10	کے	کے	ADP	PSP	AdpType=Post	9	mark	_	ChunkId=VGNN|ChunkType=child
@@ -5873,7 +5873,7 @@
 # text = ان سب پر پاکستانی شہری مصری خان کو جنوری 2009 ۶ مےں ہلاک کرنے کا الزام ہے۔
 1	ان	یہ	DET	DEM	Case=Acc|Number=Plur|Person=3|PronType=Dem	2	punct	_	ChunkId=NP|ChunkType=child
 2	سب	سب	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
-3	پر	پر	ADP	PSP	AdpType=Post	2	nsubj	_	ChunkId=NP|ChunkType=child
+3	پر	پر	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child
 4	پاکستانی	پاکستانی	ADJ	JJ	Case=Nom	5	amod	_	ChunkId=NP2|ChunkType=child
 5	شہری	شہری	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 6	مصری	مصری	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
@@ -5882,7 +5882,7 @@
 9	جنوری	جنوری	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	case	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
 10	2009	2009	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	case	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
 11	۶	۶	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
-12	مےں	مےں	ADP	PSP	AdpType=Post	11	advmod	_	ChunkId=NP4|ChunkType=child
+12	مےں	مےں	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP4|ChunkType=child
 13	ہلاک	ہلاک	ADJ	JJ	_	14	compound	_	ChunkId=JJP|ChunkType=head
 14	کرنے	کر	VERB	VM	Case=Acc|VerbForm=Inf	16	nmod	_	Vib=نا|Tam=nA|ChunkId=VGNN|ChunkType=head
 15	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	14	mark	_	ChunkId=VGNN|ChunkType=child
@@ -8184,7 +8184,7 @@
 19	زیر	زیر	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	20	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child
 20	اہتمام	اہتمام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 21	یکم	یکم	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
-22	تا	تا	ADP	PSP	_	21	advmod	_	ChunkId=NP4|ChunkType=child
+22	تا	تا	ADP	PSP	_	21	case	_	ChunkId=NP4|ChunkType=child
 23	20	20	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 24	مئی	مئی	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 25	گرمائی	گرما	ADJ	JJ	_	27	amod	_	ChunkId=NP6|ChunkType=child
@@ -9665,7 +9665,7 @@
 3	بیگ	بیگ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 4	منیجر	منیجر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 5	سرکس	سرکس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
-6	نے	نے	ADP	PSP	AdpType=Post	5	nsubj	_	ChunkId=NP|ChunkType=child
+6	نے	نے	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP|ChunkType=child
 7	مہمانوں	مہمان	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 8	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	7	case	_	ChunkId=NP2|ChunkType=child
 9	استقبال	استقبال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
@@ -10999,7 +10999,7 @@
 1	بعد_ازاں	بعد	ADV	RB	_	18	advmod	_	ChunkId=RBP|ChunkType=head
 2	مدرسہ	مدرسہ	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	ChunkId=NP|ChunkType=child
 3	ہذا	ہذا	PRON	PRP	Case=Acc|PronType=Prs	9	obl	_	ChunkId=NP|ChunkType=head
-4	سے	سے	ADP	PSP	AdpType=Post	3	advmod	_	ChunkId=NP|ChunkType=child
+4	سے	سے	ADP	PSP	AdpType=Post	3	case	_	ChunkId=NP|ChunkType=child
 5	حفظ	حفظ	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 6	قرآنِ	قرآنِ	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 7	پاک	پاک	ADJ	JJ	_	6	amod	_	ChunkId=JJP|ChunkType=head

@@ -962,7 +962,7 @@
 
 # sent_id = dev-s31
 # text = بصورت دیگر ملک مےں رشوت_خوری اور فرقہ_واریت زہر کی طرح پھیل کر سارے ملک کو کھوکھلا بنا دےگی۔
-1	بصورت	بصورت	ADP	PSP	_	2	punct	_	ChunkId=NP|ChunkType=child
+1	بصورت	بصورت	ADP	PSP	_	2	case	_	ChunkId=NP|ChunkType=child
 2	دیگر	دیگر	ADJ	JJ	_	17	obl	_	ChunkId=NP|ChunkType=head
 3	ملک	ملک	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 4	مےں	مےں	ADP	PSP	AdpType=Post	3	case	_	ChunkId=NP2|ChunkType=child
@@ -2583,7 +2583,7 @@
 4	تحقیقات	تحقیق	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 5	انتہائی	انتہائی	ADV	INTF	AdvType=Deg	6	obj	_	ChunkId=NP3|ChunkType=child
 6	سست_رفتاری	سست_رفتاری	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
-7	سے	سے	ADP	PSP	AdpType=Post	6	advmod	_	ChunkId=NP3|ChunkType=child
+7	سے	سے	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP3|ChunkType=child
 8	جاری	جاری	ADJ	JJ	_	9	compound	_	ChunkId=JJP|ChunkType=head
 9	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative
 10	۔	۔	PUNCT	SYM	_	9	punct	_	ChunkId=VGF|ChunkType=child
@@ -7265,9 +7265,9 @@
 1	جہاں	جہاں	PRON	PRP	Case=Nom|PronType=Prs	15	obl	_	ChunkId=NP|ChunkType=head
 2	1996	1996	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 3	۶	۶	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
-4	سے	سے	ADP	PSP	AdpType=Post	5	advmod	_	ChunkId=NP2|ChunkType=child
+4	سے	سے	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child
 5	اب	اب	PRON	PRP	Case=Acc|PronType=Prs	15	obl	_	ChunkId=NP2|ChunkType=head
-6	تک	تک	ADP	PSP	AdpType=Post	5	advmod	_	ChunkId=NP2|ChunkType=child
+6	تک	تک	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child
 7	ان	وہ	DET	DEM	Case=Acc|Number=Plur|Person=3|PronType=Dem	8	det	_	ChunkId=NP3|ChunkType=child
 8	گاہکوں	گاہک	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	10	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 9	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	8	case	_	ChunkId=NP3|ChunkType=child
@@ -8601,7 +8601,7 @@
 17	AS	AS	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
 18	-	-	PUNCT	SYM	_	19	punct	_	ChunkId=NP4|ChunkType=child
 19	B350-B-3	B350-B-3	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
-20	مےں	مےں	ADP	PSP	AdpType=Post	19	advmod	_	ChunkId=NP4|ChunkType=child
+20	مےں	مےں	ADP	PSP	AdpType=Post	19	case	_	ChunkId=NP4|ChunkType=child
 21	مسٹر	مسٹر	PART	RP	_	23	dep	_	ChunkId=NP5|ChunkType=child
 22	ڈوجی	ڈوجی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 23	کھنڈو	کھنڈو	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
@@ -11432,8 +11432,8 @@
 37	کے	کا	ADP	PSP	AdpType=Post	36	case	_	ChunkId=NP13|ChunkType=child
 38	ساتھ	ساتھ	ADP	NST	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	36	case	_	AltTag=ADP-NOUN|ChunkId=NP13|ChunkType=child
 39	امن	امن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	34	conj	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=head
-40	مےں	مےں	ADP	PSP	_	46	advmod	_	ChunkId=FRAGP|ChunkType=head
-41	سے	سے	ADP	PSP	AdpType=Post	40	advmod	_	ChunkId=FRAGP|ChunkType=child
+40	مےں	مےں	ADP	PSP	_	46	case	_	ChunkId=FRAGP|ChunkType=head
+41	سے	سے	ADP	PSP	AdpType=Post	40	case	_	ChunkId=FRAGP|ChunkType=child
 42	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	45	nmod	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head
 43	اےک	اےک	NUM	QC	NumType=Card	42	nmod	_	ChunkId=NP15|ChunkType=child
 44	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	42	nmod	_	ChunkId=NP15|ChunkType=child
@@ -15249,8 +15249,8 @@
 # sent_id = dev-s520
 # text = ان مےں سے بیشتر کمتر درجہ کے ارکان ہےں حالانکہ باث پارٹی کے شام مےں 10 لاکھ سے زیادہ ارکان ہےں اور مستعفی ہونے والوں کی تعداد زیادہ اہمیت نہیں رکھتی، لیکن بغاوت کے آغاز سے قبل اس قسم کے استعفوں کا تصور بھی نہیں کیا جا سکتا تھا۔
 1	ان	یہ	PRON	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	4	obl	_	AltTag=PRON-DET|ChunkId=NP|ChunkType=head
-2	مےں	مےں	ADP	PSP	AdpType=Post|Case=Acc	1	advmod	_	ChunkId=NP|ChunkType=child
-3	سے	سے	ADP	PSP	AdpType=Post	1	advmod	_	ChunkId=NP|ChunkType=child
+2	مےں	مےں	ADP	PSP	AdpType=Post|Case=Acc	1	case	_	ChunkId=NP|ChunkType=child
+3	سے	سے	ADP	PSP	AdpType=Post	1	case	_	ChunkId=NP|ChunkType=child
 4	بیشتر	بیشتر	DET	QF	PronType=Ind	6	amod	_	AltTag=ADJ-DET|ChunkId=JJP|ChunkType=head
 5	کمتر	کمتر	ADJ	JJ	Case=Acc	6	amod	_	ChunkId=NP2|ChunkType=child
 6	درجہ	درجہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
