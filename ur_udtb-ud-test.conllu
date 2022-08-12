@@ -5871,7 +5871,7 @@
 
 # sent_id = test-s190
 # text = ان سب پر پاکستانی شہری مصری خان کو جنوری 2009 ۶ مےں ہلاک کرنے کا الزام ہے۔
-1	ان	یہ	DET	DEM	Case=Acc|Number=Plur|Person=3|PronType=Dem	2	punct	_	ChunkId=NP|ChunkType=child
+1	ان	یہ	DET	DEM	Case=Acc|Number=Plur|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child
 2	سب	سب	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	پر	پر	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child
 4	پاکستانی	پاکستانی	ADJ	JJ	Case=Nom	5	amod	_	ChunkId=NP2|ChunkType=child
