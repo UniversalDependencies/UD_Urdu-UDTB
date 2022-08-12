@@ -697,7 +697,7 @@
 15	کو	کو	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP4|ChunkType=child
 16	146	146	NUM	QC	NumType=Card	18	nummod	_	ChunkId=NP5|ChunkType=child
 17	/	/	PUNCT	SYM	_	16	punct	_	ChunkId=NP5|ChunkType=child
-18	8	8	NUM	QC	NumType=Card	21	advmod	_	ChunkId=NP5|ChunkType=head
+18	8	8	NUM	QC	NumType=Card	21	obl	_	ChunkId=NP5|ChunkType=head
 19	پر	پر	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP5|ChunkType=child
 20	محدود	محدود	ADJ	JJ	_	21	compound	_	ChunkId=JJP|ChunkType=head
 21	کر	کر	VERB	VM	Voice=Act	0	root	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=head|Stype=declarative
@@ -901,7 +901,7 @@
 12	ہوئے	ہو	AUX	VAUX	Aspect=Perf|VerbForm=Part	11	aux	_	Vib=یا|Tam=yA|ChunkId=VGNF|ChunkType=child
 13	اسکور	اسکور	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 14	کو	کو	ADP	PSP	AdpType=Post	13	case	_	ChunkId=NP4|ChunkType=child
-15	165	165	NUM	QC	NumType=Card	17	advmod	_	ChunkId=NP5|ChunkType=head
+15	165	165	NUM	QC	NumType=Card	17	obl	_	ChunkId=NP5|ChunkType=head
 16	تک	تک	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP5|ChunkType=child
 17	پہنچا	پہنچ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 18	دیا	دے	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	17	aux	_	SpaceAfter=No|Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=child
@@ -4327,7 +4327,7 @@
 8	این	این	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 9	سی	سی	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 10	مےں	مےں	ADP	PSP	AdpType=Post	9	case	_	ChunkId=NP3|ChunkType=child
-11	200	200	NUM	QC	Case=Acc|NumType=Card	13	advmod	_	ChunkId=NP4|ChunkType=head
+11	200	200	NUM	QC	Case=Acc|NumType=Card	13	obl	_	ChunkId=NP4|ChunkType=head
 12	سے	سے	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP4|ChunkType=child
 13	زائد	زائد	ADJ	JJ	_	14	amod	_	ChunkId=JJP|ChunkType=head
 14	جائیدادوں	جائیداد	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	17	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
@@ -5129,7 +5129,7 @@
 30	جبکہ	جبکہ	CCONJ	CC	_	36	cc	_	ChunkId=CCP2|ChunkType=head
 31	انہیں	وہ	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	Vib=کو|Tam=ko|ChunkId=NP11|ChunkType=head
 32	صرف	صرف	PART	RP	_	33	dep	_	ChunkId=NP12|ChunkType=child
-33	اےک	اےک	NUM	QC	NumType=Card	36	advmod	_	ChunkId=NP12|ChunkType=head
+33	اےک	اےک	NUM	QC	NumType=Card	36	obl	_	ChunkId=NP12|ChunkType=head
 34	مےں	مےں	ADP	PSP	AdpType=Post	33	case	_	ChunkId=NP12|ChunkType=child
 35	شکست	شکست	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	36	compound	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head
 36	ہوئی	ہو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	19	conj	_	Vib=یا|Tam=yA|ChunkId=VGF3|ChunkType=head|Stype=declarative
@@ -5170,7 +5170,7 @@
 30	جبکہ	جبکہ	CCONJ	CC	_	36	cc	_	ChunkId=CCP2|ChunkType=head
 31	انہیں	وہ	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	Vib=کو|Tam=ko|ChunkId=NP11|ChunkType=head
 32	صرف	صرف	PART	RP	_	33	dep	_	ChunkId=NP12|ChunkType=child
-33	اےک	اےک	NUM	QC	NumType=Card	36	advmod	_	ChunkId=NP12|ChunkType=head
+33	اےک	اےک	NUM	QC	NumType=Card	36	obl	_	ChunkId=NP12|ChunkType=head
 34	مےں	مےں	ADP	PSP	AdpType=Post	33	case	_	ChunkId=NP12|ChunkType=child
 35	شکست	شکست	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	36	compound	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head
 36	ہوئی	ہو	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	19	conj	_	Vib=یا|Tam=yA|ChunkId=VGF3|ChunkType=head|Stype=declarative
@@ -7089,7 +7089,7 @@
 2	شروع	شروع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 3	ہوا	ہو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 4	اور	اور	CCONJ	CC	_	15	cc	_	ChunkId=CCP|ChunkType=head
-5	دونوں	دو	NUM	QC	NumType=Card	15	advmod	_	ChunkId=NP3|ChunkType=head
+5	دونوں	دو	NUM	QC	NumType=Card	15	obl	_	ChunkId=NP3|ChunkType=head
 6	جانب	جانب	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	5	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child
 7	سے	سے	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP3|ChunkType=child
 8	سخت	سخت	ADJ	JJ	Case=Acc	9	amod	_	ChunkId=NP4|ChunkType=child
@@ -9508,7 +9508,7 @@
 6	دونوں	دونوں	NUM	QC	NumType=Card	7	nummod	_	ChunkId=NP3|ChunkType=child
 7	برسوں	برس	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	14	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 8	مےں	مےں	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP3|ChunkType=child
-9	150	150	NUM	QC	NumType=Card	14	advmod	_	ChunkId=NP4|ChunkType=head
+9	150	150	NUM	QC	NumType=Card	14	obl	_	ChunkId=NP4|ChunkType=head
 10	مےں	مےں	ADP	PSP	AdpType=Post	9	case	_	ChunkId=NP4|ChunkType=child
 11	150	150	NUM	QC	NumType=Card	12	nummod	_	ChunkId=NP5|ChunkType=child
 12	نشانات	نشان	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	14	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
@@ -11285,7 +11285,7 @@
 
 # sent_id = test-s380
 # text = 300 سے زائد مکانات ہےں -
-1	300	300	NUM	QC	Case=Acc|NumType=Card	3	advmod	_	ChunkId=NP|ChunkType=head
+1	300	300	NUM	QC	Case=Acc|NumType=Card	3	obl	_	ChunkId=NP|ChunkType=head
 2	سے	سے	ADP	PSP	AdpType=Post	1	case	_	ChunkId=NP|ChunkType=child
 3	زائد	زائد	DET	QF	PronType=Ind	4	amod	_	AltTag=ADJ-DET|ChunkId=JJP|ChunkType=head
 4	مکانات	مکان	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
@@ -15774,7 +15774,7 @@
 22	ان	یہ	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	41	obl	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 23	کے	کے	ADP	PSP	AdpType=Post	22	case	_	ChunkId=NP9|ChunkType=child
 24	لیے	لیے	ADP	PSP	AdpType=Post	22	case	_	ChunkId=NP9|ChunkType=child
-25	1997	1997	NUM	QC	NumType=Card	41	advmod	_	ChunkId=NP10|ChunkType=head
+25	1997	1997	NUM	QC	NumType=Card	41	obl	_	ChunkId=NP10|ChunkType=head
 26	مےں	مےں	ADP	PSP	_	25	case	_	ChunkId=NP10|ChunkType=child
 27	اقبال	اقبال	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	28	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
 28	سنگھ	سنگھ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	41	nsubj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
@@ -16167,7 +16167,7 @@
 17	انتخابی	انتخابی	ADJ	JJ	Case=Nom	18	amod	_	ChunkId=NP7|ChunkType=child
 18	دھاندلیوں	دھاندلی	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	19	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 19	بالخصوص	بالخصوص	ADV	RB	_	20	amod	_	ChunkId=RBP|ChunkType=head
-20	اےک	اےک	NUM	QC	NumType=Card	22	advmod	_	ChunkId=NP8|ChunkType=head
+20	اےک	اےک	NUM	QC	NumType=Card	22	obl	_	ChunkId=NP8|ChunkType=head
 21	سے	سے	ADP	PSP	AdpType=Post	20	case	_	ChunkId=NP8|ChunkType=child
 22	زائد	زائد	ADJ	JJ	_	23	amod	_	ChunkId=JJP2|ChunkType=head
 23	مرتبہ	مرتبہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	obl	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head

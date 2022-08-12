@@ -4222,7 +4222,7 @@
 3	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child
 4	مقررہ	مقررہ	ADJ	JJ	Case=Nom	5	amod	_	ChunkId=NP2|ChunkType=child
 5	نشانہ	نشانہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
-6	27093	27093	NUM	QC	NumType=Card	21	advmod	_	ChunkId=NP3|ChunkType=head
+6	27093	27093	NUM	QC	NumType=Card	21	obl	_	ChunkId=NP3|ChunkType=head
 7	کے	کے	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP3|ChunkType=child
 8	مقابلے	مقابلہ	ADP	PSP	Case=Nom|Gender=Masc|Number=Plur	6	case	_	ChunkId=NP3|ChunkType=child
 9	10885	10885	NUM	QC	NumType=Card	10	nummod	_	ChunkId=NP4|ChunkType=child
@@ -15264,7 +15264,7 @@
 14	شام	شام	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 15	مےں	مےں	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP5|ChunkType=child
 16	10	10	NUM	QCC	NumType=Card	17	compound	_	ChunkId=NP6|ChunkType=child
-17	لاکھ	لاکھ	NUM	QC	Case=Acc|NumType=Card	19	advmod	_	ChunkId=NP6|ChunkType=head
+17	لاکھ	لاکھ	NUM	QC	Case=Acc|NumType=Card	19	obl	_	ChunkId=NP6|ChunkType=head
 18	سے	سے	ADP	PSP	AdpType=Post	17	case	_	ChunkId=NP6|ChunkType=child
 19	زیادہ	زیادہ	DET	QF	PronType=Ind	20	amod	_	AltTag=ADJ-DET|ChunkId=JJP2|ChunkType=head
 20	ارکان	رکن	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	8	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
@@ -15379,7 +15379,7 @@
 29	مےں	مےں	ADP	PSP	AdpType=Post	28	case	_	ChunkId=NP10|ChunkType=child
 30	اب	اب	PRON	PRP	Case=Acc|PronType=Prs	37	obl	_	ChunkId=NP11|ChunkType=head
 31	تک	تک	ADP	PSP	AdpType=Post	30	case	_	ChunkId=NP11|ChunkType=child
-32	450	450	NUM	QC	NumType=Card	34	advmod	_	ChunkId=NP12|ChunkType=head
+32	450	450	NUM	QC	NumType=Card	34	obl	_	ChunkId=NP12|ChunkType=head
 33	سے	سے	ADP	PSP	AdpType=Post	32	case	_	ChunkId=NP12|ChunkType=child
 34	زیادہ	زیادہ	DET	QF	PronType=Ind	35	amod	_	AltTag=ADJ-DET|ChunkId=JJP|ChunkType=head
 35	افراد	فرد	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	37	nsubj	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head

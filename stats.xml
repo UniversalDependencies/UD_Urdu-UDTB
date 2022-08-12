@@ -82,7 +82,7 @@
     <dep name="acl">808</dep>
     <dep name="acl:relcl">861</dep>
     <dep name="advcl">2202</dep>
-    <dep name="advmod">1719</dep>
+    <dep name="advmod">1680</dep>
     <dep name="amod">7045</dep>
     <dep name="aux">8752</dep>
     <dep name="case">26004</dep>
@@ -101,7 +101,7 @@
     <dep name="nsubj">7263</dep>
     <dep name="nummod">2127</dep>
     <dep name="obj">6534</dep>
-    <dep name="obl">10639</dep>
+    <dep name="obl">10678</dep>
     <dep name="punct">6911</dep>
     <dep name="root">5130</dep>
     <dep name="vocative">15</dep>
