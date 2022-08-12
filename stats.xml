@@ -18,7 +18,7 @@
     <tag name="ADJ">10119</tag><!-- جاری, شامل, دیگر, سابق, موجود, ریاستی, دوسرا, پیدا, ہلاک, منعقد -->
     <tag name="ADP">28164</tag><!-- کا, نے, کے, سے, مےں, کو, پر, میں, لیے, لئے -->
     <tag name="ADV">1386</tag><!-- پیش, بعد, پھر, پہلے, بہت, مزید, سے, دوبارہ, جلد, دوران -->
-    <tag name="AUX">9990</tag><!-- ہے, جا, تھا, ہو, رہ, دے, سک, کر, لے, گا -->
+    <tag name="AUX">9992</tag><!-- ہے, جا, تھا, ہو, رہ, دے, سک, کر, لے, گا -->
     <tag name="CCONJ">3248</tag><!-- اور, و, لیکن, جبکہ, تاہم, یا, مگر, جب, نیز, لہذا -->
     <tag name="DET">2496</tag><!-- یہ, وہ, کئی, تمام, ایسا, جو, کوئی, کچھ, ہر, چند -->
     <tag name="INTJ">2</tag><!-- بس, ذرا -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">17137</tag><!-- پی, سی, ایس, کانگریس, آئی, بی, ہندوستان, ریڈی, اے, سنگھ -->
     <tag name="PUNCT">6911</tag><!-- ۔, ,, ،, -, '', ), (, ", ', ؟ -->
     <tag name="SCONJ">2673</tag><!-- کہ, تو, اگر, کیونکہ, تاکہ, بلکہ, حالانکہ, چنانچہ, ,, کیوں -->
-    <tag name="VERB">11862</tag><!-- کر, ہو, کہہ, دے, ہے, بتا, آ, رہ, رکھ, بنا -->
+    <tag name="VERB">11860</tag><!-- کر, ہو, کہہ, دے, ہے, بتا, آ, رہ, رکھ, بنا -->
     <tag name="X">22</tag><!-- کاش, افسوس, خدارا, کتنا, آخر, ئن, جا, را, لوڈ, نئچ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -81,25 +81,25 @@
   <deps unique="27">
     <dep name="acl">808</dep>
     <dep name="acl:relcl">861</dep>
-    <dep name="advcl">1854</dep>
-    <dep name="advmod">2066</dep>
+    <dep name="advcl">2202</dep>
+    <dep name="advmod">1719</dep>
     <dep name="amod">7045</dep>
-    <dep name="aux">8747</dep>
-    <dep name="case">26026</dep>
+    <dep name="aux">8752</dep>
+    <dep name="case">26004</dep>
     <dep name="cc">3302</dep>
     <dep name="ccomp">1</dep>
-    <dep name="compound">18556</dep>
+    <dep name="compound">18559</dep>
     <dep name="conj">3883</dep>
     <dep name="cop">1187</dep>
     <dep name="dep">2349</dep>
-    <dep name="det">2710</dep>
+    <dep name="det">2719</dep>
     <dep name="dislocated">344</dep>
     <dep name="flat">4</dep>
     <dep name="iobj">918</dep>
     <dep name="mark">4567</dep>
-    <dep name="nmod">13779</dep>
+    <dep name="nmod">13780</dep>
     <dep name="nsubj">7263</dep>
-    <dep name="nummod">2124</dep>
+    <dep name="nummod">2127</dep>
     <dep name="obj">6534</dep>
     <dep name="obl">10639</dep>
     <dep name="punct">6911</dep>
