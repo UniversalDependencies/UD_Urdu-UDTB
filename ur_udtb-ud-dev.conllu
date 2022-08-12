@@ -11587,7 +11587,7 @@
 7	بہترین	بہترین	ADJ	JJ	Case=Nom	8	amod	_	ChunkId=NP3|ChunkType=child
 8	ذریعہ	ذریعہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 9	بلکہ	بلکہ	SCONJ	CC	_	8	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
-10	عبادت	عبادت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	mark	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
+10	عبادت	عبادت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 11	سمجھا	سمجھ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 12	جاتا	جا	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part	11	aux	_	Vib=تا|Tam=wA|ChunkId=VGF|ChunkType=child
 13	تھا	تھا	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No|Vib=تھا|Tam=WA|ChunkId=VGF|ChunkType=child
@@ -11627,7 +11627,7 @@
 12	،	،	PUNCT	SYM	_	13	punct	_	ChunkId=NP5|ChunkType=child
 13	پانچ	پانچ	NUM	QCC	NumType=Card	14	compound	_	ChunkId=NP6|ChunkType=child
 14	سو	سو	NUM	QC	NumType=Card	6	nummod	_	ChunkId=NP6|ChunkType=child
-15	روپئے	روپیہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	mark	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
+15	روپئے	روپیہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 16	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	SpaceAfter=No|AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative
 17	,	,	PUNCT	SYM	_	18	punct	_	ChunkId=VGF|ChunkType=child
 18	جس	جو	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	24	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
