@@ -5879,8 +5879,8 @@
 6	مصری	مصری	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 7	خان	خان	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 8	کو	کو	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP3|ChunkType=child
-9	جنوری	جنوری	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	case	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
-10	2009	2009	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	case	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
+9	جنوری	جنوری	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
+10	2009	2009	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
 11	۶	۶	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 12	مےں	مےں	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP4|ChunkType=child
 13	ہلاک	ہلاک	ADJ	JJ	_	14	compound	_	ChunkId=JJP|ChunkType=head
@@ -7875,7 +7875,7 @@
 9	سائیکل	سائیکل	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 10	نمبر	نمبر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 11	(	(	PUNCT	SYM	_	14	punct	_	SpaceAfter=No|ChunkId=NP2|ChunkType=child
-12	ap11	ap11	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	case	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
+12	ap11	ap11	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 13	-	-	PUNCT	SYM	_	14	punct	_	ChunkId=NP2|ChunkType=child
 14	H	H	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 15	-	-	PUNCT	SYM	_	14	punct	_	ChunkId=NP2|ChunkType=child
@@ -9660,9 +9660,9 @@
 
 # sent_id = test-s317
 # text = مرزا جاوید بیگ منیجر سرکس نے مہمانوں کا استقبال کرتے ہوئے بتایا کہ اس سرکس مےں ایسے کرتب موجود ہےں جو کبھی نہیں دیکھے گئے۔
-1	مرزا	مرزا	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
-2	جاوید	جاوید	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
-3	بیگ	بیگ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+1	مرزا	مرزا	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+2	جاوید	جاوید	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+3	بیگ	بیگ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 4	منیجر	منیجر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 5	سرکس	سرکس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 6	نے	نے	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP|ChunkType=child
