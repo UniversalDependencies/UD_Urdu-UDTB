@@ -1690,7 +1690,7 @@
 8	نئی	نئی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child
 9	دہلی	دہلی	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 10	مےں	مےں	ADP	PSP	AdpType=Post	9	case	_	ChunkId=NP2|ChunkType=child
-11	اُن	وہ	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	case	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
+11	اُن	وہ	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 12	تمام	تمام	DET	QF	PronType=Ind	14	det	_	ChunkId=NP3|ChunkType=child
 13	علیحدہ	علیحدہ	ADJ	JJ	Case=Acc	14	amod	_	ChunkId=NP3|ChunkType=child
 14	تنظیموں	تنظیم	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	17	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
@@ -4873,7 +4873,7 @@
 
 # sent_id = test-s159
 # text = انہوں (تلک رتنے) نے 1993 - 94 مےں بھی اس تعلق سے ان سے کچھ کہا تھا۔
-1	انہوں	وہ	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|Polite=Form|PronType=Prs	4	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+1	انہوں	وہ	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|Polite=Form|PronType=Prs	4	det	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 2	(	(	PUNCT	SYM	_	4	punct	_	SpaceAfter=No|ChunkId=NP|ChunkType=child
 3	تلک	تلک	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 4	رتنے	رتنے	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP|ChunkType=head
@@ -5683,7 +5683,7 @@
 51	رکنی	رکنی	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing|Person=3	52	amod	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=child
 52	بینچ	بینچ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	57	nsubj	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=head
 53	نے	نے	ADP	PSP	AdpType=Post	52	case	_	ChunkId=NP14|ChunkType=child
-54	جو	جو	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	56	case	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=child
+54	جو	جو	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	56	det	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=child
 55	علیحدہ	علیحدہ	ADJ	JJ	Case=Nom	56	amod	_	ChunkId=NP15|ChunkType=child
 56	فیصلہ	فیصلہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	57	obj	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head
 57	سنائے	سنا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	60	acl:relcl	_	Vib=یا|Tam=yA|ChunkId=VGF3|ChunkType=head|Stype=declarative
@@ -8557,7 +8557,7 @@
 22	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	21	case	_	ChunkId=NP8|ChunkType=child
 23	عزائم	عزائم	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	30	obl	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 24	مےں	مےں	ADP	PSP	AdpType=Post	23	case	_	ChunkId=NP9|ChunkType=child
-25	کسی	کسی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	26	case	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=child
+25	کسی	کسی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	26	det	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=child
 26	طرح	طرح	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	28	nmod	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 27	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	26	case	_	ChunkId=NP10|ChunkType=child
 28	تبدیلی	تبدیلی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	30	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
@@ -8795,7 +8795,7 @@
 2	عوامی	عوامی	ADJ	JJ	Case=Acc	3	amod	_	ChunkId=NP|ChunkType=child
 3	کارکردگی	کارکردگی	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 4	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	3	case	_	ChunkId=NP|ChunkType=child
-5	جو	جو	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	case	_	ChunkId=NP2|ChunkType=child
+5	جو	جو	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	det	_	ChunkId=NP2|ChunkType=child
 6	نقوش	نقش	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	14	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 7	آنجہانی	آنجہانی	ADJ	JJ	Case=Acc	12	amod	_	ChunkId=NP3|ChunkType=child
 8	وائی	وائی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
@@ -10594,7 +10594,7 @@
 
 # sent_id = test-s348
 # text = یہی وہ مقدس کتاب ہے جو سب سے زیادہ پڑھی جاتی ہے۔
-1	یہی	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	punct	_	ChunkId=NP|ChunkType=head
+1	یہی	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	det	_	ChunkId=NP|ChunkType=head
 2	وہ	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 3	مقدس	مقدس	ADJ	JJ	Case=Nom	4	amod	_	ChunkId=NP3|ChunkType=child
 4	کتاب	کتاب	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
@@ -14138,7 +14138,7 @@
 17	لیے	لیے	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP4|ChunkType=child
 18	حکومت	حکومت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	25	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 19	نے	نے	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP5|ChunkType=child
-20	جس	جو	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	22	case	_	ChunkId=NP6|ChunkType=child
+20	جس	جو	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	22	det	_	ChunkId=NP6|ChunkType=child
 21	معاوضہ	معاوضہ	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Sing	22	case	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child
 22	پیکیج	پیکیج	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	24	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 23	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	ChunkId=NP6|ChunkType=child

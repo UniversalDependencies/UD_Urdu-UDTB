@@ -762,7 +762,7 @@
 31	اس	یہ	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	32	det	_	ChunkId=NP10|ChunkType=child
 32	کمیٹی	کمیٹی	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	42	obl	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 33	مےں	مےں	ADP	PSP	AdpType=Post	32	case	_	ChunkId=NP10|ChunkType=child
-34	ایسے	ایسا	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	37	case	_	ChunkId=NP11|ChunkType=child
+34	ایسے	ایسا	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	37	det	_	ChunkId=NP11|ChunkType=child
 35	دو	دو	NUM	QC	NumType=Card	37	nummod	_	ChunkId=NP11|ChunkType=child
 36	پولیس	پولیس	NOUN	NNC	Case=Nom|Gender=Fem|Number=Sing|Person=3	37	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
 37	عہدیداروں	عہدیدار	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	39	nmod	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
@@ -2296,7 +2296,7 @@
 
 # sent_id = dev-s82
 # text = اس طرح آئندہ تنخواہ انہیں 6700 چھ ہزار سات سو روپئے ادا کی جائےگی۔
-1	اس	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+1	اس	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	det	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	آئندہ	آئندہ	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	amod	_	ChunkId=NP2|ChunkType=child
 4	تنخواہ	تنخواہ	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
@@ -10489,7 +10489,7 @@
 # sent_id = dev-s358
 # text = یہ خود حالانکہ لیبیا کے داخلی معاملت مےں مداخلت بیجا ہے تاہم اس سے قطع_نظر اس مقصد کی تکمیل کی آڑ مےں جس طرح کرنل قذافی اور ان کے افراد خاندان کے قتل کی کوششیں کی جا رہی ہےں وہ قابل تنقید و مذمت ہیں۔
 1	یہ	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
-2	خود	خود	PRON	PRP	PronType=Prs	1	mark	_	ChunkId=NP2|ChunkType=head
+2	خود	خود	PRON	PRP	PronType=Prs	1	det	_	ChunkId=NP2|ChunkType=head
 3	حالانکہ	حالانکہ	SCONJ	CC	_	1	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
 4	لیبیا	لیبیا	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 5	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	4	case	_	ChunkId=NP3|ChunkType=child
@@ -10590,7 +10590,7 @@
 23	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	22	mark	_	ChunkId=VGNN|ChunkType=child
 24	نام	نام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	conj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 25	پر	پر	ADP	PSP	AdpType=Post	24	case	_	ChunkId=NP11|ChunkType=child
-26	ان	وہ	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	case	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child
+26	ان	وہ	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	det	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child
 27	ہی	ہی	PART	RP	_	29	dep	_	ChunkId=NP12|ChunkType=child
 28	بین_الاقوامی	بین_الاقوامی	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing|Person=3	29	amod	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child
 29	قوانین	قانون	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	31	nmod	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
@@ -12713,7 +12713,7 @@
 9	راستہ	راستہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 10	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 11	تاکہ	تاکہ	SCONJ	CC	_	23	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP2|ChunkType=head
-12	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	13	mark	_	ChunkId=NP5|ChunkType=child
+12	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	13	det	_	ChunkId=NP5|ChunkType=child
 13	دوسرے	دوسرا	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	15	obj	_	ChunkId=NP5|ChunkType=head
 14	کو	کو	ADP	PSP	AdpType=Post	13	case	_	ChunkId=NP5|ChunkType=child
 15	سمجھنے	سمجھ	VERB	VM	Case=Acc|VerbForm=Inf	23	obj	_	Vib=نا|Tam=nA|ChunkId=VGNN|ChunkType=head
@@ -12731,7 +12731,7 @@
 
 # sent_id = dev-s435
 # text = اس طرح دونوں ممالک چیلنجوں پر غالب آ سکیں_گے اور مواقع سے استفادہ کر سکیں_گے۔
-1	اس	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	punct	_	ChunkId=NP|ChunkType=child
+1	اس	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	det	_	ChunkId=NP|ChunkType=child
 2	طرح	طرح	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	دونوں	دو	NUM	QC	NumType=Card	4	nummod	_	ChunkId=NP2|ChunkType=child
 4	ممالک	مُلک	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	8	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
@@ -14798,7 +14798,7 @@
 37	میں	میں	ADP	PSP	AdpType=Post	36	case	_	ChunkId=NP10|ChunkType=child
 38	اس	یہ	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 39	نے	نے	ADP	PSP	AdpType=Post	38	case	_	ChunkId=NP11|ChunkType=child
-40	اپنے	اپنا	PRON	PRPC	Case=Acc|PronType=Prs	41	case	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child
+40	اپنے	اپنا	PRON	PRPC	Case=Acc|PronType=Prs	41	det	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child
 41	آپ	آپ	PRON	PRP	Case=Acc|PronType=Prs	45	obj	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
 42	کو	کو	ADP	PSP	AdpType=Post	41	case	_	ChunkId=NP12|ChunkType=child
 43	دھماکہ	دھماکہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	45	obl	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head
@@ -14984,7 +14984,7 @@
 37	میں	میں	ADP	PSP	AdpType=Post	36	case	_	ChunkId=NP10|ChunkType=child
 38	اس	یہ	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 39	نے	نے	ADP	PSP	AdpType=Post	38	case	_	ChunkId=NP11|ChunkType=child
-40	اپنے	اپنا	PRON	PRPC	Case=Acc|PronType=Prs	41	case	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child
+40	اپنے	اپنا	PRON	PRPC	Case=Acc|PronType=Prs	41	det	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child
 41	آپ	آپ	PRON	PRP	Case=Acc|PronType=Prs	45	obj	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
 42	کو	کو	ADP	PSP	AdpType=Post	41	case	_	ChunkId=NP12|ChunkType=child
 43	دھماکہ	دھماکہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	45	obl	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head
@@ -15121,7 +15121,7 @@
 13	اس	یہ	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	14	det	_	ChunkId=NP4|ChunkType=child
 14	دھماکہ	دھماکہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 15	مےں	مےں	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP4|ChunkType=child
-16	دوسرے	دوسرا	PRON	PRP	PronType=Prs	18	case	_	ChunkId=NP5|ChunkType=child
+16	دوسرے	دوسرا	PRON	PRP	PronType=Prs	18	det	_	ChunkId=NP5|ChunkType=child
 17	20	20	NUM	QC	NumType=Card	18	nummod	_	ChunkId=NP5|ChunkType=child
 18	افراد	فرد	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	21	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 19	بھی	بھی	PART	RP	_	18	dep	_	ChunkId=NP5|ChunkType=child
@@ -15660,7 +15660,7 @@
 17	،	،	PUNCT	SYM	_	26	punct	_	ChunkId=VGF2|ChunkType=child
 18	جس	جو	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	26	obl	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 19	مےں	مےں	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP8|ChunkType=child
-20	خود	خود	PRON	PRP	Case=Nom|PronType=Prs	21	case	_	ChunkId=NP9|ChunkType=head
+20	خود	خود	PRON	PRP	Case=Nom|PronType=Prs	21	det	_	ChunkId=NP9|ChunkType=head
 21	اس	یہ	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	23	nmod	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 22	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	21	case	_	ChunkId=NP10|ChunkType=child
 23	مشاہدات	مشاہدہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	26	obj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
@@ -15876,7 +15876,7 @@
 20	کچھ	کچھ	DET	QF	PronType=Ind	21	det	_	ChunkId=NP4|ChunkType=child
 21	عرصے	عرصہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	29	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 22	سے	سے	ADP	PSP	AdpType=Post	21	case	_	ChunkId=NP4|ChunkType=child
-23	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	case	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
+23	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	det	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 24	دوسرے	دوسرا	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	26	nmod	_	ChunkId=NP5|ChunkType=head
 25	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	24	case	_	ChunkId=NP5|ChunkType=child
 26	سامنا	سامنا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
@@ -16038,7 +16038,7 @@
 34	مخصوص	مخصوص	ADJ	JJ	Case=Acc	35	amod	_	ChunkId=NP11|ChunkType=child
 35	شعبوں	شعبہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	41	obl	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 36	مےں	مےں	ADP	PSP	AdpType=Post	35	case	_	ChunkId=NP11|ChunkType=child
-37	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	38	case	_	ChunkId=NP12|ChunkType=child
+37	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	38	det	_	ChunkId=NP12|ChunkType=child
 38	دوسرے	اےک	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	41	obl	_	ChunkId=NP12|ChunkType=head
 39	پر	پر	ADP	PSP	AdpType=Post	38	case	_	ChunkId=NP12|ChunkType=child
 40	اعتماد	اعتماد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	41	compound	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head
@@ -16133,7 +16133,7 @@
 41	کہ	کہ	SCONJ	CC	_	46	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
 42	انہوں	وہ	PRON	PRP	Case=Acc|Number=Sing|Person=3|Polite=Form|PronType=Prs	46	nsubj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 43	نے	نے	ADP	PSP	AdpType=Post	42	case	_	ChunkId=NP11|ChunkType=child
-44	جو	جو	PRON	PRPC	Case=Nom|Number=Sing|Person=3|PronType=Prs	45	case	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child
+44	جو	جو	PRON	PRPC	Case=Nom|Number=Sing|Person=3|PronType=Prs	45	det	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child
 45	کچھ	کچھ	PRON	PRP	PronType=Prs	46	obj	_	ChunkId=NP12|ChunkType=head
 46	کہا	کہہ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	40	obj	_	Vib=یا|Tam=yA|ChunkId=VGF3|ChunkType=head|Stype=declarative
 47	درحقیقت	درحقیقت	ADV	RB	_	54	advmod	_	ChunkId=RBP|ChunkType=head
