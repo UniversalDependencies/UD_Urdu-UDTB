@@ -7817,8 +7817,8 @@
 
 # sent_id = dev-s272
 # text = پارٹی ارکان پارلیمنٹ و اسمبلی کے علاوہ دیگر عہدیداران مخاطب کریں_گے۔
-1	پارٹی	پارٹی	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
-2	ارکان	رکن	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Plur|Person=3	3	punct	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+1	پارٹی	پارٹی	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
+2	ارکان	رکن	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Plur|Person=3	3	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child
 3	پارلیمنٹ	پارلیمنٹ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 4	و	و	CCONJ	CC	_	5	cc	_	ChunkId=CCP|ChunkType=head
 5	اسمبلی	اسمبلی	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	conj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
