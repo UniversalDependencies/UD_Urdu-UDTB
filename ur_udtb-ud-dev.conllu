@@ -11623,7 +11623,7 @@
 8	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 9	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	8	case	_	ChunkId=NP4|ChunkType=child
 10	چار	چار	NUM	QCC	NumType=Card	6	compound	_	ChunkId=NP5|ChunkType=child
-11	سو	سو	NUM	QC	NumType=Card	6	mark	_	SpaceAfter=No|ChunkId=NP5|ChunkType=head
+11	سو	سو	NUM	QC	NumType=Card	6	nummod	_	SpaceAfter=No|ChunkId=NP5|ChunkType=head
 12	،	،	PUNCT	SYM	_	13	punct	_	ChunkId=NP5|ChunkType=child
 13	پانچ	پانچ	NUM	QCC	NumType=Card	14	compound	_	ChunkId=NP6|ChunkType=child
 14	سو	سو	NUM	QC	NumType=Card	6	nummod	_	ChunkId=NP6|ChunkType=child
