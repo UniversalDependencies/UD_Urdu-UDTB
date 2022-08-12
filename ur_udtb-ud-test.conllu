@@ -11788,8 +11788,8 @@
 17	کے	کے	ADP	PSP	AdpType=Post	16	case	_	ChunkId=NP4|ChunkType=child
 18	بشمول	بشمول	ADP	PSP	AdpType=Post	16	case	_	ChunkId=NP4|ChunkType=child
 19	کئی	کئی	DET	QF	PronType=Ind	22	case	_	ChunkId=NP5|ChunkType=child
-20	سرکردہ	سرکردہ	ADJ	JJ	_	22	case	_	ChunkId=NP5|ChunkType=child
-21	مسلم	مسلم	ADJ	JJ	_	22	case	_	ChunkId=NP5|ChunkType=child
+20	سرکردہ	سرکردہ	ADJ	JJ	_	22	amod	_	ChunkId=NP5|ChunkType=child
+21	مسلم	مسلم	ADJ	JJ	_	22	amod	_	ChunkId=NP5|ChunkType=child
 22	ارکان	رکن	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Plur|Person=3	23	amod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 23	پارلیمنٹ	پارلیمنٹ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 24	شامل	شامل	ADJ	JJ	_	25	compound	_	ChunkId=JJP|ChunkType=head
@@ -15556,7 +15556,7 @@
 10	مےں	مےں	ADP	PSP	AdpType=Post	9	case	_	ChunkId=NP3|ChunkType=child
 11	سب	سب	ADV	INTFC	_	14	case	_	ChunkId=NP4|ChunkType=child
 12	سے	سے	ADV	INTF	AdvType=Deg	14	case	_	ChunkId=NP4|ChunkType=child
-13	زیادہ	زیادہ	ADJ	JJ	Case=Nom	14	case	_	ChunkId=NP4|ChunkType=child
+13	زیادہ	زیادہ	ADJ	JJ	Case=Nom	14	amod	_	ChunkId=NP4|ChunkType=child
 14	وکٹیں	وکٹ	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	16	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 15	حاصل	حاصل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 16	کر	کر	VERB	VM	Voice=Act	0	root	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=head|Stype=declarative
