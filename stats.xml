@@ -18,10 +18,10 @@
     <tag name="ADJ">10119</tag><!-- جاری, شامل, دیگر, سابق, موجود, ریاستی, دوسرا, پیدا, ہلاک, منعقد -->
     <tag name="ADP">28164</tag><!-- کا, نے, کے, سے, مےں, کو, پر, میں, لیے, لئے -->
     <tag name="ADV">1386</tag><!-- پیش, بعد, پھر, پہلے, بہت, مزید, سے, دوبارہ, جلد, دوران -->
-    <tag name="AUX">9992</tag><!-- ہے, جا, تھا, ہو, رہ, دے, سک, کر, لے, گا -->
+    <tag name="AUX">9250</tag><!-- ہے, جا, تھا, ہو, رہ, سک, کر, گا, پڑ, گے -->
     <tag name="CCONJ">3248</tag><!-- اور, و, لیکن, جبکہ, تاہم, یا, مگر, جب, نیز, لہذا -->
     <tag name="DET">2496</tag><!-- یہ, وہ, کئی, تمام, ایسا, جو, کوئی, کچھ, ہر, چند -->
-    <tag name="INTJ">2</tag><!-- بس, ذرا -->
+    <tag name="INTJ">10</tag><!-- کاش, آخر, بس, جا, خدارا, ذرا, نہ, چلو -->
     <tag name="NOUN">32969</tag><!-- حکومت, حاصل, پولیس, رکن, بات, آج, ضلع, عہدیدار, پارٹی, قائد -->
     <tag name="NUM">2461</tag><!-- اےک, ایک, دو, تین, لاکھ, ہزار, چھ, چار, کروڑ, پانچ -->
     <tag name="PART">3040</tag><!-- بھی, نہیں, مسٹر, ہی, نہ, صرف, جناب, کہ, تو, بغیر -->
@@ -29,8 +29,8 @@
     <tag name="PROPN">17137</tag><!-- پی, سی, ایس, کانگریس, آئی, بی, ہندوستان, ریڈی, اے, سنگھ -->
     <tag name="PUNCT">6911</tag><!-- ۔, ,, ،, -, '', ), (, ", ', ؟ -->
     <tag name="SCONJ">2673</tag><!-- کہ, تو, اگر, کیونکہ, تاکہ, بلکہ, حالانکہ, چنانچہ, ,, کیوں -->
-    <tag name="VERB">11860</tag><!-- کر, ہو, کہہ, دے, ہے, بتا, آ, رہ, رکھ, بنا -->
-    <tag name="X">22</tag><!-- کاش, افسوس, خدارا, کتنا, آخر, ئن, جا, را, لوڈ, نئچ -->
+    <tag name="VERB">12602</tag><!-- کر, ہو, دے, کہہ, ہے, لے, بتا, آ, رکھ, رہ -->
+    <tag name="X">14</tag><!-- افسوس, کتنا, ئن, خدارا, را, لوڈ, نئچ, نسبتاً, واقعی, چۓۓپ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="42">
@@ -38,26 +38,26 @@
     <feat name="AdvType" value="Deg" upos="ADV">145</feat><!-- بہت, انتہائی, سے, کافی, زیادہ, مزید, نہایت, شدید, زبردست, اور -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,PROPN,VERB">1629</feat><!-- کرتے, سکتا, ہوتا, دیتے, جاتا, سکتے, ہوتی, سکتی, رکھتے, جاتی -->
     <feat name="Aspect" value="Perf" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,VERB">8522</feat><!-- کیا, کہا, ہوئے, کی, گیا, دیا, گئی, رہے, گئے, دی -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">38029</feat><!-- کے, اس, کی, کرنے, ان, انہوں, جس, حکومت, کا, اپنے -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">38028</feat><!-- کے, اس, کی, کرنے, ان, انہوں, جس, حکومت, کا, اپنے -->
     <feat name="Case" value="Acc,Dat" upos="DET,PRON">366</feat><!-- انہیں, اسے, انھیں, جسے, انہوں, ہمیں, مجھے, جنہیں, میرے, اُنھیں -->
     <feat name="Case" value="Acc,Erg" upos="AUX">1</feat><!-- جانے -->
     <feat name="Case" value="Acc,Gen" upos="PRON">35</feat><!-- ان, ہم, میری, میرا, اس, جس, میرے, ہمارے -->
     <feat name="Case" value="Acc,Ins" upos="PRON">3</feat><!-- ازیں -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">37334</feat><!-- کی, کا, یہ, وہ, بعد, جو, پی, حاصل, اس, سی -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">37331</feat><!-- کی, کا, یہ, وہ, بعد, جو, پی, حاصل, اس, سی -->
     <feat name="Echo" value="Rdp" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,VERB">66</feat><!-- ساتھ, وقفہ, اپنے, بار, جگہ, اپنی, ایک, علحدہ, جاتے, علاحدہ -->
     <feat name="Foreign" value="Yes" upos="NOUN,X">8</feat><!-- ئن, را, لوڈ, نئچ, چیلنج, چۓۓپ, ڈان, ہتتپ -->
     <feat name="Gender" value="Fem" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,VERB">14086</feat><!-- کی, گئی, حکومت, دی, تھی, رہی, پولیس, بات, پارٹی, ہوئی -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">59991</feat><!-- کے, کا, کیا, کہا, گیا, تھا, دیا, کرتے, پی, بعد -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">59987</feat><!-- کے, کا, کیا, کہا, گیا, تھا, دیا, کرتے, پی, بعد -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">20</feat><!-- کرو, رکھو, جاؤ, رہو, آؤ, جاؤں, دیکھو, سناؤ, لو, چاہو -->
     <feat name="Mood" value="Ind" upos="AUX,PROPN,VERB">5695</feat><!-- ہے, ہیں, تھا, ہےں, تھے, تھی, گے, جائےگا, گا, گی -->
     <feat name="Mood" value="Sub" upos="AUX,PROPN,VERB">451</feat><!-- کریں, جائے, چاہیے, جائیں, دیں, چاہیئے, کرے, چاہئے, لیں, سکے -->
     <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB,X">9957</feat><!-- ہیں, ان, ہےں, ہوئے, گئے, رہے, کرتے, افراد, تھے, والے -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">74162</feat><!-- کی, کے, ہے, کا, اس, کیا, کہا, یہ, گیا, وہ -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">74159</feat><!-- کی, کے, ہے, کا, اس, کیا, کہا, یہ, گیا, وہ -->
     <feat name="NumType" value="Card" upos="NUM">2461</feat><!-- اےک, ایک, دو, تین, دونوں, لاکھ, ہزار, کروڑ, پانچ, چار -->
     <feat name="NumType" value="Ord" upos="ADJ">248</feat><!-- دوسری, پہلے, پہلی, پہلا, دوسرے, دوسرا, تیسرے, دوم, دونوں, واحد -->
     <feat name="Person" value="1" upos="ADP,AUX,DET,PRON,VERB">301</feat><!-- ہم, مےں, ہوں, ہماری, ہمارے, میں, اپنے, مجھے, ہمارا, ہمیں -->
     <feat name="Person" value="2" upos="ADJ,AUX,DET,PRON,SCONJ,VERB">73</feat><!-- آپ, تم, ہوئے, تمہاری, تمہارے, تمہیں, تو, مانگوگے, ہو, ہے -->
-    <feat name="Person" value="3" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">63522</feat><!-- ہے, اس, یہ, ان, ہیں, وہ, ہےں, انہوں, پی, تھا -->
+    <feat name="Person" value="3" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">63519</feat><!-- ہے, اس, یہ, ان, ہیں, وہ, ہےں, انہوں, پی, تھا -->
     <feat name="Polarity" value="Neg" upos="PART,SCONJ">819</feat><!-- نہیں, نہ, بغیر, بجائے, عدم, بنا, سوا, سوائے, کیوں -->
     <feat name="Polite" value="Form" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">1092</feat><!-- انہوں, انہیں, انھوں, ان, ہیں, ہےں, ہوئے, تھے, آپ, کے -->
     <feat name="Polite" value="Infm" upos="AUX,VERB">20</feat><!-- کرو, رکھو, جاؤ, رہو, آؤ, جاؤں, دیکھو, سناؤ, لو, چاہو -->
@@ -72,27 +72,28 @@
     <feat name="Tense" value="Pres" upos="AUX,PROPN,VERB">3962</feat><!-- ہے, ہیں, ہےں, ہوں, ہو, رہے, کرےں -->
     <feat name="VerbForm" value="Conv" upos="VERB">26</feat><!-- کرکے, آکر, اٹھاکر, دیکر, دےکر, لےکر, ملکر, ہوکر, بتاکر, بجکر -->
     <feat name="VerbForm" value="Fin" upos="AUX,PROPN,VERB">6166</feat><!-- ہے, ہیں, تھا, ہےں, تھے, تھی, کریں, گے, جائےگا, جائے -->
-    <feat name="VerbForm" value="Inf" upos="ADJ,AUX,NOUN,PROPN,VERB,X">2183</feat><!-- کرنے, ہونے, جانے, کرنا, دینے, رکھنے, بنانے, کہنا, آنے, لینے -->
+    <feat name="VerbForm" value="Inf" upos="ADJ,AUX,NOUN,PROPN,VERB">2182</feat><!-- کرنے, ہونے, جانے, کرنا, دینے, رکھنے, بنانے, کہنا, آنے, لینے -->
     <feat name="VerbForm" value="Part" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,VERB">10151</feat><!-- کیا, کہا, ہوئے, کی, گیا, دیا, کرتے, گئی, رہے, گئے -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,NOUN,PART,PRON,PUNCT,VERB">8656</feat><!-- ہے, کہا, کیا, کر, ہو, کی, ہیں, بتایا, دیا, ہےں -->
     <feat name="Voice" value="Pass" upos="ADJ,AUX,NOUN,VERB">1234</feat><!-- کیا, کی, کر, کریں, دی, دیا, کیے, کہا, کئے, ہو -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="27">
+  <deps unique="28">
     <dep name="acl">808</dep>
     <dep name="acl:relcl">861</dep>
     <dep name="advcl">2202</dep>
-    <dep name="advmod">1680</dep>
+    <dep name="advmod">1671</dep>
     <dep name="amod">7045</dep>
-    <dep name="aux">8752</dep>
+    <dep name="aux">8010</dep>
     <dep name="case">26004</dep>
     <dep name="cc">3302</dep>
     <dep name="ccomp">1</dep>
-    <dep name="compound">18559</dep>
+    <dep name="compound">19161</dep>
     <dep name="conj">3883</dep>
     <dep name="cop">1187</dep>
     <dep name="dep">2349</dep>
     <dep name="det">2719</dep>
+    <dep name="discourse">9</dep>
     <dep name="dislocated">344</dep>
     <dep name="flat">4</dep>
     <dep name="iobj">918</dep>
@@ -101,10 +102,10 @@
     <dep name="nsubj">7263</dep>
     <dep name="nummod">2127</dep>
     <dep name="obj">6534</dep>
-    <dep name="obl">10678</dep>
+    <dep name="obl">10677</dep>
     <dep name="punct">6911</dep>
     <dep name="root">5130</dep>
     <dep name="vocative">15</dep>
-    <dep name="xcomp">454</dep>
+    <dep name="xcomp">595</dep>
   </deps>
 </treebank>
