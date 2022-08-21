@@ -13344,7 +13344,7 @@
 13	پیش	پیش	ADV	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	14	compound	_	AltTag=ADV-NOUN|ChunkId=NP5|ChunkType=head
 14	کیا	کر	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 15	جانے	جا	AUX	VAUX	Gender=Masc|Number=Plur|VerbForm=Inf	14	aux	_	Vib=نا|Tam=nA|ChunkId=VGF|ChunkType=child
-16	والا	والا	ADJ	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part	14	compound	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=child
+16	والا	والا	ADJ	VAUX	Gender=Masc|Number=Sing|Person=3	14	compound	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=child
 17	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child
 18	۔	۔	PUNCT	SYM	_	14	punct	_	ChunkId=VGF|ChunkType=child
 
@@ -13879,7 +13879,7 @@
 21	تعمیر	تعمیر	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 22	کیا	کر	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	26	acl:relcl	_	Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 23	جانے	جا	AUX	VAUX	Gender=Masc|Number=Plur|VerbForm=Inf	22	aux	_	Vib=نا|Tam=nA|ChunkId=VGF2|ChunkType=child
-24	والا	والا	ADJ	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part	22	compound	_	Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=child
+24	والا	والا	ADJ	VAUX	Gender=Masc|Number=Sing|Person=3	22	compound	_	Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=child
 25	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=child
 26	وہ	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 27	شیو	شیو	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	28	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child
@@ -14193,7 +14193,7 @@
 32	کو	کو	ADP	PSP	AdpType=Post	31	case	_	ChunkId=NP10|ChunkType=child
 33	قطعیت	قطعیت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 34	دینے	دے	VERB	VM	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	0	root	_	Vib=نا|Tam=nA|ChunkId=VGF|ChunkType=head|Stype=declarative
-35	والی	والا	ADJ	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part	34	compound	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=child
+35	والی	والا	ADJ	VAUX	Gender=Fem|Number=Sing|Person=3	34	compound	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=child
 36	ہےں	ہے	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child
 37	۔	۔	PUNCT	SYM	_	34	punct	_	ChunkId=VGF|ChunkType=child
 

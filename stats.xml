@@ -10,7 +10,7 @@
     <dev><sentences>552</sentences><tokens>14581</tokens><words>14581</words><fused>0</fused></dev>
     <test><sentences>535</sentences><tokens>14806</tokens><words>14806</words><fused>0</fused></test>
   </size>
-  <lemmas unique="9513" /><!-- کا, ۔, کر, ہے, کے, نے, یہ, سے, مےں, اور, کو, ہو, جا, کہ, وہ -->
+  <lemmas unique="9512" /><!-- کا, ۔, کر, ہے, کے, نے, یہ, سے, مےں, اور, کو, ہو, جا, کہ, وہ -->
   <forms unique="10802" /><!-- کے, ۔, کی, ہے, نے, سے, مےں, اور, کو, کہ, کا, اس, پر, میں, کیا -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -37,7 +37,7 @@
     <feat name="AdpType" value="Post" upos="ADP,ADV">27103</feat><!-- کے, کی, نے, سے, مےں, کو, کا, پر, میں, لیے -->
     <feat name="AdvType" value="Deg" upos="ADV">145</feat><!-- بہت, انتہائی, سے, کافی, زیادہ, مزید, نہایت, شدید, زبردست, اور -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,PROPN,VERB">1629</feat><!-- کرتے, سکتا, ہوتا, دیتے, جاتا, سکتے, ہوتی, سکتی, رکھتے, جاتی -->
-    <feat name="Aspect" value="Perf" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,VERB">8522</feat><!-- کیا, کہا, ہوئے, کی, گیا, دیا, گئی, رہے, گئے, دی -->
+    <feat name="Aspect" value="Perf" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,VERB">8517</feat><!-- کیا, کہا, ہوئے, کی, گیا, دیا, گئی, رہے, گئے, دی -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">38028</feat><!-- کے, اس, کی, کرنے, ان, انہوں, جس, حکومت, کا, اپنے -->
     <feat name="Case" value="Acc,Dat" upos="DET,PRON">366</feat><!-- انہیں, اسے, انھیں, جسے, انہوں, ہمیں, مجھے, جنہیں, میرے, اُنھیں -->
     <feat name="Case" value="Acc,Erg" upos="AUX">1</feat><!-- جانے -->
@@ -73,7 +73,7 @@
     <feat name="VerbForm" value="Conv" upos="VERB">26</feat><!-- کرکے, آکر, اٹھاکر, دیکر, دےکر, لےکر, ملکر, ہوکر, بتاکر, بجکر -->
     <feat name="VerbForm" value="Fin" upos="AUX,PROPN,VERB">6166</feat><!-- ہے, ہیں, تھا, ہےں, تھے, تھی, کریں, گے, جائےگا, جائے -->
     <feat name="VerbForm" value="Inf" upos="ADJ,AUX,NOUN,PROPN,VERB">2182</feat><!-- کرنے, ہونے, جانے, کرنا, دینے, رکھنے, بنانے, کہنا, آنے, لینے -->
-    <feat name="VerbForm" value="Part" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,VERB">10151</feat><!-- کیا, کہا, ہوئے, کی, گیا, دیا, کرتے, گئی, رہے, گئے -->
+    <feat name="VerbForm" value="Part" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,PROPN,VERB">10146</feat><!-- کیا, کہا, ہوئے, کی, گیا, دیا, کرتے, گئی, رہے, گئے -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,NOUN,PART,PRON,PUNCT,VERB">8656</feat><!-- ہے, کہا, کیا, کر, ہو, کی, ہیں, بتایا, دیا, ہےں -->
     <feat name="Voice" value="Pass" upos="ADJ,AUX,NOUN,VERB">1234</feat><!-- کیا, کی, کر, کریں, دی, دیا, کیے, کہا, کئے, ہو -->
   </feats>

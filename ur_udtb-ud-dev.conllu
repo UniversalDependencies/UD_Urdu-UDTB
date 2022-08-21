@@ -10136,7 +10136,7 @@
 12	قذافی	قذافی	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 13	دورہ	دورہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	obj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 14	کرنے	کر	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	1	obj	_	Vib=نا|Tam=nA|ChunkId=VGF2|ChunkType=head|Stype=declarative
-15	والے	والا	ADJ	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part	14	compound	_	Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=child
+15	والے	والا	ADJ	VAUX	Gender=Masc|Number=Sing|Person=3	14	compound	_	Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=child
 16	تھے	تھا	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	aux	_	Vib=تھا|Tam=WA|ChunkId=VGF2|ChunkType=child
 17	یہ	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 18	معلوم	معلوم	ADJ	JJ	_	20	compound	_	ChunkId=JJP|ChunkType=head
@@ -12292,7 +12292,7 @@
 7	اجلاس	اجلاس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 8	طلب	طلب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 9	کرنے	کر	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	Vib=نا|Tam=nA|ChunkId=VGF|ChunkType=head|Stype=declarative
-10	والا	والا	ADJ	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part	9	compound	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=child
+10	والا	والا	ADJ	VAUX	Gender=Masc|Number=Sing|Person=3	9	compound	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=child
 11	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child
 12	تاکہ	تاکہ	SCONJ	CC	_	9	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
 13	قاہرہ	قاہرہ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
@@ -12650,7 +12650,7 @@
 24	غور	غور	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 25	کیا	کر	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	18	conj	_	Vib=یا|Tam=yA|ChunkId=VGF3|ChunkType=head|Stype=declarative
 26	جا	جا	AUX	VAUX	_	25	aux	_	Vib=0|Tam=0|ChunkId=VGF3|ChunkType=child
-27	سکےگا	سکے	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	aux	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF3|ChunkType=child
+27	سکےگا	سک	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	aux	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF3|ChunkType=child
 28	۔	۔	PUNCT	SYM	_	25	punct	_	ChunkId=VGF3|ChunkType=child
 
 # sent_id = dev-s432
