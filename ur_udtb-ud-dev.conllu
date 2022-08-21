@@ -4383,7 +4383,7 @@
 2	منسٹر	منسٹر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	iobj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 3	کو	کو	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child
 4	بتایا	بتا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
-5	گیا	گیا	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	4	aux	_	Vib=یا1|Tam=yA1|ChunkId=VGF|ChunkType=child
+5	گیا	جا	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	4	aux	_	Vib=یا1|Tam=yA1|ChunkId=VGF|ChunkType=child
 6	کہ	کہ	SCONJ	CC	_	17	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
 7	مجموعی	مجموعی	ADJ	JJ	Case=Acc	8	amod	_	ChunkId=NP2|ChunkType=child
 8	طور	طور	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
