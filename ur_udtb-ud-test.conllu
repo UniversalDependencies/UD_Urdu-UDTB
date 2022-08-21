@@ -2692,7 +2692,7 @@
 25	توجہ	توجہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 26	مبذول	مبذول	ADJ	JJ	_	27	compound	_	ChunkId=JJP|ChunkType=head
 27	کروانی	کروا	VERB	VM	Gender=Fem|Number=Sing|VerbForm=Inf|Voice=Pass	0	root	_	Vib=نا|Tam=nA|ChunkId=VGF|ChunkType=head|Stype=imperative
-28	چاہیئے	چاہیئے	AUX	VAUX	_	27	aux	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=VGF|ChunkType=child
+28	چاہیئے	چاہئے	AUX	VAUX	_	27	aux	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=VGF|ChunkType=child
 29	۔	۔	PUNCT	SYM	_	27	punct	_	ChunkId=VGF|ChunkType=child
 
 # sent_id = test-s82
@@ -12189,7 +12189,7 @@
 4	ذمہ_دارانہ	ذمہ_دارانہ	ADJ	JJ	Case=Nom	5	amod	_	ChunkId=NP3|ChunkType=child
 5	مظاہرہ	مظاہرہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 6	کرنا	کر	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	Vib=نا|Tam=nA|ChunkId=VGF|ChunkType=head|Stype=declarative
-7	چاہیے	چاہیے	AUX	VAUX	_	6	aux	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=VGF|ChunkType=child
+7	چاہیے	چاہئے	AUX	VAUX	_	6	aux	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=VGF|ChunkType=child
 8	۔	۔	PUNCT	SYM	_	6	punct	_	ChunkId=VGF|ChunkType=child
 
 # sent_id = test-s409

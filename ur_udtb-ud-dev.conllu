@@ -700,7 +700,7 @@
 23	منتخب	منتخب	ADJ	JJ	_	24	compound	_	ChunkId=JJP|ChunkType=head
 24	کیا	کر	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	2	acl	_	Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 25	جانا	جا	AUX	VAUX	Gender=Masc|Number=Sing|VerbForm=Inf	24	aux	_	Vib=نا|Tam=nA|ChunkId=VGF2|ChunkType=child
-26	چاہیے	چاہیئے	AUX	VAUX	_	24	aux	_	Vib=0|Tam=0|ChunkId=VGF2|ChunkType=child
+26	چاہیے	چاہئے	AUX	VAUX	_	24	aux	_	Vib=0|Tam=0|ChunkId=VGF2|ChunkType=child
 27	کیونکہ	کیونکہ	SCONJ	CC	_	31	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP3|ChunkType=head
 28	وہ	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 29	اس	یہ	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	31	nmod	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
@@ -771,7 +771,7 @@
 40	کے	کے	ADP	PSP	AdpType=Post	39	case	_	ChunkId=NP12|ChunkType=child
 41	مماثل	مماثل	ADP	PSP	AdpType=Post	39	case	_	ChunkId=NP12|ChunkType=child
 42	ہونا	ہو	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	28	conj	_	Vib=نا|Tam=nA|ChunkId=VGF3|ChunkType=head|Stype=declarative
-43	چاہیے	چاہیئے	AUX	VAUX	_	42	aux	_	Vib=0|Tam=0|ChunkId=VGF3|ChunkType=child
+43	چاہیے	چاہئے	AUX	VAUX	_	42	aux	_	Vib=0|Tam=0|ChunkId=VGF3|ChunkType=child
 44	جنہوں	جو	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	52	nsubj	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head
 45	نے	نے	ADP	PSP	AdpType=Post	44	case	_	ChunkId=NP13|ChunkType=child
 46	بڑی	بڑا	ADJ	JJ	Case=Acc|Gender=Fem	47	amod	_	ChunkId=NP14|ChunkType=child
