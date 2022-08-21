@@ -675,11 +675,11 @@
 
 # sent_id = dev-s21
 # text = مےں یہ کہنا چاہتی ہوں کہ اس حقیقت کے بعد سری کمار اور سنجے بھٹ کو آئندہ سال پدما ایوارڈ کے لئے منتخب کیا جانا چاہیے کیونکہ وہ اس کے حقدار ہیں۔
-1	مےں	مےں	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
-2	یہ	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
-3	کہنا	کہہ	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	Vib=نا|Tam=nA|ChunkId=VGF|ChunkType=head|Stype=declarative
-4	چاہتی	چاہ	AUX	VAUX	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	3	aux	_	Vib=تا|Tam=wA|ChunkId=VGF|ChunkType=child
-5	ہوں	ہے	AUX	VAUX	Number=Sing|Person=1	3	aux	_	Vib=اوں|Tam=Uz|ChunkId=VGF|ChunkType=child
+1	مےں	مےں	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
+2	یہ	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
+3	کہنا	کہہ	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Act	4	xcomp	_	Vib=نا|Tam=nA|ChunkId=VGF|ChunkType=head|Stype=declarative
+4	چاہتی	چاہ	VERB	VAUX	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	Vib=تا|Tam=wA|ChunkId=VGF|ChunkType=child
+5	ہوں	ہے	AUX	VAUX	Number=Sing|Person=1	4	aux	_	Vib=اوں|Tam=Uz|ChunkId=VGF|ChunkType=child
 6	کہ	کہ	SCONJ	CC	_	24	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
 7	اس	یہ	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	8	det	_	ChunkId=NP3|ChunkType=child
 8	حقیقت	حقیقت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	24	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
@@ -705,9 +705,9 @@
 28	وہ	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 29	اس	یہ	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	31	nmod	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 30	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	29	case	_	ChunkId=NP9|ChunkType=child
-31	حقدار	حقدار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	obl	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
+31	حقدار	حقدار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	obl	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 32	ہیں	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres|VerbForm=Fin|Voice=Act	31	cop	_	SpaceAfter=No|AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF3|ChunkType=head|Stype=declarative
-33	۔	۔	PUNCT	SYM	_	3	punct	_	ChunkId=VGF3|ChunkType=child
+33	۔	۔	PUNCT	SYM	_	4	punct	_	ChunkId=VGF3|ChunkType=child
 
 # sent_id = dev-s22
 # text = آج کے رشوت_ستانی کے دور مےں اس طرح کے آفیسرس بہت ہی کم ملیں_گے۔
@@ -10435,20 +10435,20 @@
 6	ظاہر	ظاہر	ADJ	JJ	_	7	compound	_	ChunkId=JJP|ChunkType=head
 7	کرتے	کر	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	Vib=تا|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative
 8	ہےں	ہے	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child
-9	کہ	کہ	SCONJ	CC	_	19	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
+9	کہ	کہ	SCONJ	CC	_	20	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
 10	یہ	یہ	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	12	det	_	ChunkId=NP3|ChunkType=child
 11	سارا	سارا	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	ChunkId=NP3|ChunkType=child
-12	اتحاد	اتحاد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
+12	اتحاد	اتحاد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 13	کرنل	کرنل	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child
 14	قذافی	قذافی	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 15	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	14	case	_	ChunkId=NP4|ChunkType=child
 16	اقتدار	اقتدار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 17	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	16	case	_	ChunkId=NP5|ChunkType=child
 18	تختہ	تختہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
-19	الٹنا	الٹ	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	7	obj	_	Vib=نا|Tam=nA|ChunkId=VGF2|ChunkType=head|Stype=declarative
-20	چاہتا	چاہ	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	19	aux	_	Vib=تا|Tam=wA|ChunkId=VGF2|ChunkType=child
-21	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=child
-22	۔	۔	PUNCT	SYM	_	19	punct	_	ChunkId=VGF2|ChunkType=child
+19	الٹنا	الٹ	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	20	xcomp	_	Vib=نا|Tam=nA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+20	چاہتا	چاہ	VERB	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	7	obj	_	Vib=تا|Tam=wA|ChunkId=VGF2|ChunkType=child
+21	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=child
+22	۔	۔	PUNCT	SYM	_	20	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s357
 # text = خود اتحادی ممالک اور امریکہ نے بھی کئی بار واضح کر دیا ہے کہ وہ کرنل قذافی کی حکومت کا تختہ الٹ کر لیبیائی عوام کو آزادی اور راحت پہونچانا چاہتا ہے۔
@@ -10465,26 +10465,26 @@
 11	کر	کر	VERB	VM	Voice=Act	0	root	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=head|Stype=declarative
 12	دیا	دے	VERB	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	compound	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=child
 13	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child
-14	کہ	کہ	SCONJ	CC	_	30	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP2|ChunkType=head
-15	وہ	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
+14	کہ	کہ	SCONJ	CC	_	31	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP2|ChunkType=head
+15	وہ	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 16	کرنل	کرنل	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child
 17	قذافی	قذافی	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 18	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	17	case	_	ChunkId=NP6|ChunkType=child
 19	حکومت	حکومت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	21	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 20	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	19	case	_	ChunkId=NP7|ChunkType=child
 21	تختہ	تختہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	compound	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
-22	الٹ	الٹ	VERB	VM	_	30	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head
+22	الٹ	الٹ	VERB	VM	_	31	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head
 23	کر	کر	AUX	VAUX	_	22	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child
 24	لیبیائی	لیبیائی	ADJ	JJ	Case=Acc	25	amod	_	ChunkId=NP9|ChunkType=child
-25	عوام	عام	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	30	nsubj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
+25	عوام	عام	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	31	nsubj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 26	کو	کو	ADP	PSP	AdpType=Post	25	case	_	ChunkId=NP9|ChunkType=child
-27	آزادی	آزادی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	30	obj	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
+27	آزادی	آزادی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	31	obj	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 28	اور	اور	CCONJ	CC	_	29	cc	_	ChunkId=CCP3|ChunkType=head
 29	راحت	راحت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	27	conj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
-30	پہونچانا	پہونچا	VERB	VM	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf|Voice=Pass	11	obj	_	Vib=نا|Tam=nA|ChunkId=VGF2|ChunkType=head|Stype=declarative
-31	چاہتا	چاہ	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	30	aux	_	Vib=تا|Tam=wA|ChunkId=VGF2|ChunkType=child
-32	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=child
-33	۔	۔	PUNCT	SYM	_	30	punct	_	ChunkId=VGF2|ChunkType=child
+30	پہونچانا	پہونچا	VERB	VM	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf|Voice=Pass	31	xcomp	_	Vib=نا|Tam=nA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+31	چاہتا	چاہ	VERB	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	11	obj	_	Vib=تا|Tam=wA|ChunkId=VGF2|ChunkType=child
+32	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=child
+33	۔	۔	PUNCT	SYM	_	31	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s358
 # text = یہ خود حالانکہ لیبیا کے داخلی معاملت مےں مداخلت بیجا ہے تاہم اس سے قطع_نظر اس مقصد کی تکمیل کی آڑ مےں جس طرح کرنل قذافی اور ان کے افراد خاندان کے قتل کی کوششیں کی جا رہی ہےں وہ قابل تنقید و مذمت ہیں۔
@@ -10652,20 +10652,20 @@
 8	ذخائر	ذخیرہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	9	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 9	موجود	موجود	ADJ	JJ	_	0	root	_	ChunkId=JJP|ChunkType=head
 10	ہےں	ہے	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative
-11	اور	اور	CCONJ	CC	_	21	cc	_	ChunkId=CCP|ChunkType=head
-12	امریکہ	امریکہ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
+11	اور	اور	CCONJ	CC	_	22	cc	_	ChunkId=CCP|ChunkType=head
+12	امریکہ	امریکہ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 13	ان	یہ	DET	DEM	Case=Acc|Number=Plur|Person=3|PronType=Dem	14	det	_	ChunkId=NP6|ChunkType=child
-14	ذخائر	ذخیرہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
+14	ذخائر	ذخیرہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	22	obl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 15	پر	پر	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP6|ChunkType=child
 16	کسی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	det	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child
-17	طرح	طرح	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
+17	طرح	طرح	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 18	اپنا	اپنا	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
-19	کنٹرول	کنٹرول	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
+19	کنٹرول	کنٹرول	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 20	حاصل	حاصل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
-21	کرنا	کر	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	9	conj	_	Vib=نا|Tam=nA|ChunkId=VGF2|ChunkType=head|Stype=declarative
-22	چاہتا	چاہ	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	21	aux	_	Vib=تا|Tam=wA|ChunkId=VGF2|ChunkType=child
-23	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=child
-24	۔	۔	PUNCT	SYM	_	21	punct	_	ChunkId=VGF2|ChunkType=child
+21	کرنا	کر	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	22	xcomp	_	Vib=نا|Tam=nA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+22	چاہتا	چاہ	VERB	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	9	conj	_	Vib=تا|Tam=wA|ChunkId=VGF2|ChunkType=child
+23	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=child
+24	۔	۔	PUNCT	SYM	_	22	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s363
 # text = باغیوں کو اسی لئے اکسایا گیا ہے اور آج بھی انہیں اسی لئے امداد بہم پہونچائی جا رہی ہے۔
@@ -16177,14 +16177,14 @@
 
 # sent_id = dev-s549
 # text = ہم اس کی وضاحت کرنا چاہتے ہیں۔
-1	ہم	ہم	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
+1	ہم	ہم	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 2	اس	یہ	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 3	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	2	case	_	ChunkId=NP2|ChunkType=child
 4	وضاحت	وضاحت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
-5	کرنا	کر	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	Vib=نا|Tam=nA|ChunkId=VGF|ChunkType=head|Stype=declarative
-6	چاہتے	چاہ	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	5	aux	_	Vib=تا|Tam=wA|ChunkId=VGF|ChunkType=child
-7	ہیں	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child
-8	۔	۔	PUNCT	SYM	_	5	punct	_	ChunkId=VGF|ChunkType=child
+5	کرنا	کر	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	6	xcomp	_	Vib=نا|Tam=nA|ChunkId=VGF|ChunkType=head|Stype=declarative
+6	چاہتے	چاہ	VERB	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Vib=تا|Tam=wA|ChunkId=VGF|ChunkType=child
+7	ہیں	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child
+8	۔	۔	PUNCT	SYM	_	6	punct	_	ChunkId=VGF|ChunkType=child
 
 # sent_id = dev-s550
 # text = ہم چاہتے ہےں کہ افغانستان ہمارے پڑوس مےں اےک مستحکم ملک ہو۔
