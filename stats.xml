@@ -15,10 +15,10 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">10119</tag><!-- جاری, شامل, دیگر, سابق, موجود, ریاستی, دوسرا, پیدا, ہلاک, منعقد -->
-    <tag name="ADP">28178</tag><!-- کا, نے, کے, سے, مےں, کو, پر, میں, لیے, لئے -->
+    <tag name="ADJ">10514</tag><!-- والا, جاری, شامل, دیگر, سابق, موجود, ریاستی, دوسرا, پیدا, ہلاک -->
+    <tag name="ADP">27800</tag><!-- کا, نے, کے, سے, مےں, کو, پر, میں, لیے, لئے -->
     <tag name="ADV">1386</tag><!-- پیش, بعد, پھر, پہلے, بہت, مزید, سے, دوبارہ, جلد, دوران -->
-    <tag name="AUX">9187</tag><!-- ہے, جا, تھا, ہو, رہ, سک, کر, گا, چاہئے, پڑ -->
+    <tag name="AUX">9172</tag><!-- ہے, جا, تھا, ہو, رہ, سک, کر, گا, چاہئے, پڑ -->
     <tag name="CCONJ">3248</tag><!-- اور, و, لیکن, جبکہ, تاہم, یا, مگر, جب, نیز, لہذا -->
     <tag name="DET">2496</tag><!-- یہ, وہ, کئی, تمام, ایسا, جو, کوئی, کچھ, ہر, چند -->
     <tag name="INTJ">10</tag><!-- کاش, آخر, بس, جا, خدارا, ذرا, نہ, چلو -->
@@ -26,7 +26,7 @@
     <tag name="NUM">2461</tag><!-- اےک, ایک, دو, تین, لاکھ, ہزار, چھ, چار, کروڑ, پانچ -->
     <tag name="PART">3040</tag><!-- بھی, نہیں, مسٹر, ہی, نہ, صرف, جناب, کہ, تو, بغیر -->
     <tag name="PRON">5597</tag><!-- وہ, یہ, جو, اپنا, کوئی, اب, یہاں, مےں, جب, جہاں -->
-    <tag name="PROPN">17137</tag><!-- پی, سی, ایس, کانگریس, آئی, بی, ہندوستان, ریڈی, اے, سنگھ -->
+    <tag name="PROPN">17135</tag><!-- پی, سی, ایس, کانگریس, آئی, بی, ہندوستان, ریڈی, اے, سنگھ -->
     <tag name="PUNCT">6911</tag><!-- ۔, ,, ،, -, '', ), (, ", ', ؟ -->
     <tag name="SCONJ">2673</tag><!-- کہ, تو, اگر, کیونکہ, تاکہ, بلکہ, حالانکہ, چنانچہ, ,, کیوں -->
     <tag name="VERB">12651</tag><!-- کر, ہو, دے, کہہ, ہے, لے, بتا, آ, رکھ, رہ -->
@@ -34,7 +34,7 @@
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="42">
-    <feat name="AdpType" value="Post" upos="ADP,ADV">27467</feat><!-- کے, کی, نے, سے, مےں, کو, کا, پر, میں, لیے -->
+    <feat name="AdpType" value="Post" upos="ADJ,ADP,ADV">27467</feat><!-- کے, کی, نے, سے, مےں, کو, کا, پر, میں, لیے -->
     <feat name="AdvType" value="Deg" upos="ADV">145</feat><!-- بہت, انتہائی, سے, کافی, زیادہ, مزید, نہایت, شدید, زبردست, اور -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,PROPN,VERB">1629</feat><!-- کرتے, سکتا, ہوتا, دیتے, جاتا, سکتے, ہوتی, سکتی, رکھتے, جاتی -->
     <feat name="Aspect" value="Perf" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,VERB">8522</feat><!-- کیا, کہا, ہوئے, کی, گیا, دیا, گئی, رہے, گئے, دی -->
@@ -81,25 +81,25 @@
   <deps unique="28">
     <dep name="acl">808</dep>
     <dep name="acl:relcl">861</dep>
-    <dep name="advcl">2202</dep>
+    <dep name="advcl">2201</dep>
     <dep name="advmod">1671</dep>
     <dep name="amod">7045</dep>
-    <dep name="aux">7947</dep>
-    <dep name="case">26004</dep>
+    <dep name="aux">7933</dep>
+    <dep name="case">25907</dep>
     <dep name="cc">3302</dep>
     <dep name="ccomp">1</dep>
-    <dep name="compound">19162</dep>
+    <dep name="compound">19557</dep>
     <dep name="conj">3883</dep>
     <dep name="cop">1187</dep>
     <dep name="dep">2349</dep>
     <dep name="det">2719</dep>
     <dep name="discourse">9</dep>
-    <dep name="dislocated">344</dep>
+    <dep name="dislocated">342</dep>
     <dep name="flat">4</dep>
     <dep name="iobj">918</dep>
-    <dep name="mark">4581</dep>
+    <dep name="mark">4302</dep>
     <dep name="nmod">13780</dep>
-    <dep name="nsubj">7263</dep>
+    <dep name="nsubj">7261</dep>
     <dep name="nummod">2127</dep>
     <dep name="obj">6534</dep>
     <dep name="obl">10677</dep>
