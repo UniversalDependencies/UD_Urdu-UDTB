@@ -3249,7 +3249,7 @@
 7	18	18	NUM	QC	NumType=Card	8	nummod	_	ChunkId=NP3|ChunkType=child
 8	رن	رن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 9	بنا	بنا	VERB	VM	_	12	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head
-10	کر	بنا	AUX	VAUX	_	9	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child
+10	کر	کر	AUX	VAUX	_	9	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child
 11	آوٹ	آوٹ	ADJ	JJ	_	12	compound	_	ChunkId=JJP|ChunkType=head
 12	ہو	ہو	VERB	VM	Voice=Act	0	root	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=head|Stype=declarative
 13	گئے	جا	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	12	aux	_	SpaceAfter=No|Vib=یا1|Tam=yA1|ChunkId=VGF|ChunkType=child
@@ -3361,7 +3361,7 @@
 12	گیارہ	گیارہ	NUM	QC	NumType=Card	13	nummod	_	ChunkId=NP4|ChunkType=child
 13	رن	رن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 14	بنا	بنا	VERB	VM	_	18	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head
-15	کر	بنا	AUX	VAUX	_	14	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child
+15	کر	کر	AUX	VAUX	_	14	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child
 16	ناٹ	ناٹ	ADJ	JJC	_	17	compound	_	ChunkId=JJP|ChunkType=child
 17	آوٹ	آوٹ	ADJ	JJ	_	18	xcomp	_	ChunkId=JJP|ChunkType=head
 18	رہے	رہ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
@@ -3466,7 +3466,7 @@
 15	18	18	NUM	QC	NumType=Card	16	nummod	_	ChunkId=NP4|ChunkType=child
 16	رن	رن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 17	بنا	بنا	VERB	VM	_	20	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head
-18	کر	بنا	AUX	VAUX	_	17	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child
+18	کر	کر	AUX	VAUX	_	17	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child
 19	آوٹ	آوٹ	ADJ	JJ	_	20	compound	_	ChunkId=JJP|ChunkType=head
 20	ہوئے	ہو	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
 21	۔	۔	PUNCT	SYM	_	20	punct	_	ChunkId=VGF|ChunkType=child
@@ -3549,7 +3549,7 @@
 2	29	29	NUM	QC	NumType=Card	3	nummod	_	ChunkId=NP2|ChunkType=child
 3	رن	رن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 4	بنا	بنا	VERB	VM	_	11	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head
-5	کر	بنا	AUX	VAUX	_	4	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child
+5	کر	کر	AUX	VAUX	_	4	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child
 6	راہول	راہول	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child
 7	شرما	شرما	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 8	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	7	case	_	ChunkId=NP3|ChunkType=child
