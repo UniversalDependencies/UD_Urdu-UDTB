@@ -34,7 +34,7 @@
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="42">
-    <feat name="AdpType" value="Post" upos="ADJ,ADP,ADV">27467</feat><!-- کے, کی, نے, سے, مےں, کو, کا, پر, میں, لیے -->
+    <feat name="AdpType" value="Post" upos="ADP,ADV">27103</feat><!-- کے, کی, نے, سے, مےں, کو, کا, پر, میں, لیے -->
     <feat name="AdvType" value="Deg" upos="ADV">145</feat><!-- بہت, انتہائی, سے, کافی, زیادہ, مزید, نہایت, شدید, زبردست, اور -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,PROPN,VERB">1629</feat><!-- کرتے, سکتا, ہوتا, دیتے, جاتا, سکتے, ہوتی, سکتی, رکھتے, جاتی -->
     <feat name="Aspect" value="Perf" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PART,PRON,VERB">8522</feat><!-- کیا, کہا, ہوئے, کی, گیا, دیا, گئی, رہے, گئے, دی -->
