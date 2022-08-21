@@ -16289,19 +16289,19 @@
 6	وسیع_تر	وسیع_تر	ADJ	JJ	Case=Nom	7	amod	_	ChunkId=NP3|ChunkType=child
 7	تجربہ	تجربہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 8	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative
-9	جسے	جو	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	17	obj	_	Vib=کو|Tam=ko|ChunkId=NP4|ChunkType=head
+9	جسے	جو	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	19	obj	_	Vib=کو|Tam=ko|ChunkId=NP4|ChunkType=head
 10	اقوام	اقوام	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	amod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 11	متحدہ	متحدہ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 12	ترقیاتی	ترقیاتی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
-13	پروگرام	پروگرام	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
+13	پروگرام	پروگرام	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 14	کے	کے	ADP	PSP	AdpType=Post	13	case	_	ChunkId=NP5|ChunkType=child
 15	تحت	تحت	ADP	PSP	AdpType=Post	13	case	_	ChunkId=NP5|ChunkType=child
 16	تسلیم	تسلیم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
-17	کیا	کر	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl:relcl	_	Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative
-18	جا	جا	AUX	VAUX	_	17	aux	_	Vib=0|Tam=0|ChunkId=VGF2|ChunkType=child
-19	چکا	چکا	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part	17	aux	_	Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=child
-20	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=child
-21	۔	۔	PUNCT	SYM	_	17	punct	_	ChunkId=VGF2|ChunkType=child
+17	کیا	کر	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	xcomp	_	Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+18	جا	جا	AUX	VAUX	_	19	aux	_	Vib=0|Tam=0|ChunkId=VGF2|ChunkType=child
+19	چکا	چک	VERB	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part	7	acl:relcl	_	Vib=یا|Tam=yA|ChunkId=VGF2|ChunkType=child
+20	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=child
+21	۔	۔	PUNCT	SYM	_	19	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = test-s532
 # text = چنانچہ ہندوستان سے مصر مےں انتخابی عمل مےں تعاون کی خواہش ظاہر کی گئی تھی۔
