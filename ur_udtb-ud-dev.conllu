@@ -4783,7 +4783,7 @@
 30	پیڑ	پیڑ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	32	obl	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 31	سے	سے	ADP	PSP	AdpType=Post	30	case	_	ChunkId=NP9|ChunkType=child
 32	اکھاڑ	اکھاڑ	VERB	VM	_	41	advcl	_	Vib=0|Tam=0|ChunkId=VGNN|ChunkType=head
-33	پھینکنے	پھینک	AUX	VAUX	VerbForm=Inf	32	aux	_	Vib=نا|Tam=nA|ChunkId=VGNN|ChunkType=child
+33	پھینکنے	پھینک	VERB	VAUX	VerbForm=Inf	32	compound	_	Vib=نا|Tam=nA|ChunkId=VGNN|ChunkType=child
 34	کے	کے	ADP	PSP	AdpType=Post	32	case	_	ChunkId=VGNN|ChunkType=child
 35	لئے	لئے	ADP	PSP	AdpType=Post	32	case	_	ChunkId=VGNN|ChunkType=child
 36	سماجی	سماجی	ADJ	JJ	Case=Acc	37	amod	_	ChunkId=NP10|ChunkType=child
