@@ -302,12 +302,12 @@
 45	اپنے	اپنا	PRON	PRP	Case=Acc|Gender=Masc|PronType=Prs	46	nmod	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=head
 46	حصہ	حصہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	48	nmod	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head
 47	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	46	case	_	ChunkId=NP15|ChunkType=child
-48	رقم	رقم	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	49	obj	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=head
-49	ٹھکانے	ٹھکانا	VERB	VM	Case=Acc|VerbForm=Inf	54	advcl	_	Vib=نا|Tam=nA|ChunkId=VGNN2|ChunkType=head
-50	لگانے	لگا	AUX	VAUX	Case=Acc|VerbForm=Inf	49	aux	_	Vib=نا|Tam=nA|ChunkId=VGNN2|ChunkType=child
+48	رقم	رقم	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	50	obj	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=head
+49	ٹھکانے	ٹھکانا	VERB	VM	Case=Acc|VerbForm=Inf	50	xcomp	_	Vib=نا|Tam=nA|ChunkId=VGNN2|ChunkType=head
+50	لگانے	لگ	VERB	VAUX	Case=Acc|VerbForm=Inf	54	advcl	_	Vib=نا|Tam=nA|ChunkId=VGNN2|ChunkType=child
 51	یا	یا	CCONJ	CC	_	52	cc	_	ChunkId=CCP3|ChunkType=head
 52	کرپشن	کرپشن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	49	conj	_	Vib=0|Tam=0|ChunkId=NP17|ChunkType=head
-53	سے	سے	ADP	PSP	AdpType=Post	49	mark	_	ChunkId=NP17|ChunkType=child
+53	سے	سے	ADP	PSP	AdpType=Post	50	mark	_	ChunkId=NP17|ChunkType=child
 54	مربوط	مربوط	ADJ	JJ	_	55	amod	_	ChunkId=JJP|ChunkType=head
 55	دستاویزات	دستاویز	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	58	obj	_	Vib=0|Tam=0|ChunkId=NP18|ChunkType=head
 56	کو	کو	ADP	PSP	AdpType=Post	55	case	_	ChunkId=NP18|ChunkType=child

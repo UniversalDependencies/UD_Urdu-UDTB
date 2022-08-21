@@ -18,7 +18,7 @@
     <tag name="ADJ">10119</tag><!-- جاری, شامل, دیگر, سابق, موجود, ریاستی, دوسرا, پیدا, ہلاک, منعقد -->
     <tag name="ADP">28164</tag><!-- کا, نے, کے, سے, مےں, کو, پر, میں, لیے, لئے -->
     <tag name="ADV">1386</tag><!-- پیش, بعد, پھر, پہلے, بہت, مزید, سے, دوبارہ, جلد, دوران -->
-    <tag name="AUX">9250</tag><!-- ہے, جا, تھا, ہو, رہ, سک, کر, گا, پڑ, گے -->
+    <tag name="AUX">9249</tag><!-- ہے, جا, تھا, ہو, رہ, سک, کر, گا, پڑ, گے -->
     <tag name="CCONJ">3248</tag><!-- اور, و, لیکن, جبکہ, تاہم, یا, مگر, جب, نیز, لہذا -->
     <tag name="DET">2496</tag><!-- یہ, وہ, کئی, تمام, ایسا, جو, کوئی, کچھ, ہر, چند -->
     <tag name="INTJ">10</tag><!-- کاش, آخر, بس, جا, خدارا, ذرا, نہ, چلو -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">17137</tag><!-- پی, سی, ایس, کانگریس, آئی, بی, ہندوستان, ریڈی, اے, سنگھ -->
     <tag name="PUNCT">6911</tag><!-- ۔, ,, ،, -, '', ), (, ", ', ؟ -->
     <tag name="SCONJ">2673</tag><!-- کہ, تو, اگر, کیونکہ, تاکہ, بلکہ, حالانکہ, چنانچہ, ,, کیوں -->
-    <tag name="VERB">12602</tag><!-- کر, ہو, دے, کہہ, ہے, لے, بتا, آ, رکھ, رہ -->
+    <tag name="VERB">12603</tag><!-- کر, ہو, دے, کہہ, ہے, لے, بتا, آ, رکھ, رہ -->
     <tag name="X">14</tag><!-- افسوس, کتنا, ئن, خدارا, را, لوڈ, نئچ, نسبتاً, واقعی, چۓۓپ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -84,7 +84,7 @@
     <dep name="advcl">2202</dep>
     <dep name="advmod">1671</dep>
     <dep name="amod">7045</dep>
-    <dep name="aux">8010</dep>
+    <dep name="aux">8009</dep>
     <dep name="case">26004</dep>
     <dep name="cc">3302</dep>
     <dep name="ccomp">1</dep>
@@ -106,6 +106,6 @@
     <dep name="punct">6911</dep>
     <dep name="root">5130</dep>
     <dep name="vocative">15</dep>
-    <dep name="xcomp">595</dep>
+    <dep name="xcomp">596</dep>
   </deps>
 </treebank>
