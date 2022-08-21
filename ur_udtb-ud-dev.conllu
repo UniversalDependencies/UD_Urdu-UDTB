@@ -4174,7 +4174,7 @@
 24	اقدامات	اقدام	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	25	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 25	کئے	کر	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	conj	_	Vib=یا|Tam=yA|ChunkId=VGF3|ChunkType=head|Stype=declarative
 26	جانے	جا	AUX	VAUX	Gender=Masc|Number=Plur|VerbForm=Inf	25	aux	_	Vib=نا|Tam=nA|ChunkId=VGF3|ChunkType=child
-27	چاہئیں	چاہئیں	AUX	VAUX	_	25	aux	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=VGF3|ChunkType=child
+27	چاہئیں	چاہئے	AUX	VAUX	Number=Plur	25	aux	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=VGF3|ChunkType=child
 28	۔	۔	PUNCT	SYM	_	25	punct	_	ChunkId=VGF3|ChunkType=child
 
 # sent_id = dev-s157
@@ -12697,7 +12697,7 @@
 24	روابط	رابطہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	26	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 25	پیدا	پیدا	ADJ	JJ	_	26	compound	_	ChunkId=JJP3|ChunkType=head
 26	کرنے	کر	VERB	VM	Case=Acc|VerbForm=Inf|Voice=Pass	16	conj	_	Vib=نا|Tam=nA|ChunkId=VGF2|ChunkType=head|Stype=imperative
-27	چاہئیں	چاہئیں	AUX	VAUX	_	26	aux	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=VGF2|ChunkType=child
+27	چاہئیں	چاہئے	AUX	VAUX	Number=Plur	26	aux	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=VGF2|ChunkType=child
 28	۔	۔	PUNCT	SYM	_	26	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s434

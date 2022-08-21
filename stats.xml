@@ -10,7 +10,7 @@
     <dev><sentences>552</sentences><tokens>14581</tokens><words>14581</words><fused>0</fused></dev>
     <test><sentences>535</sentences><tokens>14806</tokens><words>14806</words><fused>0</fused></test>
   </size>
-  <lemmas unique="9515" /><!-- کا, ۔, کر, ہے, کے, نے, یہ, سے, مےں, اور, کو, ہو, جا, کہ, وہ -->
+  <lemmas unique="9514" /><!-- کا, ۔, کر, ہے, کے, نے, یہ, سے, مےں, اور, کو, ہو, جا, کہ, وہ -->
   <forms unique="10802" /><!-- کے, ۔, کی, ہے, نے, سے, مےں, اور, کو, کہ, کا, اس, پر, میں, کیا -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -51,7 +51,7 @@
     <feat name="Mood" value="Imp" upos="AUX,VERB">20</feat><!-- کرو, رکھو, جاؤ, رہو, آؤ, جاؤں, دیکھو, سناؤ, لو, چاہو -->
     <feat name="Mood" value="Ind" upos="AUX,PROPN,VERB">5695</feat><!-- ہے, ہیں, تھا, ہےں, تھے, تھی, گے, جائےگا, گا, گی -->
     <feat name="Mood" value="Sub" upos="AUX,PROPN,VERB">451</feat><!-- کریں, جائے, چاہیے, جائیں, دیں, چاہیئے, کرے, چاہئے, لیں, سکے -->
-    <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB,X">9957</feat><!-- ہیں, ان, ہےں, ہوئے, گئے, رہے, کرتے, افراد, تھے, والے -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB,X">9959</feat><!-- ہیں, ان, ہےں, ہوئے, گئے, رہے, کرتے, افراد, تھے, والے -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">74159</feat><!-- کی, کے, ہے, کا, اس, کیا, کہا, یہ, گیا, وہ -->
     <feat name="NumType" value="Card" upos="NUM">2461</feat><!-- اےک, ایک, دو, تین, دونوں, لاکھ, ہزار, کروڑ, پانچ, چار -->
     <feat name="NumType" value="Ord" upos="ADJ">248</feat><!-- دوسری, پہلے, پہلی, پہلا, دوسرے, دوسرا, تیسرے, دوم, دونوں, واحد -->
