@@ -1048,15 +1048,15 @@
 1	انھوں	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|Polite=Form|PronType=Prs	3	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head
 2	نے	نے	ADP	PSP	AdpType=Post	1	case	_	ChunkId=NP|ChunkType=child
 3	کہا	کہہ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=head|Stype=declarative
-4	کہ	کہ	SCONJ	CC	_	10	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
-5	ہم	ہم	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
-6	عدالت	عدالت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
+4	کہ	کہ	SCONJ	CC	_	11	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
+5	ہم	ہم	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
+6	عدالت	عدالت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 7	مےں	مےں	ADP	PSP	_	6	case	_	ChunkId=NP3|ChunkType=child
-8	یہ	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
+8	یہ	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 9	ثابت	ثابت	ADJ	JJ	_	10	compound	_	ChunkId=JJP|ChunkType=head
-10	کر	کر	VERB	VM	Voice=Act	3	obj	_	Vib=0|Tam=0|ChunkId=VGF2|ChunkType=head|Stype=declarative
-11	دکھائیں_گے	دکھا	AUX	VAUX	Mood=Ind|Number=Plur|Tense=Fut|VerbForm=Fin	10	aux	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=child
-12	۔	۔	PUNCT	SYM	_	10	punct	_	ChunkId=VGF2|ChunkType=child
+10	کر	کر	VERB	VM	Voice=Act	11	xcomp	_	Vib=0|Tam=0|ChunkId=VGF2|ChunkType=head|Stype=declarative
+11	دکھائیں_گے	دکھا	VERB	VAUX	Mood=Ind|Number=Plur|Tense=Fut|VerbForm=Fin	3	obj	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=child
+12	۔	۔	PUNCT	SYM	_	11	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s35
 # text = کروناندھی نے اخباری نمائندوں سے بات_چیت کرتے ہوئے بتایا کہ سچائی کو ثابت کرنے کے لئے ہم قانونی راہ اختیار کریں_گے۔
