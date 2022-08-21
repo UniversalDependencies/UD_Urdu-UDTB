@@ -16,9 +16,9 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">10119</tag><!-- جاری, شامل, دیگر, سابق, موجود, ریاستی, دوسرا, پیدا, ہلاک, منعقد -->
-    <tag name="ADP">28164</tag><!-- کا, نے, کے, سے, مےں, کو, پر, میں, لیے, لئے -->
+    <tag name="ADP">28178</tag><!-- کا, نے, کے, سے, مےں, کو, پر, میں, لیے, لئے -->
     <tag name="ADV">1386</tag><!-- پیش, بعد, پھر, پہلے, بہت, مزید, سے, دوبارہ, جلد, دوران -->
-    <tag name="AUX">9202</tag><!-- ہے, جا, تھا, ہو, رہ, سک, کر, گا, پڑ, گے -->
+    <tag name="AUX">9188</tag><!-- ہے, جا, تھا, ہو, رہ, سک, کر, گا, پڑ, گے -->
     <tag name="CCONJ">3248</tag><!-- اور, و, لیکن, جبکہ, تاہم, یا, مگر, جب, نیز, لہذا -->
     <tag name="DET">2496</tag><!-- یہ, وہ, کئی, تمام, ایسا, جو, کوئی, کچھ, ہر, چند -->
     <tag name="INTJ">10</tag><!-- کاش, آخر, بس, جا, خدارا, ذرا, نہ, چلو -->
@@ -84,7 +84,7 @@
     <dep name="advcl">2202</dep>
     <dep name="advmod">1671</dep>
     <dep name="amod">7045</dep>
-    <dep name="aux">7962</dep>
+    <dep name="aux">7948</dep>
     <dep name="case">26004</dep>
     <dep name="cc">3302</dep>
     <dep name="ccomp">1</dep>
@@ -97,7 +97,7 @@
     <dep name="dislocated">344</dep>
     <dep name="flat">4</dep>
     <dep name="iobj">918</dep>
-    <dep name="mark">4567</dep>
+    <dep name="mark">4581</dep>
     <dep name="nmod">13780</dep>
     <dep name="nsubj">7263</dep>
     <dep name="nummod">2127</dep>

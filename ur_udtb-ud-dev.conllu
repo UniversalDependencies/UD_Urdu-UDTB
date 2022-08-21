@@ -1728,7 +1728,7 @@
 30	کیس	کیس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	32	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 31	رجسٹر	رجسٹر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	32	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 32	کر	کر	VERB	VM	_	37	advcl	_	Vib=0|Tam=0|ChunkId=VGNF2|ChunkType=head
-33	کے	کا	AUX	VAUX	Case=Nom|Gender=Masc|Number=Sing	32	aux	_	ChunkId=VGNF2|ChunkType=child
+33	کے	کا	ADP	VAUX	Case=Nom|Gender=Masc|Number=Sing	32	mark	_	ChunkId=VGNF2|ChunkType=child
 34	انہیں	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|Polite=Form|PronType=Prs	37	iobj	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 35	نوٹسیں	نوٹس	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	37	obj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 36	جاری	جاری	ADJ	JJ	_	37	compound	_	ChunkId=JJP|ChunkType=head
@@ -1748,7 +1748,7 @@
 8	کو	کو	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP|ChunkType=child
 9	طلب	طلب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head
 10	کر	کر	VERB	VM	_	19	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head
-11	کے	کا	AUX	VAUX	Case=Nom|Gender=Masc|Number=Sing	10	aux	_	ChunkId=VGNF|ChunkType=child
+11	کے	کا	ADP	VAUX	Case=Nom|Gender=Masc|Number=Sing	10	mark	_	ChunkId=VGNF|ChunkType=child
 12	جیپوں	جیپ	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	19	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 13	سے	سے	ADP	PSP	AdpType=Post	12	case	_	ChunkId=NP3|ChunkType=child
 14	گیاس	گیاس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
@@ -2496,7 +2496,7 @@
 6	کیس	کیس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 7	درج	درج	ADJ	JJ	_	8	compound	_	ChunkId=JJP|ChunkType=head
 8	کر	کر	VERB	VM	_	12	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head
-9	کے	کا	AUX	VAUX	Case=Acc|Gender=Masc|Number=Sing	8	aux	_	ChunkId=VGNF|ChunkType=child
+9	کے	کا	ADP	VAUX	Case=Acc|Gender=Masc|Number=Sing	8	mark	_	ChunkId=VGNF|ChunkType=child
 10	پولیس	پولیس	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 11	تحقیقات	تحقیق	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 12	کر	کر	VERB	VM	Voice=Act	0	root	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=head|Stype=declarative

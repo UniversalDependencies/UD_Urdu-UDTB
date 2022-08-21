@@ -285,7 +285,7 @@
 15	سے	سے	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP7|ChunkType=child
 16	حملہ	حملہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	compound	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 17	کر	کر	VERB	VM	_	20	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head
-18	کے	کا	AUX	VAUX	Case=Acc|Gender=Masc|Number=Sing	17	aux	_	Vib=کا|Tam=ka|ChunkId=VGNF|ChunkType=child
+18	کے	کا	ADP	VAUX	Case=Acc|Gender=Masc|Number=Sing	17	mark	_	Vib=کا|Tam=ka|ChunkId=VGNF|ChunkType=child
 19	زخمی	زخمی	ADJ	JJ	_	20	compound	_	ChunkId=JJP|ChunkType=head
 20	کر	کر	VERB	VM	Voice=Act	0	root	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=head|Stype=declarative
 21	دیا	دے	VERB	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	20	compound	_	SpaceAfter=No|Vib=یا|Tam=yA|ChunkId=VGF|ChunkType=child
