@@ -18,7 +18,7 @@
     <tag name="ADJ">10515</tag><!-- والا, جاری, شامل, دیگر, سابق, موجود, ریاستی, دوسرا, پیدا, ہلاک -->
     <tag name="ADP">27800</tag><!-- کا, نے, کے, سے, مےں, کو, پر, میں, لیے, لئے -->
     <tag name="ADV">1386</tag><!-- پیش, بعد, پھر, پہلے, بہت, مزید, سے, دوبارہ, جلد, دوران -->
-    <tag name="AUX">9130</tag><!-- ہے, جا, تھا, ہو, رہ, سک, کر, گا, چاہئے, پڑ -->
+    <tag name="AUX">9129</tag><!-- ہے, جا, تھا, ہو, رہ, سک, کر, گا, چاہئے, پڑ -->
     <tag name="CCONJ">3248</tag><!-- اور, و, لیکن, جبکہ, تاہم, یا, مگر, جب, نیز, لہذا -->
     <tag name="DET">2496</tag><!-- یہ, وہ, کئی, تمام, ایسا, جو, کوئی, کچھ, ہر, چند -->
     <tag name="INTJ">10</tag><!-- کاش, آخر, بس, جا, خدارا, ذرا, نہ, چلو -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">17135</tag><!-- پی, سی, ایس, کانگریس, آئی, بی, ہندوستان, ریڈی, اے, سنگھ -->
     <tag name="PUNCT">6911</tag><!-- ۔, ,, ،, -, '', ), (, ", ', ؟ -->
     <tag name="SCONJ">2673</tag><!-- کہ, تو, اگر, کیونکہ, تاکہ, بلکہ, حالانکہ, چنانچہ, ,, کیوں -->
-    <tag name="VERB">12692</tag><!-- کر, ہو, دے, کہہ, ہے, لے, بتا, آ, رکھ, رہ -->
+    <tag name="VERB">12693</tag><!-- کر, ہو, دے, کہہ, ہے, لے, بتا, آ, رکھ, رہ -->
     <tag name="X">14</tag><!-- افسوس, کتنا, ئن, خدارا, را, لوڈ, نئچ, نسبتاً, واقعی, چۓۓپ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -84,10 +84,10 @@
     <dep name="advcl">2201</dep>
     <dep name="advmod">1671</dep>
     <dep name="amod">7045</dep>
-    <dep name="aux">7892</dep>
+    <dep name="aux">7893</dep>
     <dep name="case">25907</dep>
     <dep name="cc">3302</dep>
-    <dep name="ccomp">1</dep>
+    <dep name="ccomp">2</dep>
     <dep name="compound">19591</dep>
     <dep name="conj">3883</dep>
     <dep name="cop">1187</dep>
@@ -101,11 +101,11 @@
     <dep name="nmod">13780</dep>
     <dep name="nsubj">7261</dep>
     <dep name="nummod">2127</dep>
-    <dep name="obj">6534</dep>
+    <dep name="obj">6530</dep>
     <dep name="obl">10677</dep>
     <dep name="punct">6911</dep>
     <dep name="root">5130</dep>
     <dep name="vocative">15</dep>
-    <dep name="xcomp">650</dep>
+    <dep name="xcomp">652</dep>
   </deps>
 </treebank>
