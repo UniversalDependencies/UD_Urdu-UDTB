@@ -10,7 +10,7 @@
     <dev><sentences>552</sentences><tokens>14581</tokens><words>14581</words><fused>0</fused></dev>
     <test><sentences>535</sentences><tokens>14806</tokens><words>14806</words><fused>0</fused></test>
   </size>
-  <lemmas unique="9506" /><!-- کا, ۔, کر, ہے, کے, نے, یہ, سے, مےں, اور, کو, جا, ہو, کہ, وہ -->
+  <lemmas unique="9504" /><!-- کا, ۔, کر, ہے, کے, نے, یہ, سے, مےں, اور, کو, جا, ہو, کہ, وہ -->
   <forms unique="10802" /><!-- کے, ۔, کی, ہے, نے, سے, مےں, اور, کو, کہ, کا, اس, پر, میں, کیا -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
