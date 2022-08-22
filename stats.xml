@@ -10,7 +10,7 @@
     <dev><sentences>552</sentences><tokens>14581</tokens><words>14581</words><fused>0</fused></dev>
     <test><sentences>535</sentences><tokens>14806</tokens><words>14806</words><fused>0</fused></test>
   </size>
-  <lemmas unique="9507" /><!-- کا, ۔, کر, ہے, کے, نے, یہ, سے, مےں, اور, کو, جا, ہو, کہ, وہ -->
+  <lemmas unique="9506" /><!-- کا, ۔, کر, ہے, کے, نے, یہ, سے, مےں, اور, کو, جا, ہو, کہ, وہ -->
   <forms unique="10802" /><!-- کے, ۔, کی, ہے, نے, سے, مےں, اور, کو, کہ, کا, اس, پر, میں, کیا -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -18,7 +18,7 @@
     <tag name="ADJ">10515</tag><!-- والا, جاری, شامل, دیگر, سابق, موجود, ریاستی, دوسرا, پیدا, ہلاک -->
     <tag name="ADP">27800</tag><!-- کا, نے, کے, سے, مےں, کو, پر, میں, لیے, لئے -->
     <tag name="ADV">1386</tag><!-- پیش, بعد, پھر, پہلے, بہت, مزید, سے, دوبارہ, جلد, دوران -->
-    <tag name="AUX">9150</tag><!-- ہے, جا, تھا, ہو, رہ, سک, کر, گا, چاہئے, پڑ -->
+    <tag name="AUX">9149</tag><!-- ہے, جا, تھا, ہو, رہ, سک, کر, گا, چاہئے, پڑ -->
     <tag name="CCONJ">3248</tag><!-- اور, و, لیکن, جبکہ, تاہم, یا, مگر, جب, نیز, لہذا -->
     <tag name="DET">2496</tag><!-- یہ, وہ, کئی, تمام, ایسا, جو, کوئی, کچھ, ہر, چند -->
     <tag name="INTJ">10</tag><!-- کاش, آخر, بس, جا, خدارا, ذرا, نہ, چلو -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">17135</tag><!-- پی, سی, ایس, کانگریس, آئی, بی, ہندوستان, ریڈی, اے, سنگھ -->
     <tag name="PUNCT">6911</tag><!-- ۔, ,, ،, -, '', ), (, ", ', ؟ -->
     <tag name="SCONJ">2673</tag><!-- کہ, تو, اگر, کیونکہ, تاکہ, بلکہ, حالانکہ, چنانچہ, ,, کیوں -->
-    <tag name="VERB">12672</tag><!-- کر, ہو, دے, کہہ, ہے, لے, بتا, آ, رکھ, رہ -->
+    <tag name="VERB">12673</tag><!-- کر, ہو, دے, کہہ, ہے, لے, بتا, آ, رکھ, رہ -->
     <tag name="X">14</tag><!-- افسوس, کتنا, ئن, خدارا, را, لوڈ, نئچ, نسبتاً, واقعی, چۓۓپ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -84,7 +84,7 @@
     <dep name="advcl">2201</dep>
     <dep name="advmod">1671</dep>
     <dep name="amod">7045</dep>
-    <dep name="aux">7912</dep>
+    <dep name="aux">7911</dep>
     <dep name="case">25907</dep>
     <dep name="cc">3302</dep>
     <dep name="ccomp">1</dep>
@@ -106,6 +106,6 @@
     <dep name="punct">6911</dep>
     <dep name="root">5130</dep>
     <dep name="vocative">15</dep>
-    <dep name="xcomp">649</dep>
+    <dep name="xcomp">650</dep>
   </deps>
 </treebank>
