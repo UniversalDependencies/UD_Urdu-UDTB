@@ -421,7 +421,7 @@
 28	نکالنے	نکال	VERB	VM	Case=Acc|VerbForm=Inf	30	nmod	_	Vib=نا|Tam=nA|ChunkId=VGNN|ChunkType=head
 29	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	28	mark	_	ChunkId=VGNN|ChunkType=child
 30	موقع	موقع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	31	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
-31	دیں	دے	VERB	VM	Gender=Fem|Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Act	20	obj	_	Vib=ئےں|Tam=eM|ChunkId=VGF3|ChunkType=head|Stype=declarative
+31	دیں	دے	VERB	VM	Gender=Fem|Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Act	20	ccomp	_	Vib=ئےں|Tam=eM|ChunkId=VGF3|ChunkType=head|Stype=declarative
 32	اور	اور	CCONJ	CC	_	36	cc	_	ChunkId=CCP3|ChunkType=head
 33	مسلمانوں	مسلمان	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	36	obj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 34	کو	کو	ADP	PSP	AdpType=Post	33	case	_	ChunkId=NP11|ChunkType=child
@@ -1032,7 +1032,7 @@
 13	ہوئے	ہو	AUX	VAUX	Aspect=Perf|VerbForm=Part	12	aux	_	Vib=یا|Tam=yA|ChunkId=VGNF|ChunkType=child
 14	یہ	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 15	ثابت	ثابت	ADJ	JJ	_	16	compound	_	ChunkId=JJP2|ChunkType=head
-16	کرےگی	کر	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	obj	_	Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+16	کرےگی	کر	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 17	کہ	کہ	SCONJ	CC	_	23	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP2|ChunkType=head
 18	ان	وہ	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 19	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	18	case	_	ChunkId=NP6|ChunkType=child
@@ -1055,7 +1055,7 @@
 8	یہ	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 9	ثابت	ثابت	ADJ	JJ	_	10	compound	_	ChunkId=JJP|ChunkType=head
 10	کر	کر	VERB	VM	Voice=Act	11	xcomp	_	Vib=0|Tam=0|ChunkId=VGF2|ChunkType=head|Stype=declarative
-11	دکھائیں_گے	دکھا	VERB	VAUX	Mood=Ind|Number=Plur|Tense=Fut|VerbForm=Fin	3	obj	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=child
+11	دکھائیں_گے	دکھا	VERB	VAUX	Mood=Ind|Number=Plur|Tense=Fut|VerbForm=Fin	3	ccomp	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=child
 12	۔	۔	PUNCT	SYM	_	11	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s35
@@ -1080,7 +1080,7 @@
 18	قانونی	قانونی	ADJ	JJ	Case=Nom	19	amod	_	ChunkId=NP6|ChunkType=child
 19	راہ	راہ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	obj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 20	اختیار	اختیار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
-21	کریں_گے	کر	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Fut|VerbForm=Fin|Voice=Act	9	obj	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+21	کریں_گے	کر	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Fut|VerbForm=Fin|Voice=Act	9	ccomp	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 22	۔	۔	PUNCT	SYM	_	21	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s36
@@ -1106,7 +1106,7 @@
 19	کے	کے	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP6|ChunkType=child
 20	روبرو	روبرو	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	18	case	_	AltTag=ADP-NOUN|ChunkId=NP6|ChunkType=child
 21	پیش	پیش	ADV	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	22	compound	_	AltTag=ADV-NOUN|ChunkId=NP7|ChunkType=head
-22	ہوں_گی	ہو	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	4	obj	_	Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+22	ہوں_گی	ہو	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	4	ccomp	_	Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 23	کیوںکہ	کیوںکہ	SCONJ	CC	_	27	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP2|ChunkType=head
 24	اُنھیں	وہ	PRON	PRP	Case=Acc,Dat|Gender=Masc|Number=Sing|Person=3|Polite=Form|PronType=Prs	27	iobj	_	Vib=کو|Tam=ko|ChunkId=NP8|ChunkType=head
 25	سمن	سمن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
@@ -1948,7 +1948,7 @@
 13	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	12	case	_	ChunkId=NP4|ChunkType=child
 14	شدید	شدید	ADJ	JJ	Case=Nom	15	amod	_	ChunkId=NP5|ChunkType=child
 15	قلت	قلت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
-16	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	obj	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+16	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 17	اور	اور	CCONJ	CC	_	31	cc	_	ChunkId=CCP2|ChunkType=head
 18	قلت	قلت	NOUN	NNZ	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	amod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 19	آب	آب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
@@ -2112,7 +2112,7 @@
 16	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	det	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child
 17	کمی	کمی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 18	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	19	advmod	_	ChunkId=VGF2|ChunkType=child
-19	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	obj	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+19	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 20	۔	۔	PUNCT	SYM	_	19	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s74
@@ -2171,7 +2171,7 @@
 25	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	24	case	_	ChunkId=NP9|ChunkType=child
 26	موثر	موثر	ADJ	JJ	Case=Nom	27	amod	_	ChunkId=NP10|ChunkType=child
 27	سربراہی	سربراہی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	28	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
-28	کریں	کر	VERB	VM	Gender=Masc|Mood=Sub|Number=Sing|VerbForm=Fin|Voice=Pass	9	obj	_	SpaceAfter=No|Vib=ےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=imperative
+28	کریں	کر	VERB	VM	Gender=Masc|Mood=Sub|Number=Sing|VerbForm=Fin|Voice=Pass	9	ccomp	_	SpaceAfter=No|Vib=ےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=imperative
 29	۔	۔	PUNCT	SYM	_	28	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s76
@@ -2337,7 +2337,7 @@
 21	اپنے	اپنا	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=1|Polite=Form|PronType=Prs	22	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 22	فرائض	فرض	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	24	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 23	انجام	انجام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
-24	دیں	دے	VERB	VM	Gender=Masc|Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Pass	7	obj	_	SpaceAfter=No|Vib=ےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=imperative
+24	دیں	دے	VERB	VM	Gender=Masc|Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Pass	7	ccomp	_	SpaceAfter=No|Vib=ےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=imperative
 25	۔	۔	PUNCT	SYM	_	24	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s84
@@ -2861,7 +2861,7 @@
 26	ریاستی	ریاستی	ADJ	JJ	Case=Nom	27	amod	_	ChunkId=NP8|ChunkType=child
 27	وزیر	وزیر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	29	nsubj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 28	افتتاح	افتتاح	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3|Polite=Form	29	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
-29	کریں_گے	کر	VERB	VM	Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Fut|VerbForm=Fin|Voice=Act	8	obj	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+29	کریں_گے	کر	VERB	VM	Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Fut|VerbForm=Fin|Voice=Act	8	ccomp	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 30	۔	۔	PUNCT	SYM	_	29	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s107
@@ -3566,7 +3566,7 @@
 28	تحریرکردہ	تحریرکردہ	ADJ	JJ	Case=Nom	29	amod	_	ChunkId=JJP|ChunkType=head
 29	بورڈ	بورڈ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	31	obj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
 30	نصب	نصب	ADJ	JJ	_	31	compound	_	ChunkId=JJP2|ChunkType=head
-31	کریں	کر	VERB	VM	Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Act	17	obj	_	SpaceAfter=No|Vib=ےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=declarative
+31	کریں	کر	VERB	VM	Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Act	17	ccomp	_	SpaceAfter=No|Vib=ےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=declarative
 32	۔	۔	PUNCT	SYM	_	31	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s134
@@ -3584,7 +3584,7 @@
 11	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	10	case	_	ChunkId=NP3|ChunkType=child
 12	موقف	موقف	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	acl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 13	حاصل	حاصل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
-14	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	obj	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+14	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 15	جس	جو	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	26	obl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 16	کے	کے	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP6|ChunkType=child
 17	پیش_نظر	پیش_نظر	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	15	case	_	AltTag=ADP-NOUN|ChunkId=NP6|ChunkType=child
@@ -3799,7 +3799,7 @@
 15	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	14	case	_	ChunkId=NP7|ChunkType=child
 16	مظاہرہ	مظاہرہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	compound	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 17	نہ	نہ	PART	NEG	Polarity=Neg|PronType=Neg	18	advmod	_	ChunkId=VGF2|ChunkType=child
-18	کریں	کر	VERB	VM	Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Pass	3	obj	_	Vib=ےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=imperative
+18	کریں	کر	VERB	VM	Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Pass	3	ccomp	_	Vib=ےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=imperative
 19	ورنہ	ورنہ	SCONJ	CC	_	18	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP3|ChunkType=head
 20	منظم	منظم	ADJ	JJ	Case=Acc	21	amod	_	ChunkId=NP9|ChunkType=child
 21	انداز	انداز	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	24	obl	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
@@ -3854,7 +3854,7 @@
 16	کبھی	کبھی	PRON	PRP	Case=Nom|PronType=Prs	19	obl	_	ChunkId=NP5|ChunkType=head
 17	رکاوٹ	رکاوٹ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 18	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	19	advmod	_	ChunkId=VGF2|ChunkType=child
-19	بنیں_گے	بن	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Fut|VerbForm=Fin|Voice=Act	9	obj	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+19	بنیں_گے	بن	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Fut|VerbForm=Fin|Voice=Act	9	ccomp	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 20	۔	۔	PUNCT	SYM	_	19	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s146
@@ -4165,7 +4165,7 @@
 15	کرنے	کر	VERB	VM	Case=Acc|VerbForm=Inf	17	nmod	_	Vib=نا|Tam=nA|ChunkId=VGNN|ChunkType=head
 16	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	15	mark	_	ChunkId=VGNN|ChunkType=child
 17	ضرورت	ضرورت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
-18	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	obj	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+18	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 19	اور	اور	CCONJ	CC	_	25	cc	_	ChunkId=CCP2|ChunkType=head
 20	اس	یہ	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	21	det	_	ChunkId=NP6|ChunkType=child
 21	معاملے	معاملہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	obl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
@@ -4533,7 +4533,7 @@
 19	دارالاقامی	دارالاقامی	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	22	obl	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 20	مےں	مےں	ADP	PSP	AdpType=Post	19	case	_	ChunkId=NP10|ChunkType=child
 21	داخلہ	داخلہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head
-22	دلوادیں	دلوا	VERB	VM	Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Act	13	obj	_	Vib=ےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=declarative
+22	دلوادیں	دلوا	VERB	VM	Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Act	13	ccomp	_	Vib=ےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=declarative
 23	تاکہ	تاکہ	SCONJ	CC	_	34	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP2|ChunkType=head
 24	بغیر	بغیر	PART	RP	_	25	dep	_	ChunkId=NP12|ChunkType=child
 25	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	26	dep	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child
@@ -4727,7 +4727,7 @@
 25	ادا	ادا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	26	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 26	کرنا	کر	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	28	obj	_	Vib=نا|Tam=nA|ChunkId=VGNN2|ChunkType=head|Stype=declarative
 27	ضروری	ضروری	ADJ	JJ	_	28	obj	_	ChunkId=JJP|ChunkType=head
-28	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	obj	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+28	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 29	۔	۔	PUNCT	SYM	_	28	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s177
@@ -4774,7 +4774,7 @@
 21	مےں	مےں	ADP	PSP	AdpType=Post	20	case	_	ChunkId=NP6|ChunkType=child
 22	جانکاری	جانکاری	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	24	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 23	ضروری	ضروری	ADJ	JJ	_	24	compound	_	ChunkId=JJP|ChunkType=head
-24	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	obj	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+24	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 25	اور	اور	CCONJ	CC	_	41	cc	_	ChunkId=CCP2|ChunkType=head
 26	ایسے	ایسا	DET	DEM	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Dem	27	det	_	ChunkId=NP8|ChunkType=child
 27	مرض	مرض	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	32	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
@@ -4880,7 +4880,7 @@
 37	پر	پر	ADP	PSP	AdpType=Post	34	case	_	ChunkId=NP11|ChunkType=child
 38	خصوصی	خصوصی	ADJ	JJ	Case=Nom|Gender=Fem	39	amod	_	ChunkId=NP12|ChunkType=child
 39	توجہ	توجہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	40	compound	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
-40	دیں	دے	VERB	VM	Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Pass	29	obj	_	SpaceAfter=No|Vib=ےں|Tam=eM|ChunkId=VGF3|ChunkType=head|Stype=imperative
+40	دیں	دے	VERB	VM	Mood=Sub|Number=Plur|VerbForm=Fin|Voice=Pass	29	ccomp	_	SpaceAfter=No|Vib=ےں|Tam=eM|ChunkId=VGF3|ChunkType=head|Stype=imperative
 41	۔	۔	PUNCT	SYM	_	40	punct	_	ChunkId=VGF3|ChunkType=child
 
 # sent_id = dev-s182
@@ -5552,7 +5552,7 @@
 37	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	34	case	_	ChunkId=NP11|ChunkType=child
 38	آغاز	آغاز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	40	xcomp	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
 39	ثابت	ثابت	ADJ	JJ	_	40	compound	_	ChunkId=JJP3|ChunkType=head
-40	ہوں_گی	ہو	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	22	obj	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+40	ہوں_گی	ہو	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	22	ccomp	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 41	۔	۔	PUNCT	SYM	_	40	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s201
@@ -5693,7 +5693,7 @@
 53	مکمل	مکمل	ADJ	JJ	Case=Nom	54	amod	_	ChunkId=NP15|ChunkType=child
 54	اعتماد	اعتماد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	55	nmod	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head
 55	حاصل	حاصل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	56	compound	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=head
-56	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	obj	_	Vib=ہے|Tam=hE|ChunkId=VGF4|ChunkType=head|Stype=declarative
+56	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	ccomp	_	Vib=ہے|Tam=hE|ChunkId=VGF4|ChunkType=head|Stype=declarative
 57	اور	اور	CCONJ	CC	_	65	cc	_	ChunkId=CCP5|ChunkType=head
 58	اقلیتیں	اقلیت	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	65	nsubj	_	Vib=0|Tam=0|ChunkId=NP17|ChunkType=head
 59	مخالفین	مخالف	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	61	nmod	_	Vib=0|Tam=0|ChunkId=NP18|ChunkType=head
@@ -5798,7 +5798,7 @@
 37	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	34	case	_	ChunkId=NP11|ChunkType=child
 38	آغاز	آغاز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	40	xcomp	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head
 39	ثابت	ثابت	ADJ	JJ	_	40	compound	_	ChunkId=JJP3|ChunkType=head
-40	ہوں_گی	ہو	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	22	obj	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+40	ہوں_گی	ہو	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	22	ccomp	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 41	۔	۔	PUNCT	SYM	_	40	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s206
@@ -5921,7 +5921,7 @@
 28	پی	پی	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	31	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 29	سے	سے	ADP	PSP	AdpType=Post	28	case	_	ChunkId=NP8|ChunkType=child
 30	مفاہمت	مفاہمت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	31	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
-31	کریں_گے	کر	VERB	VM	Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Fut|VerbForm=Fin|Voice=Act	17	obj	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF3|ChunkType=head|Stype=declarative
+31	کریں_گے	کر	VERB	VM	Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Fut|VerbForm=Fin|Voice=Act	17	ccomp	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF3|ChunkType=head|Stype=declarative
 32	۔	۔	PUNCT	SYM	_	31	punct	_	ChunkId=VGF3|ChunkType=child
 
 # sent_id = dev-s209
@@ -6424,7 +6424,7 @@
 12	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	11	case	_	ChunkId=NP3|ChunkType=child
 13	رہنے	رہ	VERB	VM	Case=Acc|VerbForm=Inf	15	obj	_	Vib=نا|Tam=nA|ChunkId=VGNN|ChunkType=head
 14	والا	والا	ADJ	PSP	Case=Nom|Gender=Masc|Number=Sing	13	compound	_	ChunkId=VGNN|ChunkType=child
-15	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	obj	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+15	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 16	۔	۔	PUNCT	SYM	_	15	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s226
@@ -6510,7 +6510,7 @@
 13	مئی	مئی	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head
 14	سے	سے	ADP	PSP	AdpType=Post	13	case	_	ChunkId=NP3|ChunkType=child
 15	شروع	شروع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
-16	ہوں_گے	ہو	VERB	VM	Gender=Masc|Mood=Ind|Number=Plur|Tense=Fut|VerbForm=Fin|Voice=Act	5	obj	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+16	ہوں_گے	ہو	VERB	VM	Gender=Masc|Mood=Ind|Number=Plur|Tense=Fut|VerbForm=Fin|Voice=Act	5	ccomp	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 17	۔	۔	PUNCT	SYM	_	16	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s229
@@ -7306,7 +7306,7 @@
 23	کے	کے	ADP	PSP	AdpType=Post	22	mark	_	ChunkId=VGNN|ChunkType=child
 24	لئے	لئے	ADP	PSP	AdpType=Post	22	mark	_	ChunkId=VGNN|ChunkType=child
 25	اقدامات	اقدام	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	26	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
-26	کریں	کر	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	obj	_	SpaceAfter=No|Vib=ئےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=imperative
+26	کریں	کر	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	ccomp	_	SpaceAfter=No|Vib=ئےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=imperative
 27	۔	۔	PUNCT	SYM	_	26	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s252
@@ -7645,7 +7645,7 @@
 12	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	11	case	_	ChunkId=NP4|ChunkType=child
 13	مواقع	مواقع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 14	فراہم	فراہم	ADJ	JJ	_	15	compound	_	ChunkId=JJP|ChunkType=head
-15	ہوں_گے	ہو	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	obj	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+15	ہوں_گے	ہو	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 16	۔	۔	PUNCT	SYM	_	15	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s266
@@ -9214,7 +9214,7 @@
 11	فیصلہ	فیصلہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 12	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	11	case	_	ChunkId=NP4|ChunkType=child
 13	انتظار	انتظار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
-14	کریں_گے	کر	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	obj	_	Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+14	کریں_گے	کر	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 15	کہ	کہ	SCONJ	CC	_	19	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP2|ChunkType=head
 16	رپورٹ	رپورٹ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 17	کو	کو	ADP	PSP	AdpType=Post	16	case	_	ChunkId=NP6|ChunkType=child
@@ -9357,7 +9357,7 @@
 15	استعمال	استعمال	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 16	کو	کو	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP7|ChunkType=child
 17	ترک	ترک	ADJ	JJ	_	18	compound	_	ChunkId=JJP|ChunkType=head
-18	کریں	کر	VERB	VM	Gender=Masc|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	obj	_	Vib=ئےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=imperative
+18	کریں	کر	VERB	VM	Gender=Masc|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	ccomp	_	Vib=ئےں|Tam=eM|ChunkId=VGF2|ChunkType=head|Stype=imperative
 19	اور	اور	CCONJ	CC	_	27	cc	_	ChunkId=CCP3|ChunkType=head
 20	جیب	جیب	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	27	obl	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 21	مےں	مےں	ADP	PSP	AdpType=Post	20	case	_	ChunkId=NP8|ChunkType=child
@@ -11438,7 +11438,7 @@
 43	اےک	اےک	NUM	QC	NumType=Card	42	nmod	_	ChunkId=NP15|ChunkType=child
 44	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	42	nmod	_	ChunkId=NP15|ChunkType=child
 45	انتخاب	انتخاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	46	compound	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=head
-46	کریں	کر	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	27	obj	_	SpaceAfter=No|Vib=ئےں|Tam=eM|ChunkId=VGF3|ChunkType=head|Stype=imperative
+46	کریں	کر	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	27	ccomp	_	SpaceAfter=No|Vib=ئےں|Tam=eM|ChunkId=VGF3|ChunkType=head|Stype=imperative
 47	۔	۔	PUNCT	SYM	_	46	punct	_	ChunkId=VGF3|ChunkType=child
 
 # sent_id = dev-s385
@@ -12395,7 +12395,7 @@
 16	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	15	mark	_	ChunkId=VGNN|ChunkType=child
 17	موقع	موقع	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	obj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
 18	فراہم	فراہم	ADJ	JJ	_	19	compound	_	ChunkId=JJP|ChunkType=head
-19	کرےگا	کر	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	obj	_	Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+19	کرےگا	کر	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 20	جو	جو	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 21	فلسطینی	فلسطینی	ADJ	JJ	Case=Acc	22	amod	_	ChunkId=NP8|ChunkType=child
 22	اتھاریٹی	اتھاریٹی	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	24	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
@@ -12504,7 +12504,7 @@
 32	وسیع	وسیع	ADJ	JJ	Case=Nom	33	amod	_	ChunkId=NP9|ChunkType=child
 33	امکانات	امکان	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	35	nsubj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head
 34	موجود	موجود	ADJ	JJ	_	35	compound	_	ChunkId=JJP4|ChunkType=head
-35	ہےں	ہے	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	obj	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF3|ChunkType=head|Stype=declarative
+35	ہےں	ہے	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	ccomp	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF3|ChunkType=head|Stype=declarative
 36	،	،	PUNCT	SYM	_	35	punct	_	ChunkId=VGF3|ChunkType=child
 37	جن	جو	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	42	obj	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head
 38	سے	سے	ADP	PSP	AdpType=Post	37	case	_	ChunkId=NP10|ChunkType=child
@@ -12560,7 +12560,7 @@
 11	ہی	ہی	PART	RP	_	10	dep	_	ChunkId=NP4|ChunkType=child
 12	سے	سے	ADP	PSP	AdpType=Post	10	case	_	ChunkId=NP4|ChunkType=child
 13	موجود	موجود	ADJ	JJ	_	14	compound	_	ChunkId=JJP|ChunkType=head
-14	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	obj	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+14	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 15	۔	۔	PUNCT	SYM	_	14	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s428
@@ -12666,7 +12666,7 @@
 9	وہاں	وہاں	PRON	PRP	Case=Acc|PronType=Prs	12	obl	_	ChunkId=NP3|ChunkType=head
 10	پر	پر	ADP	PSP	AdpType=Post	9	case	_	ChunkId=NP3|ChunkType=child
 11	موجود	موجود	ADJ	JJ	_	12	compound	_	ChunkId=JJP|ChunkType=head
-12	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	obj	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+12	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 13	۔	۔	PUNCT	SYM	_	12	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s433
@@ -12758,7 +12758,7 @@
 6	کہ	کہ	SCONJ	CC	_	9	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head
 7	انہیں	وہ	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|Polite=Form|PronType=Prs	9	nsubj	_	Vib=کو|Tam=ko|ChunkId=NP4|ChunkType=head
 8	یقین	یقین	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
-9	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	obj	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+9	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 10	کہ	کہ	SCONJ	CC	_	31	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP2|ChunkType=head
 11	تیز	تیز	ADJ	JJ	Case=Nom	12	amod	_	ChunkId=NP6|ChunkType=child
 12	رفتار	رفتار	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
@@ -13312,7 +13312,7 @@
 14	رپورٹ	رپورٹ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head
 15	سے	سے	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP4|ChunkType=child
 16	واقف	واقف	ADJ	JJ	_	17	compound	_	ChunkId=JJP|ChunkType=head
-17	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	obj	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+17	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 18	اور	اور	CCONJ	CC	_	22	cc	_	ChunkId=CCP2|ChunkType=head
 19	اس	یہ	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	21	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 20	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	19	case	_	ChunkId=NP5|ChunkType=child
@@ -14226,7 +14226,7 @@
 15	کیرولیناس	کیرولیناس	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 16	مےں	مےں	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP5|ChunkType=child
 17	تباہی	تباہی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head
-18	پھیلائےگا	پھیلا	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	obj	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
+18	پھیلائےگا	پھیلا	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No|Vib=گا|Tam=gA|ChunkId=VGF2|ChunkType=head|Stype=declarative
 19	۔	۔	PUNCT	SYM	_	18	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s484
@@ -14284,7 +14284,7 @@
 13	کے	کے	ADP	PSP	AdpType=Post	12	nmod	_	ChunkId=NP6|ChunkType=child
 14	لئے	لئے	ADP	PSP	AdpType=Post	12	nmod	_	ChunkId=NP6|ChunkType=child
 15	بےچین	بےچین	ADJ	JJ	_	16	compound	_	ChunkId=JJP|ChunkType=head
-16	ہےں	ہے	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	obj	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+16	ہےں	ہے	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 17	جو	جو	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 18	تباہی	تباہی	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	21	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
 19	سے	سے	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP8|ChunkType=child
@@ -14754,7 +14754,7 @@
 22	عہد	عہد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head
 23	و	و	CCONJ	CC	_	24	cc	_	ChunkId=CCP2|ChunkType=head
 24	پیمان	پیمان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	conj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head
-25	کریں	کر	VERB	VM	Mood=Sub|Number=Sing|VerbForm=Fin	16	obj	_	SpaceAfter=No|Vib=ئےں|Tam=eM|ChunkId=VGF2|ChunkType=head
+25	کریں	کر	VERB	VM	Mood=Sub|Number=Sing|VerbForm=Fin	16	ccomp	_	SpaceAfter=No|Vib=ئےں|Tam=eM|ChunkId=VGF2|ChunkType=head
 26	۔	۔	PUNCT	SYM	_	25	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s502
@@ -15081,7 +15081,7 @@
 18	خواتین	خاتون	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	21	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head
 19	بھی	بھی	PART	RP	_	18	dep	_	ChunkId=NP5|ChunkType=child
 20	شامل	شامل	ADJ	JJ	_	21	compound	_	ChunkId=JJP2|ChunkType=head
-21	ہیں	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	obj	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+21	ہیں	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 22	۔	۔	PUNCT	SYM	_	21	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s513
@@ -15636,7 +15636,7 @@
 20	شامل	شامل	ADJ	JJ	_	21	compound	_	ChunkId=JJP|ChunkType=head
 21	کرنا	کر	VERB	VM	VerbForm=Inf	23	nsubj	_	Vib=نا|Tam=nA|ChunkId=VGNN|ChunkType=head
 22	نامناسب	نامناسب	ADJ	JJ	_	23	obj	_	ChunkId=JJP2|ChunkType=head
-23	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	obj	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
+23	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	SpaceAfter=No|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative
 24	۔	۔	PUNCT	SYM	_	23	punct	_	ChunkId=VGF2|ChunkType=child
 
 # sent_id = dev-s532
