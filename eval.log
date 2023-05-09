@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Urdu-UDTB:
-commit 208366cf25ac128c37deda39253a7fcacfb1aa38
-Merge: 53609da 9faf647
+commit 8461749a9405c78b1c8e4cf1c8dfbce86c9b09fa
+Merge: 432803b af64eab
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 138077 of 138077 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.8556230011275.
@@ -24,40 +24,40 @@ Udapi:
 Udapi: found 3130 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 138077 words.
 Genres: found 1 out of 17 known.
-validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-dev.conllu
-[Line 332 Sent dev-s10 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 2]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 349 Sent dev-s10 Node 20]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 3243 Sent dev-s123 Node 21]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [10, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 6012 Sent dev-s211 Node 27]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [9, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 6726 Sent dev-s233 Node 50]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [25, 45]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 10485 Sent dev-s357 Node 31]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [15, 25]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+/net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-dev.conllu
+[Line 332 Sent dev-s10 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [1, 2] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 349 Sent dev-s10 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [5, 13] not subtyped as ':outer'.
+[Line 3243 Sent dev-s123 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] not subtyped as ':outer'.
+[Line 6012 Sent dev-s211 Node 27]: [L3 Syntax too-many-subjects] Multiple subjects [9, 15] not subtyped as ':outer'.
+[Line 6726 Sent dev-s233 Node 50]: [L3 Syntax too-many-subjects] Multiple subjects [25, 45] not subtyped as ':outer'.
+[Line 10485 Sent dev-s357 Node 31]: [L3 Syntax too-many-subjects] Multiple subjects [15, 25] not subtyped as ':outer'.
 Syntax errors: 6
 *** FAILED *** with 6 errors
 Exit code: 1
-validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-test.conllu
-[Line 2095 Sent test-s63 Node 14]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 2796 Sent test-s84 Node 34]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [23, 32]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 2973 Sent test-s89 Node 30]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 37]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 4833 Sent test-s157 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 7443 Sent test-s240 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 3]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 8982 Sent test-s290 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [10, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 10605 Sent test-s348 Node 9]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 11759 Sent test-s396 Node 21]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [13, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 12240 Sent test-s410 Node 17]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [13, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+/net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-test.conllu
+[Line 2095 Sent test-s63 Node 14]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2796 Sent test-s84 Node 34]: [L3 Syntax too-many-subjects] Multiple subjects [23, 32] not subtyped as ':outer'.
+[Line 2973 Sent test-s89 Node 30]: [L3 Syntax too-many-subjects] Multiple subjects [5, 37] not subtyped as ':outer'.
+[Line 4833 Sent test-s157 Node 8]: [L3 Syntax too-many-subjects] Multiple subjects [6, 21] not subtyped as ':outer'.
+[Line 7443 Sent test-s240 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
+[Line 8982 Sent test-s290 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] not subtyped as ':outer'.
+[Line 10605 Sent test-s348 Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [7, 8] not subtyped as ':outer'.
+[Line 11759 Sent test-s396 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [13, 14] not subtyped as ':outer'.
+[Line 12240 Sent test-s410 Node 17]: [L3 Syntax too-many-subjects] Multiple subjects [13, 14] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 Syntax errors: 12
 *** FAILED *** with 12 errors
 Exit code: 1
-validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-train.conllu
-[Line 3242 Sent train-s115 Node 20]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 19]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 3284 Sent train-s116 Node 25]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [21, 22]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 4080 Sent train-s139 Node 32]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [25, 26]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 11076 Sent train-s374 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 11506 Sent train-s396 Node 38]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [36, 37]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 15181 Sent train-s540 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 16517 Sent train-s576 Node 29]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [22, 24]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 19484 Sent train-s674 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [13, 14, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 20846 Sent train-s726 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+/net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-train.conllu
+[Line 3242 Sent train-s115 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [8, 19] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 3284 Sent train-s116 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [21, 22] not subtyped as ':outer'.
+[Line 4080 Sent train-s139 Node 32]: [L3 Syntax too-many-subjects] Multiple subjects [25, 26] not subtyped as ':outer'.
+[Line 11076 Sent train-s374 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [1, 17] not subtyped as ':outer'.
+[Line 11506 Sent train-s396 Node 38]: [L3 Syntax too-many-subjects] Multiple subjects [36, 37] not subtyped as ':outer'.
+[Line 15181 Sent train-s540 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] not subtyped as ':outer'.
+[Line 16517 Sent train-s576 Node 29]: [L3 Syntax too-many-subjects] Multiple subjects [22, 24] not subtyped as ':outer'.
+[Line 19484 Sent train-s674 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [13, 14, 15] not subtyped as ':outer'.
+[Line 20846 Sent train-s726 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [1, 13] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 Syntax errors: 57
 *** FAILED *** with 57 errors
