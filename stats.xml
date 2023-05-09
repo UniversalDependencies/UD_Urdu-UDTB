@@ -87,7 +87,7 @@
     <dep name="aux">7885</dep>
     <dep name="case">25907</dep>
     <dep name="cc">3302</dep>
-    <dep name="ccomp">2</dep>
+    <dep name="ccomp">281</dep>
     <dep name="compound">19593</dep>
     <dep name="conj">3883</dep>
     <dep name="cop">1187</dep>
@@ -101,7 +101,7 @@
     <dep name="nmod">13780</dep>
     <dep name="nsubj">7261</dep>
     <dep name="nummod">2127</dep>
-    <dep name="obj">6530</dep>
+    <dep name="obj">6251</dep>
     <dep name="obl">10677</dep>
     <dep name="punct">6911</dep>
     <dep name="root">5130</dep>
