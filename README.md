@@ -31,6 +31,8 @@ Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Added transliteration.
 * 2023-05-15 v2.12
   * Fixed: Finite verbs head clauses, hence ccomp instead of obj.
 * 2022-11-15 v2.11
