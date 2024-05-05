@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Urdu-UDTB:
-commit a0b014b35e8febe80e12b242ecc9a4eaa559fe19
+commit a07ca4f59b92b38170f1c4130185c94c6e157834
+Merge: 36309ae bd0c7a7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 12:31:55 2023 +0200
 Size: counted 138077 of 138077 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.8556230011275.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,44 +20,46 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 27 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       3130
-Udapi: found 3130 bugs.
+               TOTAL       3124
+Udapi: found 3124 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 138077 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-dev.conllu
-[Line 332 Sent dev-s10 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [1, 2] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 349 Sent dev-s10 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [5, 13] not subtyped as ':outer'.
-[Line 3243 Sent dev-s123 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] not subtyped as ':outer'.
-[Line 6012 Sent dev-s211 Node 27]: [L3 Syntax too-many-subjects] Multiple subjects [9, 15] not subtyped as ':outer'.
-[Line 6726 Sent dev-s233 Node 50]: [L3 Syntax too-many-subjects] Multiple subjects [25, 45] not subtyped as ':outer'.
-[Line 10485 Sent dev-s357 Node 31]: [L3 Syntax too-many-subjects] Multiple subjects [15, 25] not subtyped as ':outer'.
+[Line 342 Sent dev-s10 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [1, 2] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 359 Sent dev-s10 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [5, 13] not subtyped as ':outer'.
+[Line 3366 Sent dev-s123 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] not subtyped as ':outer'.
+[Line 6223 Sent dev-s211 Node 27]: [L3 Syntax too-many-subjects] Multiple subjects [9, 15] not subtyped as ':outer'.
+[Line 6959 Sent dev-s233 Node 50]: [L3 Syntax too-many-subjects] Multiple subjects [25, 45] not subtyped as ':outer'.
+[Line 10842 Sent dev-s357 Node 31]: [L3 Syntax too-many-subjects] Multiple subjects [15, 25] not subtyped as ':outer'.
 Syntax errors: 6
 *** FAILED *** with 6 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-test.conllu
-[Line 2095 Sent test-s63 Node 14]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 2796 Sent test-s84 Node 34]: [L3 Syntax too-many-subjects] Multiple subjects [23, 32] not subtyped as ':outer'.
-[Line 2973 Sent test-s89 Node 30]: [L3 Syntax too-many-subjects] Multiple subjects [5, 37] not subtyped as ':outer'.
-[Line 4833 Sent test-s157 Node 8]: [L3 Syntax too-many-subjects] Multiple subjects [6, 21] not subtyped as ':outer'.
-[Line 7443 Sent test-s240 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
-[Line 8982 Sent test-s290 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] not subtyped as ':outer'.
-[Line 10605 Sent test-s348 Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [7, 8] not subtyped as ':outer'.
-[Line 11759 Sent test-s396 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [13, 14] not subtyped as ':outer'.
-[Line 12240 Sent test-s410 Node 17]: [L3 Syntax too-many-subjects] Multiple subjects [13, 14] not subtyped as ':outer'.
+[Line 2158 Sent test-s63 Node 14]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2880 Sent test-s84 Node 34]: [L3 Syntax too-many-subjects] Multiple subjects [23, 32] not subtyped as ':outer'.
+[Line 3062 Sent test-s89 Node 30]: [L3 Syntax too-many-subjects] Multiple subjects [5, 37] not subtyped as ':outer'.
+[Line 4990 Sent test-s157 Node 8]: [L3 Syntax too-many-subjects] Multiple subjects [6, 21] not subtyped as ':outer'.
+[Line 7683 Sent test-s240 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
+[Line 9272 Sent test-s290 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] not subtyped as ':outer'.
+[Line 10953 Sent test-s348 Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [7, 8] not subtyped as ':outer'.
+[Line 12155 Sent test-s396 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [13, 14] not subtyped as ':outer'.
+[Line 12650 Sent test-s410 Node 17]: [L3 Syntax too-many-subjects] Multiple subjects [13, 14] not subtyped as ':outer'.
+[Line 12901 Sent test-s416 Node 13]: [L3 Syntax too-many-subjects] Multiple subjects [2, 9] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 Syntax errors: 12
 *** FAILED *** with 12 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-train.conllu
-[Line 3242 Sent train-s115 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [8, 19] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 3284 Sent train-s116 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [21, 22] not subtyped as ':outer'.
-[Line 4080 Sent train-s139 Node 32]: [L3 Syntax too-many-subjects] Multiple subjects [25, 26] not subtyped as ':outer'.
-[Line 11076 Sent train-s374 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [1, 17] not subtyped as ':outer'.
-[Line 11506 Sent train-s396 Node 38]: [L3 Syntax too-many-subjects] Multiple subjects [36, 37] not subtyped as ':outer'.
-[Line 15181 Sent train-s540 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] not subtyped as ':outer'.
-[Line 16517 Sent train-s576 Node 29]: [L3 Syntax too-many-subjects] Multiple subjects [22, 24] not subtyped as ':outer'.
-[Line 19484 Sent train-s674 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [13, 14, 15] not subtyped as ':outer'.
-[Line 20846 Sent train-s726 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [1, 13] not subtyped as ':outer'.
+[Line 3357 Sent train-s115 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [8, 19] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 3400 Sent train-s116 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [21, 22] not subtyped as ':outer'.
+[Line 4219 Sent train-s139 Node 32]: [L3 Syntax too-many-subjects] Multiple subjects [25, 26] not subtyped as ':outer'.
+[Line 11450 Sent train-s374 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [1, 17] not subtyped as ':outer'.
+[Line 11902 Sent train-s396 Node 38]: [L3 Syntax too-many-subjects] Multiple subjects [36, 37] not subtyped as ':outer'.
+[Line 15721 Sent train-s540 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] not subtyped as ':outer'.
+[Line 17093 Sent train-s576 Node 29]: [L3 Syntax too-many-subjects] Multiple subjects [22, 24] not subtyped as ':outer'.
+[Line 20158 Sent train-s674 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [13, 14, 15] not subtyped as ':outer'.
+[Line 21572 Sent train-s726 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [1, 13] not subtyped as ':outer'.
+[Line 22143 Sent train-s742 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [18, 19] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 Syntax errors: 57
 *** FAILED *** with 57 errors
@@ -69,8 +71,8 @@ Validity: 0.01
 (weight=0.256410256410256) * (score{size}=0.713373780851407) = 0.182916354064463
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.773314889518167) = 0.237943042928667
+(weight=0.307692307692308) * (score{udapi}=0.773749429666056) = 0.238076747589556
 (weight=0.0769230769230769) * (score{udeprels}=0.583783783783784) = 0.0449064449064449
-(TOTAL score=0.702568255172577) * (availability=1) * (validity=0.01) = 0.00702568255172577
+(TOTAL score=0.702701959833465) * (availability=1) * (validity=0.01) = 0.00702701959833465
 STARS = 0
-UD_Urdu-UDTB	0.00702568255172577	0
+UD_Urdu-UDTB	0.00702701959833465	0
