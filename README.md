@@ -53,6 +53,7 @@ Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma
 Data available since: UD v2.0
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news
 Lemmas: converted from manual
 UPOS: converted from manual
