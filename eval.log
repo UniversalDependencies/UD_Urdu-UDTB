@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Urdu-UDTB:
-commit eb8202c3bf819720d4273e068e783f366a7e4086
+commit b5def78e645690267c5da6083c09d9170137c912
+Merge: ed8da67 551205a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:48:58 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ur_udtb'
+Language code (from CoNLL-U file name) = 'ur'
+Found the following data files: ur_udtb-ud-dev.conllu, ur_udtb-ud-test.conllu, ur_udtb-ud-train.conllu
 Size: counted 138077 of 138077 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.8556230011275.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,63 +23,105 @@ Features: 115928 out of 138077 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 27 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL       3063
-Udapi: found 3063 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 138077 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-dev.conllu
-[Line 342 Sent dev-s10 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [1, 2] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 359 Sent dev-s10 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [5, 13] not subtyped as ':outer'.
-[Line 3366 Sent dev-s123 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] not subtyped as ':outer'.
-[Line 6223 Sent dev-s211 Node 27]: [L3 Syntax too-many-subjects] Multiple subjects [9, 15] not subtyped as ':outer'.
-[Line 6959 Sent dev-s233 Node 50]: [L3 Syntax too-many-subjects] Multiple subjects [25, 45] not subtyped as ':outer'.
-[Line 10842 Sent dev-s357 Node 31]: [L3 Syntax too-many-subjects] Multiple subjects [15, 25] not subtyped as ':outer'.
-[Line 13888 Sent dev-s455 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:کچھ:det --> 11:ہی:dep)
-[Line 15298 Sent dev-s502 Node 34]: [L3 Syntax leaf-det] 'det' not expected to have children (34:چند:det --> 35:ہی:dep)
-[Line 15491 Sent dev-s509 Node 34]: [L3 Syntax leaf-det] 'det' not expected to have children (34:چند:det --> 35:ہی:dep)
-Syntax errors: 9
-*** FAILED *** with 9 errors
+[Line 225 Sent dev-s8]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'شخص šxş') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 279 Sent dev-s9]: [L3 Syntax too-many-objects] Multiple direct objects [12, 35] ('قدم qdm', 'کر kr') under the predicate 'اٹھایا āṭhāīā'.
+[Line 342 Sent dev-s10]: [L3 Syntax too-many-subjects] Multiple subjects [1, 2] ('یہ īh', 'ایسا āīsā') under the predicate 'واقعہ ūāqʿh' not subtyped as ':outer'.
+
+Outer subjects are allowed if a clause acts as the predicate of another clause.
+
+[Line 359 Sent dev-s10]: [L3 Syntax too-many-subjects] Multiple subjects [5, 13] ('جیسا jīsā', 'مودی mūdī') under the predicate 'دیا dīā' not subtyped as ':outer'.
+[Line 555 Sent dev-s16]: [L3 Syntax too-many-objects] Multiple direct objects [3, 23] ('یہ īh', 'کر kr') under the predicate 'بتایا btāīā'.
+[Line 1191 Sent dev-s39]: [L3 Warning pron-det-without-prontype] The word 'اُن āun' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1255 Sent dev-s41]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'سامنا sāmnā') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1676 Sent dev-s59]: [L3 Syntax too-many-objects] Multiple direct objects [9, 20] ('احساسات āhsāsāt', 'ادارہ ādārh') under the predicate 'کیا kīā'.
+[Line 1823 Sent dev-s64]: [L3 Syntax too-many-objects] Multiple direct objects [16, 17] ('تیل tīl', 'ڈبوں ḍbūñ') under the predicate 'نکال nkāl'.
+[Line 2025 Sent dev-s70]: [L3 Warning pron-det-without-prontype] The word 'جیسے jīse' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2276 Sent dev-s76]: [L3 Syntax too-many-objects] Multiple direct objects [18, 20] ('روپئے rūpje', 'ٹیکس ṭīks') under the predicate 'ہوئے hūje'.
+[Line 2864 Sent dev-s102]: [L3 Warning pron-det-without-prontype] The word 'دیگر dīgr' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3299 Sent dev-s121]: [L3 Warning pron-det-without-prontype] The word 'تمام tmām' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3320 Sent dev-s122]: [L3 Warning pron-det-without-prontype] The word 'ایسے āīse' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3366 Sent dev-s123]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] ('پروگرام prūgrām', 'جو jū') under the predicate 'بنایا bnāīā' not subtyped as ':outer'.
+[Line 3571 Sent dev-s130]: [L3 Warning pron-det-without-prontype] The word 'جب jb' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3752 Sent dev-s135]: [L3 Syntax too-many-objects] Multiple direct objects [4, 13] ('پاشاہ pāšāh', 'شال šāl') under the predicate 'اڑھائی ārhājī'.
+[Line 4343 Sent dev-s157]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'اسکولس āskūls') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4346 Sent dev-s157]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'اسکولس āskūls') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4906 Sent dev-s176]: [L3 Syntax too-many-objects] Multiple direct objects [26, 27] ('کرنا krnā', 'ضروری ḑrūrī') under the predicate 'ہے he'.
+...suppressing further errors regarding Warning
+...suppressing further errors regarding Syntax
+Syntax errors: 21
+Warnings: 35
+*** FAILED *** with 21 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-test.conllu
-[Line 2158 Sent test-s63 Node 14]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 2880 Sent test-s84 Node 34]: [L3 Syntax too-many-subjects] Multiple subjects [23, 32] not subtyped as ':outer'.
-[Line 3062 Sent test-s89 Node 30]: [L3 Syntax too-many-subjects] Multiple subjects [5, 37] not subtyped as ':outer'.
-[Line 4990 Sent test-s157 Node 8]: [L3 Syntax too-many-subjects] Multiple subjects [6, 21] not subtyped as ':outer'.
-[Line 6408 Sent test-s201 Node 22]: [L3 Syntax leaf-det] 'det' not expected to have children (22:کم:det --> 23:از:dep)
-[Line 7334 Sent test-s229 Node 17]: [L3 Syntax leaf-det] 'det' not expected to have children (17:چند:det --> 18:ہی:dep)
-[Line 7683 Sent test-s240 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] not subtyped as ':outer'.
-[Line 9272 Sent test-s290 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] not subtyped as ':outer'.
-[Line 10953 Sent test-s348 Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [7, 8] not subtyped as ':outer'.
-[Line 12155 Sent test-s396 Node 21]: [L3 Syntax too-many-subjects] Multiple subjects [13, 14] not subtyped as ':outer'.
+[Line 37 Sent test-s2]: [L3 Warning pron-det-without-prontype] The word 'انہوں ānhūñ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 257 Sent test-s6]: [L3 Syntax too-many-objects] Multiple direct objects [37, 40] ('استعمال āstʿmāl', 'رائےدہندوں rājedhndūñ') under the predicate 'کرنے krne'.
+[Line 1469 Sent test-s48]: [L3 Warning obl-should-be-nmod] The parent (node [32] 'مغل_پورہ mġl_pūrh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1470 Sent test-s48]: [L3 Warning obl-should-be-nmod] The parent (node [32] 'مغل_پورہ mġl_pūrh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2124 Sent test-s62]: [L3 Warning obl-should-be-nmod] The parent (node [28] 'جلسہ jlsh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2158 Sent test-s63]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] ('تعالیٰ tʿālīā', 'کرنے krne') under the predicate 'کرتا krtā' not subtyped as ':outer'.
+
+Outer subjects are allowed if a clause acts as the predicate of another clause.
+
+[Line 2880 Sent test-s84]: [L3 Syntax too-many-subjects] Multiple subjects [23, 32] ('وہ ūh', 'جنریٹر jnrīṭr') under the predicate 'کروائیں_گے krūājīñ_ge' not subtyped as ':outer'.
+[Line 3062 Sent test-s89]: [L3 Syntax too-many-subjects] Multiple subjects [5, 37] ('طلبہ ţlbh', 'لیجینڈ lījīnḍ') under the predicate 'کر kr' not subtyped as ':outer'.
+[Line 3104 Sent test-s90]: [L3 Syntax too-many-objects] Multiple direct objects [22, 26] ("طلباء ţlbā'", 'تہنیت thnīt') under the predicate 'کرتے krte'.
+[Line 3546 Sent test-s110]: [L3 Warning pron-det-without-prontype] The word 'انہوں ānhūñ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3799 Sent test-s121]: [L3 Warning pron-det-without-prontype] The word 'اتنا ātnā' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4990 Sent test-s157]: [L3 Syntax too-many-subjects] Multiple subjects [6, 21] ('انہیں ānhīñ', 'کریں_گے krīñ_ge') under the predicate 'ہے he' not subtyped as ':outer'.
+[Line 5121 Sent test-s160]: [L3 Warning obl-should-be-nmod] The parent (node [64] 'کچھ kčh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5569 Sent test-s174]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'کرکٹرس krkṭrs') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6065 Sent test-s190]: [L3 Warning pron-det-without-prontype] The word 'سب sb' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 6408 Sent test-s201]: [L3 Syntax leaf-det] 'det' not expected to have children (22:کم:det --> 23:از:dep)
+[Line 6546 Sent test-s206]: [L3 Warning pron-det-without-prontype] The word 'جو jū' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 7334 Sent test-s229]: [L3 Syntax leaf-det] 'det' not expected to have children (17:چند:det --> 18:ہی:dep)
+[Line 7683 Sent test-s240]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] ('یہاں īhāñ', 'تذکرہ tðkrh') under the predicate 'ضروری ḑrūrī' not subtyped as ':outer'.
+[Line 7876 Sent test-s246]: [L3 Syntax too-many-objects] Multiple direct objects [27, 30] ('جذبے jðbe', 'دینا dīnā') under the predicate 'ہے he'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 15
-*** FAILED *** with 15 errors
+Syntax errors: 21
+Warnings: 38
+*** FAILED *** with 21 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-train.conllu
-[Line 3357 Sent train-s115 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [8, 19] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 3400 Sent train-s116 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [21, 22] not subtyped as ':outer'.
-[Line 4219 Sent train-s139 Node 32]: [L3 Syntax too-many-subjects] Multiple subjects [25, 26] not subtyped as ':outer'.
-[Line 11450 Sent train-s374 Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [1, 17] not subtyped as ':outer'.
-[Line 11902 Sent train-s396 Node 38]: [L3 Syntax too-many-subjects] Multiple subjects [36, 37] not subtyped as ':outer'.
-[Line 12503 Sent train-s418 Node 38]: [L3 Syntax leaf-det] 'det' not expected to have children (38:ایسے:det --> 37:اےک:nummod)
-[Line 15721 Sent train-s540 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] not subtyped as ':outer'.
-[Line 17093 Sent train-s576 Node 29]: [L3 Syntax too-many-subjects] Multiple subjects [22, 24] not subtyped as ':outer'.
-[Line 20158 Sent train-s674 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [13, 14, 15] not subtyped as ':outer'.
-[Line 21572 Sent train-s726 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [1, 13] not subtyped as ':outer'.
+[Line 326 Sent train-s13]: [L3 Warning pron-det-without-prontype] The word 'جو jū' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1096 Sent train-s39]: [L3 Warning obl-should-be-nmod] The parent (node [16] 'وہی ūhī') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1421 Sent train-s50]: [L3 Warning pron-det-without-prontype] The word 'ابھی ābhī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1610 Sent train-s59]: [L3 Warning pron-det-without-prontype] The word 'اب āb' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2075 Sent train-s74]: [L3 Warning pron-det-without-prontype] The word 'ازاں āzāñ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2862 Sent train-s99]: [L3 Warning pron-det-without-prontype] The word 'کیا kīā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2895 Sent train-s101]: [L3 Warning pron-det-without-prontype] The word 'کیا kīā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3357 Sent train-s115]: [L3 Syntax too-many-subjects] Multiple subjects [8, 19] ('وہ ūh', 'خطابات xţābāt') under the predicate 'جیتی jītī' not subtyped as ':outer'.
+
+Outer subjects are allowed if a clause acts as the predicate of another clause.
+
+[Line 3390 Sent train-s116]: [L3 Syntax too-many-objects] Multiple direct objects [10, 25] ('انہیں ānhīñ', 'ملا mlā') under the predicate 'پہنچایا phnčāīā'.
+[Line 3400 Sent train-s116]: [L3 Syntax too-many-subjects] Multiple subjects [21, 22] ('مقام mqām', 'آسمان Āsmān') under the predicate 'ملا mlā' not subtyped as ':outer'.
+[Line 3873 Sent train-s128]: [L3 Warning pron-det-without-prontype] The word 'کہ kh' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4033 Sent train-s131]: [L3 Warning pron-det-without-prontype] The word 'کبھی kbhī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4219 Sent train-s139]: [L3 Syntax too-many-subjects] Multiple subjects [25, 26] ('والدہ ūāldh', 'تمہیں tmhīñ') under the predicate 'دیں_گی dīñ_gī' not subtyped as ':outer'.
+[Line 4270 Sent train-s141]: [L3 Warning pron-det-without-prontype] The word 'کبھی kbhī' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 11450 Sent train-s374]: [L3 Syntax too-many-subjects] Multiple subjects [1, 17] ('عیسائیوں ʿīsājīūñ', 'شام šām') under the predicate 'بتایا btāīā' not subtyped as ':outer'.
+[Line 11902 Sent train-s396]: [L3 Syntax too-many-subjects] Multiple subjects [36, 37] ('یہ īh', 'نبی nbī') under the predicate 'آخرالزماں Āxrālzmāñ' not subtyped as ':outer'.
+[Line 11961 Sent train-s399]: [L3 Syntax too-many-objects] Multiple direct objects [24, 26] ('بات bāt', 'ہو hū') under the predicate 'سنتے snte'.
+[Line 12503 Sent train-s418]: [L3 Syntax leaf-det] 'det' not expected to have children (38:ایسے:det --> 37:اےک:nummod)
+[Line 13173 Sent train-s444]: [L3 Syntax too-many-objects] Multiple direct objects [11, 23] ('غیروں ġīrūñ', 'ہمت hmt') under the predicate 'رکھتے rkhte'.
+[Line 15216 Sent train-s518]: [L3 Syntax too-many-objects] Multiple direct objects [14, 15, 16] ('لی lī', 'گئی gjī', 'ہے he') under the predicate 'کر kr'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 77
-*** FAILED *** with 77 errors
+Syntax errors: 149
+Warnings: 406
+*** FAILED *** with 149 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.713373780851407) = 0.182916354064463
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.778167254502922) = 0.239436078308592
-(weight=0.0769230769230769) * (score{udeprels}=0.583783783783784) = 0.0449064449064449
-(TOTAL score=0.703809907948177) * (availability=1) * (validity=0.01) = 0.00703809907948177
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.713373780851407) = 0.264212511426447
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
+(weight=0.111111111111111) * (score{udeprels}=0.583783783783784) = 0.0648648648648649
+(TOTAL score=0.670762198368291) * (availability=1) * (validity=0.01) = 0.00670762198368291
 STARS = 0
-UD_Urdu-UDTB	0.00703809907948177	0
+UD_Urdu-UDTB	0.00670762198368291	0
