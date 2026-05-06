@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Urdu-UDTB:
-commit b5def78e645690267c5da6083c09d9170137c912
-Merge: ed8da67 551205a
+commit 228a82841f98b84bffe0efbe453fd083c0761bb8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 21:00:55 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ur_udtb'
 Language code (from CoNLL-U file name) = 'ur'
@@ -25,94 +25,94 @@ Universal relations: 27 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-dev.conllu
-[Line 225 Sent dev-s8]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'شخص šxş') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 279 Sent dev-s9]: [L3 Syntax too-many-objects] Multiple direct objects [12, 35] ('قدم qdm', 'کر kr') under the predicate 'اٹھایا āṭhāīā'.
-[Line 342 Sent dev-s10]: [L3 Syntax too-many-subjects] Multiple subjects [1, 2] ('یہ īh', 'ایسا āīsā') under the predicate 'واقعہ ūāqʿh' not subtyped as ':outer'.
+[Line 225 Sent dev-s8]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'شخص šxş') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 279 Sent dev-s9]: [L3 SYNTAX too-many-objects] Multiple direct objects [12, 35] ('قدم qdm', 'کر kr') under the predicate 'اٹھایا āṭhāīā'.
+[Line 342 Sent dev-s10]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 2] ('یہ īh', 'ایسا āīsā') under the predicate 'واقعہ ūāqʿh' not subtyped as ':outer'.
 
 Outer subjects are allowed if a clause acts as the predicate of another clause.
 
-[Line 359 Sent dev-s10]: [L3 Syntax too-many-subjects] Multiple subjects [5, 13] ('جیسا jīsā', 'مودی mūdī') under the predicate 'دیا dīā' not subtyped as ':outer'.
-[Line 555 Sent dev-s16]: [L3 Syntax too-many-objects] Multiple direct objects [3, 23] ('یہ īh', 'کر kr') under the predicate 'بتایا btāīā'.
-[Line 1191 Sent dev-s39]: [L3 Warning pron-det-without-prontype] The word 'اُن āun' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1255 Sent dev-s41]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'سامنا sāmnā') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1676 Sent dev-s59]: [L3 Syntax too-many-objects] Multiple direct objects [9, 20] ('احساسات āhsāsāt', 'ادارہ ādārh') under the predicate 'کیا kīā'.
-[Line 1823 Sent dev-s64]: [L3 Syntax too-many-objects] Multiple direct objects [16, 17] ('تیل tīl', 'ڈبوں ḍbūñ') under the predicate 'نکال nkāl'.
-[Line 2025 Sent dev-s70]: [L3 Warning pron-det-without-prontype] The word 'جیسے jīse' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2276 Sent dev-s76]: [L3 Syntax too-many-objects] Multiple direct objects [18, 20] ('روپئے rūpje', 'ٹیکس ṭīks') under the predicate 'ہوئے hūje'.
-[Line 2864 Sent dev-s102]: [L3 Warning pron-det-without-prontype] The word 'دیگر dīgr' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 3299 Sent dev-s121]: [L3 Warning pron-det-without-prontype] The word 'تمام tmām' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 3320 Sent dev-s122]: [L3 Warning pron-det-without-prontype] The word 'ایسے āīse' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 3366 Sent dev-s123]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] ('پروگرام prūgrām', 'جو jū') under the predicate 'بنایا bnāīā' not subtyped as ':outer'.
-[Line 3571 Sent dev-s130]: [L3 Warning pron-det-without-prontype] The word 'جب jb' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 3752 Sent dev-s135]: [L3 Syntax too-many-objects] Multiple direct objects [4, 13] ('پاشاہ pāšāh', 'شال šāl') under the predicate 'اڑھائی ārhājī'.
-[Line 4343 Sent dev-s157]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'اسکولس āskūls') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 4346 Sent dev-s157]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'اسکولس āskūls') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 4906 Sent dev-s176]: [L3 Syntax too-many-objects] Multiple direct objects [26, 27] ('کرنا krnā', 'ضروری ḑrūrī') under the predicate 'ہے he'.
-...suppressing further errors regarding Warning
-...suppressing further errors regarding Syntax
-Syntax errors: 21
-Warnings: 35
-*** FAILED *** with 21 errors
+[Line 359 Sent dev-s10]: [L3 SYNTAX too-many-subjects] Multiple subjects [5, 13] ('جیسا jīsā', 'مودی mūdī') under the predicate 'دیا dīā' not subtyped as ':outer'.
+[Line 555 Sent dev-s16]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 23] ('یہ īh', 'کر kr') under the predicate 'بتایا btāīā'.
+[Line 1191 Sent dev-s39]: [L3 WARNING pron-det-without-prontype] The word 'اُن āun' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1676 Sent dev-s59]: [L3 SYNTAX too-many-objects] Multiple direct objects [9, 20] ('احساسات āhsāsāt', 'ادارہ ādārh') under the predicate 'کیا kīā'.
+[Line 1823 Sent dev-s64]: [L3 SYNTAX too-many-objects] Multiple direct objects [16, 17] ('تیل tīl', 'ڈبوں ḍbūñ') under the predicate 'نکال nkāl'.
+[Line 2025 Sent dev-s70]: [L3 WARNING pron-det-without-prontype] The word 'جیسے jīse' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2276 Sent dev-s76]: [L3 SYNTAX too-many-objects] Multiple direct objects [18, 20] ('روپئے rūpje', 'ٹیکس ṭīks') under the predicate 'ہوئے hūje'.
+[Line 2864 Sent dev-s102]: [L3 WARNING pron-det-without-prontype] The word 'دیگر dīgr' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3299 Sent dev-s121]: [L3 WARNING pron-det-without-prontype] The word 'تمام tmām' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3320 Sent dev-s122]: [L3 WARNING pron-det-without-prontype] The word 'ایسے āīse' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3366 Sent dev-s123]: [L3 SYNTAX too-many-subjects] Multiple subjects [10, 11] ('پروگرام prūgrām', 'جو jū') under the predicate 'بنایا bnāīā' not subtyped as ':outer'.
+[Line 3571 Sent dev-s130]: [L3 WARNING pron-det-without-prontype] The word 'جب jb' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3752 Sent dev-s135]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 13] ('پاشاہ pāšāh', 'شال šāl') under the predicate 'اڑھائی ārhājī'.
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 5309 Sent dev-s189]: [L3 WARNING pron-det-without-prontype] The word 'ایسے āīse' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8589 Sent dev-s285]: [L3 WARNING pron-det-without-prontype] The word 'تمام tmām' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 11671 Sent dev-s380]: [L3 WARNING pron-det-without-prontype] The word 'سب sb' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 12741 Sent dev-s419]: [L3 WARNING pron-det-without-prontype] The word 'جو jū' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 13
+SYNTAX errors: 29
+*** FAILED *** with 29 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-test.conllu
-[Line 37 Sent test-s2]: [L3 Warning pron-det-without-prontype] The word 'انہوں ānhūñ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 257 Sent test-s6]: [L3 Syntax too-many-objects] Multiple direct objects [37, 40] ('استعمال āstʿmāl', 'رائےدہندوں rājedhndūñ') under the predicate 'کرنے krne'.
-[Line 1469 Sent test-s48]: [L3 Warning obl-should-be-nmod] The parent (node [32] 'مغل_پورہ mġl_pūrh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1470 Sent test-s48]: [L3 Warning obl-should-be-nmod] The parent (node [32] 'مغل_پورہ mġl_pūrh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2124 Sent test-s62]: [L3 Warning obl-should-be-nmod] The parent (node [28] 'جلسہ jlsh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2158 Sent test-s63]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] ('تعالیٰ tʿālīā', 'کرنے krne') under the predicate 'کرتا krtā' not subtyped as ':outer'.
+[Line 37 Sent test-s2]: [L3 WARNING pron-det-without-prontype] The word 'انہوں ānhūñ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 257 Sent test-s6]: [L3 SYNTAX too-many-objects] Multiple direct objects [37, 40] ('استعمال āstʿmāl', 'رائےدہندوں rājedhndūñ') under the predicate 'کرنے krne'.
+[Line 1469 Sent test-s48]: [L3 SYNTAX obl-should-be-nmod] The parent (node [32] 'مغل_پورہ mġl_pūrh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1470 Sent test-s48]: [L3 SYNTAX obl-should-be-nmod] The parent (node [32] 'مغل_پورہ mġl_pūrh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2124 Sent test-s62]: [L3 SYNTAX obl-should-be-nmod] The parent (node [28] 'جلسہ jlsh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2158 Sent test-s63]: [L3 SYNTAX too-many-subjects] Multiple subjects [8, 10] ('تعالیٰ tʿālīā', 'کرنے krne') under the predicate 'کرتا krtā' not subtyped as ':outer'.
 
 Outer subjects are allowed if a clause acts as the predicate of another clause.
 
-[Line 2880 Sent test-s84]: [L3 Syntax too-many-subjects] Multiple subjects [23, 32] ('وہ ūh', 'جنریٹر jnrīṭr') under the predicate 'کروائیں_گے krūājīñ_ge' not subtyped as ':outer'.
-[Line 3062 Sent test-s89]: [L3 Syntax too-many-subjects] Multiple subjects [5, 37] ('طلبہ ţlbh', 'لیجینڈ lījīnḍ') under the predicate 'کر kr' not subtyped as ':outer'.
-[Line 3104 Sent test-s90]: [L3 Syntax too-many-objects] Multiple direct objects [22, 26] ("طلباء ţlbā'", 'تہنیت thnīt') under the predicate 'کرتے krte'.
-[Line 3546 Sent test-s110]: [L3 Warning pron-det-without-prontype] The word 'انہوں ānhūñ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 3799 Sent test-s121]: [L3 Warning pron-det-without-prontype] The word 'اتنا ātnā' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 4990 Sent test-s157]: [L3 Syntax too-many-subjects] Multiple subjects [6, 21] ('انہیں ānhīñ', 'کریں_گے krīñ_ge') under the predicate 'ہے he' not subtyped as ':outer'.
-[Line 5121 Sent test-s160]: [L3 Warning obl-should-be-nmod] The parent (node [64] 'کچھ kčh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 5569 Sent test-s174]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'کرکٹرس krkṭrs') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 6065 Sent test-s190]: [L3 Warning pron-det-without-prontype] The word 'سب sb' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 6408 Sent test-s201]: [L3 Syntax leaf-det] 'det' not expected to have children (22:کم:det --> 23:از:dep)
-[Line 6546 Sent test-s206]: [L3 Warning pron-det-without-prontype] The word 'جو jū' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 7334 Sent test-s229]: [L3 Syntax leaf-det] 'det' not expected to have children (17:چند:det --> 18:ہی:dep)
-[Line 7683 Sent test-s240]: [L3 Syntax too-many-subjects] Multiple subjects [1, 3] ('یہاں īhāñ', 'تذکرہ tðkrh') under the predicate 'ضروری ḑrūrī' not subtyped as ':outer'.
-[Line 7876 Sent test-s246]: [L3 Syntax too-many-objects] Multiple direct objects [27, 30] ('جذبے jðbe', 'دینا dīnā') under the predicate 'ہے he'.
-...suppressing further errors regarding Syntax
-Syntax errors: 21
-Warnings: 38
-*** FAILED *** with 21 errors
+[Line 2880 Sent test-s84]: [L3 SYNTAX too-many-subjects] Multiple subjects [23, 32] ('وہ ūh', 'جنریٹر jnrīṭr') under the predicate 'کروائیں_گے krūājīñ_ge' not subtyped as ':outer'.
+[Line 3062 Sent test-s89]: [L3 SYNTAX too-many-subjects] Multiple subjects [5, 37] ('طلبہ ţlbh', 'لیجینڈ lījīnḍ') under the predicate 'کر kr' not subtyped as ':outer'.
+[Line 3104 Sent test-s90]: [L3 SYNTAX too-many-objects] Multiple direct objects [22, 26] ("طلباء ţlbā'", 'تہنیت thnīt') under the predicate 'کرتے krte'.
+[Line 3546 Sent test-s110]: [L3 WARNING pron-det-without-prontype] The word 'انہوں ānhūñ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3799 Sent test-s121]: [L3 WARNING pron-det-without-prontype] The word 'اتنا ātnā' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4990 Sent test-s157]: [L3 SYNTAX too-many-subjects] Multiple subjects [6, 21] ('انہیں ānhīñ', 'کریں_گے krīñ_ge') under the predicate 'ہے he' not subtyped as ':outer'.
+[Line 5121 Sent test-s160]: [L3 SYNTAX obl-should-be-nmod] The parent (node [64] 'کچھ kčh') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6065 Sent test-s190]: [L3 WARNING pron-det-without-prontype] The word 'سب sb' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 6546 Sent test-s206]: [L3 WARNING pron-det-without-prontype] The word 'جو jū' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 7163 Sent test-s224]: [L3 WARNING pron-det-without-prontype] The word 'تو tū' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 8334 Sent test-s261]: [L3 WARNING pron-det-without-prontype] The word 'دیگر dīgr' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 9243 Sent test-s289]: [L3 WARNING pron-det-without-prontype] The word 'ساری sārī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 9786 Sent test-s309]: [L3 WARNING pron-det-without-prontype] The word 'صد şd' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 9787 Sent test-s309]: [L3 WARNING pron-det-without-prontype] The word 'فیصد fīşd' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 20
+SYNTAX errors: 29
+*** FAILED *** with 29 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ur --max-err=10 UD_Urdu-UDTB/ur_udtb-ud-train.conllu
-[Line 326 Sent train-s13]: [L3 Warning pron-det-without-prontype] The word 'جو jū' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1096 Sent train-s39]: [L3 Warning obl-should-be-nmod] The parent (node [16] 'وہی ūhī') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1421 Sent train-s50]: [L3 Warning pron-det-without-prontype] The word 'ابھی ābhī' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1610 Sent train-s59]: [L3 Warning pron-det-without-prontype] The word 'اب āb' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 2075 Sent train-s74]: [L3 Warning pron-det-without-prontype] The word 'ازاں āzāñ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 2862 Sent train-s99]: [L3 Warning pron-det-without-prontype] The word 'کیا kīā' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2895 Sent train-s101]: [L3 Warning pron-det-without-prontype] The word 'کیا kīā' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 3357 Sent train-s115]: [L3 Syntax too-many-subjects] Multiple subjects [8, 19] ('وہ ūh', 'خطابات xţābāt') under the predicate 'جیتی jītī' not subtyped as ':outer'.
+[Line 326 Sent train-s13]: [L3 WARNING pron-det-without-prontype] The word 'جو jū' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1421 Sent train-s50]: [L3 WARNING pron-det-without-prontype] The word 'ابھی ābhī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1610 Sent train-s59]: [L3 WARNING pron-det-without-prontype] The word 'اب āb' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2075 Sent train-s74]: [L3 WARNING pron-det-without-prontype] The word 'ازاں āzāñ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2862 Sent train-s99]: [L3 WARNING pron-det-without-prontype] The word 'کیا kīā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2895 Sent train-s101]: [L3 WARNING pron-det-without-prontype] The word 'کیا kīā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3357 Sent train-s115]: [L3 SYNTAX too-many-subjects] Multiple subjects [8, 19] ('وہ ūh', 'خطابات xţābāt') under the predicate 'جیتی jītī' not subtyped as ':outer'.
 
 Outer subjects are allowed if a clause acts as the predicate of another clause.
 
-[Line 3390 Sent train-s116]: [L3 Syntax too-many-objects] Multiple direct objects [10, 25] ('انہیں ānhīñ', 'ملا mlā') under the predicate 'پہنچایا phnčāīā'.
-[Line 3400 Sent train-s116]: [L3 Syntax too-many-subjects] Multiple subjects [21, 22] ('مقام mqām', 'آسمان Āsmān') under the predicate 'ملا mlā' not subtyped as ':outer'.
-[Line 3873 Sent train-s128]: [L3 Warning pron-det-without-prontype] The word 'کہ kh' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 4033 Sent train-s131]: [L3 Warning pron-det-without-prontype] The word 'کبھی kbhī' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 4219 Sent train-s139]: [L3 Syntax too-many-subjects] Multiple subjects [25, 26] ('والدہ ūāldh', 'تمہیں tmhīñ') under the predicate 'دیں_گی dīñ_gī' not subtyped as ':outer'.
-[Line 4270 Sent train-s141]: [L3 Warning pron-det-without-prontype] The word 'کبھی kbhī' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 11450 Sent train-s374]: [L3 Syntax too-many-subjects] Multiple subjects [1, 17] ('عیسائیوں ʿīsājīūñ', 'شام šām') under the predicate 'بتایا btāīā' not subtyped as ':outer'.
-[Line 11902 Sent train-s396]: [L3 Syntax too-many-subjects] Multiple subjects [36, 37] ('یہ īh', 'نبی nbī') under the predicate 'آخرالزماں Āxrālzmāñ' not subtyped as ':outer'.
-[Line 11961 Sent train-s399]: [L3 Syntax too-many-objects] Multiple direct objects [24, 26] ('بات bāt', 'ہو hū') under the predicate 'سنتے snte'.
-[Line 12503 Sent train-s418]: [L3 Syntax leaf-det] 'det' not expected to have children (38:ایسے:det --> 37:اےک:nummod)
-[Line 13173 Sent train-s444]: [L3 Syntax too-many-objects] Multiple direct objects [11, 23] ('غیروں ġīrūñ', 'ہمت hmt') under the predicate 'رکھتے rkhte'.
-[Line 15216 Sent train-s518]: [L3 Syntax too-many-objects] Multiple direct objects [14, 15, 16] ('لی lī', 'گئی gjī', 'ہے he') under the predicate 'کر kr'.
-...suppressing further errors regarding Syntax
-Syntax errors: 149
-Warnings: 406
-*** FAILED *** with 149 errors
+[Line 3390 Sent train-s116]: [L3 SYNTAX too-many-objects] Multiple direct objects [10, 25] ('انہیں ānhīñ', 'ملا mlā') under the predicate 'پہنچایا phnčāīā'.
+[Line 3400 Sent train-s116]: [L3 SYNTAX too-many-subjects] Multiple subjects [21, 22] ('مقام mqām', 'آسمان Āsmān') under the predicate 'ملا mlā' not subtyped as ':outer'.
+[Line 3873 Sent train-s128]: [L3 WARNING pron-det-without-prontype] The word 'کہ kh' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4033 Sent train-s131]: [L3 WARNING pron-det-without-prontype] The word 'کبھی kbhī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4219 Sent train-s139]: [L3 SYNTAX too-many-subjects] Multiple subjects [25, 26] ('والدہ ūāldh', 'تمہیں tmhīñ') under the predicate 'دیں_گی dīñ_gī' not subtyped as ':outer'.
+[Line 4270 Sent train-s141]: [L3 WARNING pron-det-without-prontype] The word 'کبھی kbhī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 5341 Sent train-s177]: [L3 WARNING pron-det-without-prontype] The word 'کسی ksī' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 8259 Sent train-s268]: [L3 SYNTAX obl-should-be-nmod] The parent (node [22] 'متعلق mtʿlq') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10045 Sent train-s325]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] 'جماعت jmāʿt') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10073 Sent train-s326]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] 'جماعت jmāʿt') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 11450 Sent train-s374]: [L3 SYNTAX too-many-subjects] Multiple subjects [1, 17] ('عیسائیوں ʿīsājīūñ', 'شام šām') under the predicate 'بتایا btāīā' not subtyped as ':outer'.
+[Line 11902 Sent train-s396]: [L3 SYNTAX too-many-subjects] Multiple subjects [36, 37] ('یہ īh', 'نبی nbī') under the predicate 'آخرالزماں Āxrālzmāñ' not subtyped as ':outer'.
+[Line 11961 Sent train-s399]: [L3 SYNTAX too-many-objects] Multiple direct objects [24, 26] ('بات bāt', 'ہو hū') under the predicate 'سنتے snte'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 296
+SYNTAX errors: 201
+*** FAILED *** with 201 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
