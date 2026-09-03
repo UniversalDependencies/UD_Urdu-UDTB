@@ -3296,7 +3296,7 @@
 7	اشوک	اشوک	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=āšūk|LTranslit=āšūk
 8	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	7	case	_	ChunkId=NP2|ChunkType=child|Translit=ke|LTranslit=kā
 9	علاوہ	علاوہ	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP2|ChunkType=child|Translit=ʿlāūh|LTranslit=ʿlāūh
-10	تمام	تمام	DET	QF	_	11	det	_	ChunkId=NP3|ChunkType=child|Translit=tmām|LTranslit=tmām
+10	تمام	تمام	DET	QF	PronType=Tot	11	det	_	ChunkId=NP3|ChunkType=child|Translit=tmām|LTranslit=tmām
 11	محکمہ_جات	محکمہ_جات	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	14	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=mhkmh_jāt|LTranslit=mhkmh_jāt
 12	سے	سے	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP3|ChunkType=child|Translit=se|LTranslit=se
 13	تعلق	تعلق	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=tʿlq|LTranslit=tʿlq
@@ -8586,7 +8586,7 @@
 46	تھے	تھا	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Past|VerbForm=Fin	44	aux	_	Vib=تھا|Tam=WA|ChunkId=VGF3|ChunkType=child|Translit=the|LTranslit=thā
 47	اور	اور	CCONJ	CC	_	58	cc	_	ChunkId=CCP2|ChunkType=head|Translit=āūr|LTranslit=āūr
 48	وہ	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	58	iobj	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head|Translit=ūh|LTranslit=ūh
-49	تمام	تمام	DET	QF	_	48	iobj	_	ChunkId=NP13|ChunkType=child|Translit=tmām|LTranslit=tmām
+49	تمام	تمام	DET	QF	PronType=Tot	48	iobj	_	ChunkId=NP13|ChunkType=child|Translit=tmām|LTranslit=tmām
 50	اس	وہ	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	52	det	_	ChunkId=NP14|ChunkType=child|Translit=ās|LTranslit=ūh
 51	ہیلی	ہیلی	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	52	compound	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=child|Translit=hīlī|LTranslit=hīlī
 52	کاپٹر	کاپٹر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	54	nmod	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=head|Translit=kāpṭr|LTranslit=kāpṭr
@@ -15897,7 +15897,7 @@
 24	،	،	PUNCT	SYM	_	22	punct	_	ChunkId=VGF|ChunkType=child|Translit=,|LTranslit=,
 25	جس	جو	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	38	obl	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=js|LTranslit=jū
 26	مےں	مےں	ADP	PSP	AdpType=Post	25	case	_	ChunkId=NP9|ChunkType=child|Translit=meñ|LTranslit=meñ
-27	پورے	پورا	DET	QF	Case=Acc|Gender=Masc|Number=Sing	28	det	_	ChunkId=NP10|ChunkType=child|Translit=pūre|LTranslit=pūrā
+27	پورے	پورا	DET	QF	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	28	det	_	ChunkId=NP10|ChunkType=child|Translit=pūre|LTranslit=pūrā
 28	شام	شام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	38	obl	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=šām|LTranslit=šām
 29	مےں	مےں	ADP	PSP	AdpType=Post	28	case	_	ChunkId=NP10|ChunkType=child|Translit=meñ|LTranslit=meñ
 30	اب	اب	PRON	PRP	Case=Acc|PronType=Prs	38	obl	_	ChunkId=NP11|ChunkType=head|Translit=āb|LTranslit=āb
