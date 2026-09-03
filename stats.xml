@@ -66,7 +66,7 @@
     <feat name="PronType" value="Ind" upos="DET,PART">479</feat><!-- کئی, تمام, کچھ, ہر, چند, بعض, زیادہ, کم, بہت, اور -->
     <feat name="PronType" value="Int" upos="DET,PRON">91</feat><!-- کیا, کیوں, کس, کہاں, کون, آیا, کیسے, کب, کونسا, کیسا -->
     <feat name="PronType" value="Neg" upos="PART">805</feat><!-- نہیں, نہ, بغیر, بجائے, عدم, بنا, سوا, سوائے -->
-    <feat name="PronType" value="Prs" upos="PRON">5293</feat><!-- اس, وہ, ان, انہوں, اپنے, جس, جو, یہ, اپنی, انہیں -->
+    <feat name="PronType" value="Prs" upos="PRON">5498</feat><!-- اس, وہ, ان, انہوں, اپنے, جو, جس, یہ, اپنی, انہیں -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">688</feat><!-- گے, جائےگا, گا, گی, کریں_گے, جائےگی, جائیں_گے, کرےگی, ہوں_گے, دیں_گے -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1045</feat><!-- تھا, تھے, تھی, تھیں, آئے, جاتے, رکھتی, رکھتے -->
     <feat name="Tense" value="Pres" upos="AUX,PROPN,VERB">3962</feat><!-- ہے, ہیں, ہےں, ہوں, ہو, رہے, کرےں -->
