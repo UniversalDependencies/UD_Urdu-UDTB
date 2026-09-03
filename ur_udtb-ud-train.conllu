@@ -45781,7 +45781,7 @@
 1	تاہم	تاہم	CCONJ	CC	_	30	cc	_	ChunkId=CCP|ChunkType=head|Translit=tāhm|LTranslit=tāhm
 2	سروے	سروے	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	8	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=srūe|LTranslit=srūe
 3	میں	میں	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=mīñ|LTranslit=mīñ
-4	جتنے	جتنا	DET	QF	Gender=Masc|Number=Plur	5	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=jtne|LTranslit=jtnā
+4	جتنے	جتنا	DET	QF	Gender=Masc|Number=Plur|PronType=Rel	5	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=jtne|LTranslit=jtnā
 5	رائے_دہندوں	رائے_دہند	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	8	iobj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=rāje_dhndūñ|LTranslit=rāje_dhnd
 6	سے	سے	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child|Translit=se|LTranslit=se
 7	باتچیت	باتچیت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=bātčīt|LTranslit=bātčīt
@@ -108632,7 +108632,7 @@
 3	زبان	زبان	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=zbān|LTranslit=zbān
 4	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
 5	اور	اور	CCONJ	CC	_	9	cc	_	ChunkId=CCP|ChunkType=head|Translit=āūr|LTranslit=āūr
-6	سارے	سارا	DET	QF	Case=Acc|Gender=Masc|Number=Plur	7	det	_	ChunkId=NP3|ChunkType=child|Translit=sāre|LTranslit=sārā
+6	سارے	سارا	DET	QF	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	7	det	_	ChunkId=NP3|ChunkType=child|Translit=sāre|LTranslit=sārā
 7	ہندوستان	ہندوستان	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=hndūstān|LTranslit=hndūstān
 8	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	7	case	_	ChunkId=NP3|ChunkType=child|Translit=kī|LTranslit=kā
 9	زبان	زبان	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	conj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=zbān|LTranslit=zbān
@@ -108740,7 +108740,7 @@
 3	زبان	زبان	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=zbān|LTranslit=zbān
 4	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
 5	اور	اور	CCONJ	CC	_	9	cc	_	ChunkId=CCP|ChunkType=head|Translit=āūr|LTranslit=āūr
-6	سارے	سارا	DET	QF	Case=Acc|Gender=Masc|Number=Plur	7	det	_	ChunkId=NP3|ChunkType=child|Translit=sāre|LTranslit=sārā
+6	سارے	سارا	DET	QF	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	7	det	_	ChunkId=NP3|ChunkType=child|Translit=sāre|LTranslit=sārā
 7	ہندوستان	ہندوستان	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=hndūstān|LTranslit=hndūstān
 8	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	7	case	_	ChunkId=NP3|ChunkType=child|Translit=kī|LTranslit=kā
 9	زبان	زبان	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	conj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=zbān|LTranslit=zbān
@@ -115796,7 +115796,7 @@
 12	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
 13	لیکن	لیکن	CCONJ	CC	_	19	cc	_	ChunkId=CCP|ChunkType=head|Translit=līkn|LTranslit=līkn
 14	بہت	بہت	DET	QFC	PronType=Ind	15	compound	_	ChunkId=NP5|ChunkType=child|Translit=bht|LTranslit=bht
-15	سارے	سارے	DET	QF	Case=Nom|Gender=Masc|Number=Sing	16	det	_	ChunkId=NP5|ChunkType=child|Translit=sāre|LTranslit=sāre
+15	سارے	سارے	DET	QF	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	16	det	_	ChunkId=NP5|ChunkType=child|Translit=sāre|LTranslit=sāre
 16	گھپلے	گھپلہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	19	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ghple|LTranslit=ghplh
 17	اور	اور	CCONJ	CC	_	18	cc	_	ChunkId=CCP2|ChunkType=head|Translit=āūr|LTranslit=āūr
 18	بدعنوانیاں	بدعنوانی	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	16	conj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=bdʿnūānīāñ|LTranslit=bdʿnūānī

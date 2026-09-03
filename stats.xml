@@ -33,7 +33,7 @@
     <tag name="X">14</tag><!-- افسوس, کتنا, ئن, خدارا, را, لوڈ, نئچ, نسبتاً, واقعی, چۓۓپ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="42">
+  <feats unique="44">
     <feat name="AdpType" value="Post" upos="ADP,ADV">27103</feat><!-- کے, کی, نے, سے, مےں, کو, کا, پر, میں, لیے -->
     <feat name="AdvType" value="Deg" upos="ADV">145</feat><!-- بہت, انتہائی, سے, کافی, زیادہ, مزید, نہایت, شدید, زبردست, اور -->
     <feat name="Aspect" value="Imp" upos="ADJ,AUX,PROPN,VERB">1629</feat><!-- کرتے, سکتا, ہوتا, دیتے, جاتا, سکتے, ہوتی, سکتی, رکھتے, جاتی -->
@@ -67,6 +67,8 @@
     <feat name="PronType" value="Int" upos="DET,PRON">105</feat><!-- کیا, کیوں, کس, کہاں, آیا, کون, کیسے, کیسا, کب, کونسا -->
     <feat name="PronType" value="Neg" upos="PART">805</feat><!-- نہیں, نہ, بغیر, بجائے, عدم, بنا, سوا, سوائے -->
     <feat name="PronType" value="Prs" upos="PRON">5498</feat><!-- اس, وہ, ان, انہوں, اپنے, جو, جس, یہ, اپنی, انہیں -->
+    <feat name="PronType" value="Rel" upos="DET">1</feat><!-- جتنے -->
+    <feat name="PronType" value="Tot" upos="DET">4</feat><!-- سارے, ساری -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">688</feat><!-- گے, جائےگا, گا, گی, کریں_گے, جائےگی, جائیں_گے, کرےگی, ہوں_گے, دیں_گے -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1045</feat><!-- تھا, تھے, تھی, تھیں, آئے, جاتے, رکھتی, رکھتے -->
     <feat name="Tense" value="Pres" upos="AUX,PROPN,VERB">3962</feat><!-- ہے, ہیں, ہےں, ہوں, ہو, رہے, کرےں -->

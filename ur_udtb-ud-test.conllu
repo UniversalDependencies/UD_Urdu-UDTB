@@ -9240,7 +9240,7 @@
 # translit = īh antxābāt sārī rīāst kī sīāsī şūrthāl tbdīl kr skte hīñ.
 1	یہ	یہ	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|Translit=īh|LTranslit=īh
 2	انتخابات	انتخاب	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	9	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=āntxābāt|LTranslit=āntxāb
-3	ساری	سارا	DET	QF	Case=Acc|Gender=Fem|Number=Sing	4	det	_	ChunkId=NP2|ChunkType=child|Translit=sārī|LTranslit=sārā
+3	ساری	سارا	DET	QF	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	4	det	_	ChunkId=NP2|ChunkType=child|Translit=sārī|LTranslit=sārā
 4	ریاست	ریاست	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=rīāst|LTranslit=rīāst
 5	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	4	case	_	ChunkId=NP2|ChunkType=child|Translit=kī|LTranslit=kā
 6	سیاسی	سیاسی	ADJ	JJ	Case=Nom	7	amod	_	ChunkId=NP3|ChunkType=child|Translit=sīāsī|LTranslit=sīāsī
