@@ -2022,7 +2022,7 @@
 17	اور	اور	CCONJ	CC	_	31	cc	_	ChunkId=CCP2|ChunkType=head|Translit=āūr|LTranslit=āūr
 18	قلت	قلت	NOUN	NNZ	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	amod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=qlt|LTranslit=qlt
 19	آب	آب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=Āb|LTranslit=Āb
-20	جیسے	جیسے	DET	DEM	_	22	det	_	ChunkId=NP8|ChunkType=child|Translit=jīse|LTranslit=jīse
+20	جیسے	جیسے	DET	DEM	PronType=Dem	22	det	_	ChunkId=NP8|ChunkType=child|Translit=jīse|LTranslit=jīse
 21	سنگین	سنگین	ADJ	JJ	Case=Acc	22	amod	_	ChunkId=NP8|ChunkType=child|Translit=sngīn|LTranslit=sngīn
 22	مسئلہ	مسئلہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	29	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=msjlh|LTranslit=msjlh
 23	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	22	case	_	ChunkId=NP8|ChunkType=child|Translit=ke|LTranslit=kā
@@ -3317,7 +3317,7 @@
 2	مستقر	مستقر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=mstqr|LTranslit=mstqr
 3	نرمل	نرمل	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=nrml|LTranslit=nrml
 4	کے	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	3	case	_	ChunkId=NP|ChunkType=child|Translit=ke|LTranslit=kā
-5	ایسے	ایسا	DET	DEM	Case=Acc|Gender=Masc|Number=Sing	6	det	_	ChunkId=NP2|ChunkType=child|Translit=āīse|LTranslit=āīsā
+5	ایسے	ایسا	DET	DEM	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	ChunkId=NP2|ChunkType=child|Translit=āīse|LTranslit=āīsā
 6	محلہ_جات	محلہ_جات	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	25	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=mhlh_jāt|LTranslit=mhlh_jāt
 7	جہاں	جہاں	PRON	PRP	Case=Acc|PronType=Prs	14	obl	_	ChunkId=NP3|ChunkType=head|Translit=jhāñ|LTranslit=jhāñ
 8	پر	پر	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP3|ChunkType=child|Translit=pr|LTranslit=pr
@@ -5306,7 +5306,7 @@
 35	کے	کے	ADP	PSP	AdpType=Post	34	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ke|LTranslit=ke
 36	علاوہ	علاوہ	ADP	PSP	AdpType=Post	34	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ʿlāūh|LTranslit=ʿlāūh
 37	چند	چند	DET	QF	PronType=Ind	39	det	_	ChunkId=NP11|ChunkType=child|Translit=čnd|LTranslit=čnd
-38	ایسے	ایسا	DET	DEM	Case=Acc|Gender=Masc|Number=Sing|Person=3	39	det	_	ChunkId=NP11|ChunkType=child|Translit=āīse|LTranslit=āīsā
+38	ایسے	ایسا	DET	DEM	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Dem	39	det	_	ChunkId=NP11|ChunkType=child|Translit=āīse|LTranslit=āīsā
 39	افراد	فرد	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	41	nmod	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head|Translit=āfrād|LTranslit=frd
 40	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	39	case	_	ChunkId=NP11|ChunkType=child|Translit=ke|LTranslit=kā
 41	نام	نام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	43	obj	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head|Translit=nām|LTranslit=nām

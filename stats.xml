@@ -62,7 +62,7 @@
     <feat name="Polite" value="Form" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">1092</feat><!-- انہوں, انہیں, انھوں, ان, ہیں, ہےں, ہوئے, تھے, آپ, کے -->
     <feat name="Polite" value="Infm" upos="AUX,VERB">20</feat><!-- کرو, رکھو, جاؤ, رہو, آؤ, جاؤں, دیکھو, سناؤ, لو, چاہو -->
     <feat name="Poss" value="Yes" upos="PRON">35</feat><!-- ان, ہم, میری, میرا, اس, جس, میرے, ہمارے -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">1903</feat><!-- اس, یہ, ان, اسی, ایسے, جو, وہ, ایسی, یہی, ایسا -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">1934</feat><!-- اس, یہ, ان, اسی, ایسے, جو, وہ, یہی, ایسی, دیگر -->
     <feat name="PronType" value="Ind" upos="DET,PART">479</feat><!-- کئی, تمام, کچھ, ہر, چند, بعض, زیادہ, کم, بہت, اور -->
     <feat name="PronType" value="Int" upos="DET,PRON">105</feat><!-- کیا, کیوں, کس, کہاں, آیا, کون, کیسے, کیسا, کب, کونسا -->
     <feat name="PronType" value="Neg" upos="PART">805</feat><!-- نہیں, نہ, بغیر, بجائے, عدم, بنا, سوا, سوائے -->
