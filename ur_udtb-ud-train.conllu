@@ -5338,7 +5338,7 @@
 20	خاندانوں	خاندان	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	28	obl	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=xāndānūñ|LTranslit=xāndān
 21	کے	کے	ADP	PSP	AdpType=Post	20	case	_	ChunkId=NP8|ChunkType=child|Translit=ke|LTranslit=ke
 22	درمیان	درمیان	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	20	case	_	AltTag=ADP-NOUN|ChunkId=NP8|ChunkType=child|Translit=drmīān|LTranslit=drmīān
-23	کسی	کوی	DET	QF	Case=Acc	24	det	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=ksī|LTranslit=kūī
+23	کسی	کوی	DET	QF	Case=Acc|PronType=Ind	24	det	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=ksī|LTranslit=kūī
 24	قسم	قسم	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	26	nmod	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=qsm|LTranslit=qsm
 25	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	24	case	_	ChunkId=NP9|ChunkType=child|Translit=ke|LTranslit=kā
 26	اختلافات	اختلاف	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	28	obj	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=āxtlāfāt|LTranslit=āxtlāf
@@ -5650,7 +5650,7 @@
 24	نے	نے	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP7|ChunkType=child|Translit=ne|LTranslit=ne
 25	تاحال	تاحال	ADV	RB	_	30	advmod	_	ChunkId=RBP|ChunkType=head|Translit=tāhāl|LTranslit=tāhāl
 26	کبھی	کبھی	ADV	RB	_	28	amod	_	ChunkId=RBP2|ChunkType=head|Translit=kbhī|LTranslit=kbhī
-27	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	28	det	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+27	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	28	det	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 28	پہل	پہل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=phl|LTranslit=phl
 29	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	30	advmod	_	ChunkId=VGF|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
 30	کی	کرنا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=krnā|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=kī|Vib=یا
@@ -6681,7 +6681,7 @@
 1	علم	علم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=ʿlm|LTranslit=ʿlm
 2	اور	اور	CCONJ	CC	_	3	cc	_	ChunkId=CCP|ChunkType=head|Translit=āūr|LTranslit=āūr
 3	عقل	عقل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	conj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=ʿql|LTranslit=ʿql
-4	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing	8	iobj	_	ChunkId=NP3|ChunkType=child|Translit=āek|LTranslit=āek
+4	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	8	iobj	_	ChunkId=NP3|ChunkType=child|Translit=āek|LTranslit=āek
 5	دوسرے	دوسرا	PRON	PRP	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	4	conj	_	ChunkId=NP3|ChunkType=head|Translit=dūsre|LTranslit=dūsrā
 6	کے	کے	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP3|ChunkType=child|Translit=ke|LTranslit=ke
 7	لیے	لئے	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP3|ChunkType=child|Translit=līe|LTranslit=lje
@@ -6711,7 +6711,7 @@
 15	بچانے	بچانا	VERB	VM	Case=Acc|VerbForm=Inf	21	advcl	_	ChunkId=VGNN2|ChunkType=head|LTranslit=bčānā|Tam=nA|Translit=bčāne|Vib=نا
 16	کے	کے	ADP	PSP	AdpType=Post	15	mark	_	ChunkId=VGNN2|ChunkType=child|Translit=ke|LTranslit=ke
 17	لیے	لئے	ADP	PSP	AdpType=Post	15	mark	_	ChunkId=VGNN2|ChunkType=child|Translit=līe|LTranslit=lje
-18	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3	19	det	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=ksī|LTranslit=kūjī
+18	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3|PronType=Ind	19	det	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=ksī|LTranslit=kūjī
 19	درخت	درخت	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=drxt|LTranslit=drxt
 20	پر	پر	ADP	PSP	AdpType=Post	19	case	_	ChunkId=NP8|ChunkType=child|Translit=pr|LTranslit=pr
 21	چڑھ	چڑھنا	VERB	VM	Voice=Act	10	obj	_	ChunkId=VGF2|ChunkType=head|LTranslit=črhnā|Stype=declarative|Tam=0|Translit=črh|Vib=0
@@ -7186,7 +7186,7 @@
 15	بچانے	بچانا	VERB	VM	Case=Acc|VerbForm=Inf	21	advcl	_	ChunkId=VGNN2|ChunkType=head|LTranslit=bčānā|Tam=nA|Translit=bčāne|Vib=نا
 16	کے	کے	ADP	PSP	AdpType=Post	15	mark	_	ChunkId=VGNN2|ChunkType=child|Translit=ke|LTranslit=ke
 17	لیے	لئے	ADP	PSP	AdpType=Post	15	mark	_	ChunkId=VGNN2|ChunkType=child|Translit=līe|LTranslit=lje
-18	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3	19	det	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=ksī|LTranslit=kūjī
+18	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3|PronType=Ind	19	det	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=ksī|LTranslit=kūjī
 19	درخت	درخت	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=drxt|LTranslit=drxt
 20	پر	پر	ADP	PSP	AdpType=Post	19	case	_	ChunkId=NP8|ChunkType=child|Translit=pr|LTranslit=pr
 21	چڑھ	چڑھنا	VERB	VM	Voice=Act	10	obj	_	ChunkId=VGF2|ChunkType=head|LTranslit=črhnā|Stype=declarative|Tam=0|Translit=črh|Vib=0
@@ -8262,7 +8262,7 @@
 23	ڈرافٹ	ڈرافٹ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=ḍrāfṭ|LTranslit=ḍrāfṭ
 24	پلان	پلان	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	28	nmod	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=plān|LTranslit=plān
 25	مع	مع	ADP	PSP	AdpType=Post	24	case	_	ChunkId=NP9|ChunkType=child|Translit=mʿ|LTranslit=mʿ
-26	مختلف	مختلف	DET	QF	_	28	det	_	ChunkId=NP9|ChunkType=child|Translit=mxtlf|LTranslit=mxtlf
+26	مختلف	مختلف	DET	QF	PronType=Ind	28	det	_	ChunkId=NP9|ChunkType=child|Translit=mxtlf|LTranslit=mxtlf
 27	سیاسی	سیاسی	ADJ	JJ	Gender=Fem	28	amod	_	ChunkId=NP9|ChunkType=child|Translit=sīāsī|LTranslit=sīāsī
 28	جماعتوں	جماعت	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	32	nmod	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=jmāʿtūñ|LTranslit=jmāʿt
 29	کی	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	28	case	_	ChunkId=NP9|ChunkType=child|Translit=kī|LTranslit=kā
@@ -13999,7 +13999,7 @@
 27	پر	پر	ADP	PSP	AdpType=Post	26	case	_	ChunkId=NP9|ChunkType=child|Translit=pr|LTranslit=pr
 28	فیصلہ	فیصلہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	31	nmod	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=fīşlh|LTranslit=fīşlh
 29	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	28	case	_	ChunkId=NP10|ChunkType=child|Translit=kā|LTranslit=kā
-30	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	31	det	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+30	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	31	det	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 31	حق	حق	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	33	obj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head|Translit=hq|LTranslit=hq
 32	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	33	advmod	_	ChunkId=VGF3|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
 33	پہنچتا	پہنچنا	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	15	conj	_	ChunkId=VGF3|ChunkType=head|LTranslit=phnčnā|SpaceAfter=No|Stype=declarative|Tam=wA|Translit=phnčtā|Vib=تا
@@ -14523,7 +14523,7 @@
 16	تھا	تھا	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	Vib=تھا|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā|LTranslit=thā
 17	لیکن	لیکن	CCONJ	CC	_	22	cc	_	ChunkId=CCP|ChunkType=head|Translit=līkn|LTranslit=līkn
 18	تاحال	تاحال	ADV	RB	_	22	advmod	_	ChunkId=RBP|ChunkType=head|Translit=tāhāl|LTranslit=tāhāl
-19	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	20	det	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+19	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	20	det	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 20	ترمیم	ترمیم	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=trmīm|LTranslit=trmīm
 21	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	22	advmod	_	ChunkId=VGF2|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
 22	کی	کرنا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	conj	_	ChunkId=VGF2|ChunkType=head|LTranslit=krnā|Stype=declarative|Tam=yA|Translit=kī|Vib=یا
@@ -17655,7 +17655,7 @@
 56	ایس	ایس	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	57	compound	_	Vib=0|Tam=0|ChunkId=NP19|ChunkType=child|Translit=āīs|LTranslit=āīs
 57	راوت	راوت	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	conj	_	Vib=0|Tam=0|ChunkId=NP19|ChunkType=head|Translit=rāūt|LTranslit=rāūt
 58	اور	اور	CCONJ	CC	_	61	cc	_	ChunkId=CCP3|ChunkType=head|Translit=āūr|LTranslit=āūr
-59	دیگر	دیگر	DET	QF	_	61	det	_	ChunkId=NP20|ChunkType=child|Translit=dīgr|LTranslit=dīgr
+59	دیگر	دیگر	DET	QF	PronType=Ind	61	det	_	ChunkId=NP20|ChunkType=child|Translit=dīgr|LTranslit=dīgr
 60	سینئر	سینئر	ADJ	JJ	Case=Nom	61	amod	_	ChunkId=NP20|ChunkType=child|Translit=sīnjr|LTranslit=sīnjr
 61	عہدیدار	عہدیدار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	conj	_	Vib=0|Tam=0|ChunkId=NP20|ChunkType=head|Translit=ʿhdīdār|LTranslit=ʿhdīdār
 62	اجلاس	اجلاس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	64	obl	_	Vib=0|Tam=0|ChunkId=NP21|ChunkType=head|Translit=ājlās|LTranslit=ājlās
@@ -17841,7 +17841,7 @@
 23	باقاعدگی	باقاعدگی	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	31	obl	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=bāqāʿdgī|LTranslit=bāqāʿdgī
 24	کے	کے	ADP	PSP	AdpType=Post	23	case	_	ChunkId=NP8|ChunkType=child|Translit=ke|LTranslit=ke
 25	ساتھ	ساتھ	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	23	case	_	AltTag=ADP-NOUN|ChunkId=NP8|ChunkType=child|Translit=sāth|LTranslit=sāth
-26	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3	27	det	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=ksī|LTranslit=kūjī
+26	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3|PronType=Ind	27	det	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=ksī|LTranslit=kūjī
 27	رکاوٹ	رکاوٹ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	31	obl	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=rkāūṭ|LTranslit=rkāūṭ
 28	کے	کے	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	27	case	_	ChunkId=NP9|ChunkType=child|Translit=ke|LTranslit=ke
 29	بغیر	بغیر	PART	NEG	Polarity=Neg|PronType=Neg	27	advmod	_	ChunkId=NP9|ChunkType=child|Translit=bġīr|LTranslit=bġīr
@@ -19302,7 +19302,7 @@
 16	ملین	ملین	NOUN	NN	_	17	nmod	_	ChunkId=NP6|ChunkType=child|Translit=mlīn|LTranslit=mlīn
 17	ٹن	ٹن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=ṭn|LTranslit=ṭn
 18	سے	سے	ADP	PSP	AdpType=Post	17	case	_	ChunkId=NP6|ChunkType=child|Translit=se|LTranslit=se
-19	قدرے	قدرے	DET	QF	_	20	det	_	ChunkId=JJP|ChunkType=child|Translit=qdre|LTranslit=qdre
+19	قدرے	قدرے	DET	QF	PronType=Ind	20	det	_	ChunkId=JJP|ChunkType=child|Translit=qdre|LTranslit=qdre
 20	کم	کم	ADJ	JJ	_	9	conj	_	ChunkId=JJP|ChunkType=head|Translit=km|LTranslit=km
 21	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
 22	-	-	PUNCT	SYM	_	9	punct	_	ChunkId=VGF2|ChunkType=child|Translit=-|LTranslit=-
@@ -23255,7 +23255,7 @@
 19	لوگوں	لوگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	26	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=lūgūñ|LTranslit=lūg
 20	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	19	case	_	ChunkId=NP7|ChunkType=child|Translit=kī|LTranslit=kā
 21	نسبت	نسبت	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	case	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=nsbt|LTranslit=nsbt
-22	کم	کم	DET	QF	Case=Nom	24	det	_	ChunkId=NP8|ChunkType=child|Translit=km|LTranslit=km
+22	کم	کم	DET	QF	Case=Nom|PronType=Ind	24	det	_	ChunkId=NP8|ChunkType=child|Translit=km|LTranslit=km
 23	جارحانہ	جارحانہ	ADJ	JJ	Case=Nom	24	amod	_	ChunkId=NP8|ChunkType=child|Translit=jārhānh|LTranslit=jārhānh
 24	رویہ	رویہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	26	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=rūīh|LTranslit=rūīh
 25	اختیار	اختیار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	26	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=āxtīār|LTranslit=āxtīār
@@ -23396,7 +23396,7 @@
 19	لوگوں	لوگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	26	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=lūgūñ|LTranslit=lūg
 20	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	19	case	_	ChunkId=NP7|ChunkType=child|Translit=kī|LTranslit=kā
 21	نسبت	نسبت	ADP	PSP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	case	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=nsbt|LTranslit=nsbt
-22	کم	کم	DET	QF	Case=Nom	24	det	_	ChunkId=NP8|ChunkType=child|Translit=km|LTranslit=km
+22	کم	کم	DET	QF	Case=Nom|PronType=Ind	24	det	_	ChunkId=NP8|ChunkType=child|Translit=km|LTranslit=km
 23	جارحانہ	جارحانہ	ADJ	JJ	Case=Nom	24	amod	_	ChunkId=NP8|ChunkType=child|Translit=jārhānh|LTranslit=jārhānh
 24	رویہ	رویہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	26	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=rūīh|LTranslit=rūīh
 25	اختیار	اختیار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	26	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=āxtīār|LTranslit=āxtīār
@@ -23865,7 +23865,7 @@
 43	اس	یہ	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	44	det	_	ChunkId=NP15|ChunkType=child|Translit=ās|LTranslit=īh
 44	تحقیق	تحقیق	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	51	obl	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head|Translit=thqīq|LTranslit=thqīq
 45	سے	سے	ADP	PSP	AdpType=Post	44	case	_	ChunkId=NP15|ChunkType=child|Translit=se|LTranslit=se
-46	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3	47	det	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=child|Translit=ksī|LTranslit=kūjī
+46	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3|PronType=Ind	47	det	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=child|Translit=ksī|LTranslit=kūjī
 47	حد	حد	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	51	obl	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=head|Translit=hd|LTranslit=hd
 48	تک	تک	ADP	PSP	_	47	case	_	ChunkId=NP16|ChunkType=child|Translit=tk|LTranslit=tk
 49	یہ	یہ	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	50	det	_	ChunkId=NP17|ChunkType=child|Translit=īh|LTranslit=īh
@@ -25439,7 +25439,7 @@
 46	پر	پر	ADP	PSP	AdpType=Post	45	case	_	ChunkId=NP16|ChunkType=child|Translit=pr|LTranslit=pr
 47	کنٹرول	کنٹرول	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	50	nmod	_	Vib=0|Tam=0|ChunkId=NP17|ChunkType=head|Translit=knṭrūl|LTranslit=knṭrūl
 48	کی	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	47	case	_	ChunkId=NP17|ChunkType=child|Translit=kī|LTranslit=kā
-49	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	50	det	_	Vib=0|Tam=0|ChunkId=NP18|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+49	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	50	det	_	Vib=0|Tam=0|ChunkId=NP18|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 50	صورت	صورت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	52	obj	_	Vib=0|Tam=0|ChunkId=NP18|ChunkType=head|Translit=şūrt|LTranslit=şūrt
 51	پیدا	پیدا	ADJ	JJ	_	52	compound	_	ChunkId=JJP3|ChunkType=head|Translit=pīdā|LTranslit=pīdā
 52	ہوگی	ہونا	VERB	VM	Gender=Fem|Number=Sing|Voice=Act	38	acl	_	ChunkId=VGF4|ChunkType=head|LTranslit=hūnā|Stype=declarative|Tam=ga|Translit=hūgī|Vib=گا
@@ -25979,7 +25979,7 @@
 37	ہو	ہونا	VERB	VM	Voice=Act	27	obj	_	ChunkId=VGF3|ChunkType=head|LTranslit=hūnā|Stype=declarative|Tam=0|Translit=hū|Vib=0
 38	اور	اور	CCONJ	CC	_	43	cc	_	ChunkId=CCP4|ChunkType=head|Translit=āūr|LTranslit=āūr
 39	یہ	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=head|Translit=īh|LTranslit=īh
-40	کوئی	کوئی	DET	QF	Number=Sing|Person=3	42	det	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+40	کوئی	کوئی	DET	QF	Number=Sing|Person=3|PronType=Ind	42	det	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 41	مستحکم	مستحکم	ADJ	JJ	Case=Nom	42	amod	_	ChunkId=NP15|ChunkType=child|Translit=msthkm|LTranslit=msthkm
 42	قانون	قانون	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	43	xcomp	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head|Translit=qānūn|LTranslit=qānūn
 43	بن	بننا	VERB	VM	Voice=Act	37	conj	_	ChunkId=VGF4|ChunkType=head|LTranslit=bnnā|Stype=declarative|Tam=0|Translit=bn|Vib=0
@@ -26159,7 +26159,7 @@
 2	ہندوستانی	ہندوستانی	NOUN	NNC	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=hndūstānī|LTranslit=hndūstānī
 3	سیاست	سیاست	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=sīāst|LTranslit=sīāst
 4	مےں	مےں	ADP	PSP	AdpType=Post	3	case	_	ChunkId=NP2|ChunkType=child|Translit=meñ|LTranslit=meñ
-5	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	7	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+5	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	7	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 6	اچھے	اچھا	ADJ	JJ	Case=Acc	7	amod	_	ChunkId=NP3|ChunkType=child|Translit=āčhe|LTranslit=āčhā
 7	نام	نام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=nām|LTranslit=nām
 8	سے	سے	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP3|ChunkType=child|Translit=se|LTranslit=se
@@ -26316,7 +26316,7 @@
 20	کے	کے	ADP	PSP	AdpType=Post	19	case	_	ChunkId=NP7|ChunkType=child|Translit=ke|LTranslit=ke
 21	لیے	لیے	ADP	PSP	AdpType=Post	19	case	_	ChunkId=NP7|ChunkType=child|Translit=līe|LTranslit=līe
 22	وہ	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=ūh|LTranslit=ūh
-23	کسی	کوی	DET	QF	Case=Nom|Number=Sing|Person=3	25	det	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=ksī|LTranslit=kūī
+23	کسی	کوی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	25	det	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=ksī|LTranslit=kūī
 24	بھی	بھی	PART	RP	_	23	dep	_	ChunkId=NP9|ChunkType=child|Translit=bhī|LTranslit=bhī
 25	حد	حد	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	27	obl	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=hd|LTranslit=hd
 26	تک	تک	ADP	PSP	AdpType=Post	25	case	_	ChunkId=NP9|ChunkType=child|Translit=tk|LTranslit=tk
@@ -29045,7 +29045,7 @@
 12	کی	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	11	case	_	ChunkId=NP5|ChunkType=child|Translit=kī|LTranslit=kā
 13	عمومی	عمومی	ADJ	JJ	Case=Nom	14	amod	_	ChunkId=NP6|ChunkType=child|Translit=ʿmūmī|LTranslit=ʿmūmī
 14	سوچ	سوچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=sūč|LTranslit=sūč
-15	کچھ	کچھ	PRON	PRPC	_	16	nsubj	_	ChunkId=NP7|ChunkType=child|Translit=kčh|LTranslit=kčh
+15	کچھ	کچھ	PRON	PRPC	PronType=Ind	16	nsubj	_	ChunkId=NP7|ChunkType=child|Translit=kčh|LTranslit=kčh
 16	ایسی	ایسا	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	0	root	_	ChunkId=NP7|ChunkType=head|Translit=āīsī|LTranslit=āīsā
 17	ہی	ہی	PART	RP	_	16	dep	_	ChunkId=NP7|ChunkType=child|Translit=hī|LTranslit=hī
 18	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	SpaceAfter=No|AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
@@ -29920,7 +29920,7 @@
 28	کے	کے	ADP	PSP	AdpType=Post	27	case	_	ChunkId=NP10|ChunkType=child|Translit=ke|LTranslit=ke
 29	علاوہ	علاوہ	ADP	PSP	AdpType=Post	27	case	_	ChunkId=NP10|ChunkType=child|Translit=ʿlāūh|LTranslit=ʿlāūh
 30	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	32	det	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=child|Translit=kūjī|LTranslit=kūjī
-31	اور	اور	DET	QF	Case=Nom	32	det	_	ChunkId=NP11|ChunkType=child|Translit=āūr|LTranslit=āūr
+31	اور	اور	DET	QF	Case=Nom|PronType=Ind	32	det	_	ChunkId=NP11|ChunkType=child|Translit=āūr|LTranslit=āūr
 32	نشست	نشست	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	35	obj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head|Translit=nšst|LTranslit=nšst
 33	حاصل	حاصل	ADJ	JJ	_	35	compound	_	ChunkId=JJP|ChunkType=head|Translit=hāşl|LTranslit=hāşl
 34	نہ	نہ	PART	NEG	Polarity=Neg|PronType=Neg	35	advmod	_	ChunkId=VGF2|ChunkType=child|Translit=nh|LTranslit=nh
@@ -31842,7 +31842,7 @@
 21	بہبود	بہبود	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	28	obl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=bhbūd|LTranslit=bhbūd
 22	کے	کے	ADP	PSP	AdpType=Post	21	case	_	ChunkId=NP6|ChunkType=child|Translit=ke|LTranslit=ke
 23	لئے	لئے	ADP	PSP	AdpType=Post	21	case	_	ChunkId=NP6|ChunkType=child|Translit=lje|LTranslit=lje
-24	کئی	کئی	DET	QF	_	25	det	_	ChunkId=NP7|ChunkType=child|Translit=kjī|LTranslit=kjī
+24	کئی	کئی	DET	QF	PronType=Ind	25	det	_	ChunkId=NP7|ChunkType=child|Translit=kjī|LTranslit=kjī
 25	اسکیمات	اسکیم	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	28	obj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=āskīmāt|LTranslit=āskīm
 26	کو	کو	ADP	PSP	AdpType=Post	25	case	_	ChunkId=NP7|ChunkType=child|Translit=kū|LTranslit=kū
 27	نافذالعمل	نافذالعمل	ADJ	JJ	_	28	compound	_	ChunkId=JJP|ChunkType=head|Translit=nāfðālʿml|LTranslit=nāfðālʿml
@@ -32113,7 +32113,7 @@
 7	نے	نے	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP2|ChunkType=child|Translit=ne|LTranslit=ne
 8	کہا	کہہنا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=khhnā|Stype=declarative|Tam=yA|Translit=khā|Vib=یا
 9	کہ	کہ	SCONJ	CC	_	47	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head|Translit=kh|LTranslit=kh
-10	کچھ	کچھ	DET	QF	_	11	det	_	ChunkId=NP3|ChunkType=child|Translit=kčh|LTranslit=kčh
+10	کچھ	کچھ	DET	QF	PronType=Ind	11	det	_	ChunkId=NP3|ChunkType=child|Translit=kčh|LTranslit=kčh
 11	دن	دن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	47	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=dn|LTranslit=dn
 12	قبل	قبل	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	11	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child|Translit=qbl|LTranslit=qbl
 13	مسٹر	مسٹر	PART	RP	_	18	dep	_	ChunkId=NP4|ChunkType=child|Translit=msṭr|LTranslit=msṭr
@@ -32654,7 +32654,7 @@
 6	ابوعبدالرحمن	ابوعبدالرحمن	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=ābūʿbdālrhmn|LTranslit=ābūʿbdālrhmn
 7	بن	بن	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=bn|LTranslit=bn
 8	اوس	اوس	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=āūs|LTranslit=āūs
-9	کم	کم	DET	QF	_	10	det	_	ChunkId=NP3|ChunkType=child|Translit=km|LTranslit=km
+9	کم	کم	DET	QF	PronType=Ind	10	det	_	ChunkId=NP3|ChunkType=child|Translit=km|LTranslit=km
 10	عمر	عمر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=ʿmr|LTranslit=ʿmr
 11	تھے	تھا	AUX	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Polite=Form|VerbForm=Part|Voice=Act	10	cop	_	SpaceAfter=No|AltTag=AUX-VERB|Vib=تھا|Tam=wA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=the|LTranslit=thā
 12	،	،	PUNCT	SYM	_	29	punct	_	ChunkId=VGF|ChunkType=child|Translit=,|LTranslit=,
@@ -36368,7 +36368,7 @@
 # sent_id = train-s1188
 # text = کم از کم چھ افراد جن میں سے ایک بندوق لہرا رہا تھا اور دیگر کے پاس چاقو تھے، گرو پر ٹوٹ پڑے تھے۔
 # translit = km az km čh afrād jn mīñ se aīk bndūq lhrā rhā thā aūr dīgr ke pās čāqū the, grū pr ṭūṭ pre the.
-1	کم	کم	DET	QF	Case=Nom	5	det	_	ChunkId=NP|ChunkType=child|Translit=km|LTranslit=km
+1	کم	کم	DET	QF	Case=Nom|PronType=Ind	5	det	_	ChunkId=NP|ChunkType=child|Translit=km|LTranslit=km
 2	از	از	PART	RP	_	1	dep	_	ChunkId=NP|ChunkType=child|Translit=āz|LTranslit=āz
 3	کم	کم	DET	QF	PronType=Ind	5	det	_	ChunkId=NP|ChunkType=child|Translit=km|LTranslit=km
 4	چھ	چھ	NUM	QC	NumType=Card	5	nummod	_	ChunkId=NP|ChunkType=child|Translit=čh|LTranslit=čh
@@ -36941,7 +36941,7 @@
 37	چاہتے	چاہنا	VERB	VAUX	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	19	obj	_	ChunkId=VGF2|ChunkType=child|LTranslit=čāhnā|Tam=wA|Translit=čāhte|Vib=تا
 38	ہےں	ہے	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=heñ|LTranslit=he
 39	کہ	کہ	SCONJ	CC	_	51	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP3|ChunkType=head|Translit=kh|LTranslit=kh
-40	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	42	det	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+40	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	42	det	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 41	بھی	بھی	PART	RP	_	40	dep	_	ChunkId=NP15|ChunkType=child|Translit=bhī|LTranslit=bhī
 42	ترقی	ترقی	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	44	nmod	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head|Translit=trqī|LTranslit=trqī
 43	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	42	case	_	ChunkId=NP15|ChunkType=child|Translit=kā|LTranslit=kā
@@ -37037,7 +37037,7 @@
 36	مسئلہ	مسئلہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	40	nmod	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=msjlh|LTranslit=msjlh
 37	کشمیر	کشمیر	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	36	nmod	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head|Translit=kšmīr|LTranslit=kšmīr
 38	کا	پر	ADP	PSP	AdpType=Post	36	dislocated	_	ChunkId=FRAGP2|ChunkType=head|Translit=kā|LTranslit=pr
-39	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	40	det	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+39	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	40	det	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 40	حل	حل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	42	obj	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head|Translit=hl|LTranslit=hl
 41	نہ	نہ	PART	NEG	Polarity=Neg|PronType=Neg	42	advmod	_	ChunkId=VGF4|ChunkType=child|Translit=nh|LTranslit=nh
 42	نکالا	نکالنا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	33	conj	_	ChunkId=VGF4|ChunkType=head|LTranslit=nkālnā|Stype=declarative|Tam=yA|Translit=nkālā|Vib=یا
@@ -37150,7 +37150,7 @@
 13	نکات	نکات	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=nkāt|LTranslit=nkāt
 14	پر	پر	ADP	PSP	AdpType=Post	13	case	_	ChunkId=NP4|ChunkType=child|Translit=pr|LTranslit=pr
 15	بھی	بھی	PART	RP	_	13	dep	_	ChunkId=NP4|ChunkType=child|Translit=bhī|LTranslit=bhī
-16	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	17	det	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+16	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	17	det	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 17	قدم	قدم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=qdm|LTranslit=qdm
 18	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	19	advmod	_	ChunkId=VGF2|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
 19	اٹھایا	اٹھانا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	acl	_	ChunkId=VGF2|ChunkType=head|LTranslit=āṭhānā|Stype=declarative|Tam=yA|Translit=āṭhāīā|Vib=یا
@@ -44778,7 +44778,7 @@
 14	ملزمین	ملزم	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	20	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mlzmīn|LTranslit=mlzm
 15	آپس	آپس	PRON	PRP	Case=Acc|PronType=Prs	20	obl	_	ChunkId=NP5|ChunkType=head|Translit=Āps|LTranslit=Āps
 16	مےں	مےں	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP5|ChunkType=child|Translit=meñ|LTranslit=meñ
-17	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing	18	det	_	ChunkId=NP6|ChunkType=child|Translit=āek|LTranslit=āek
+17	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	18	det	_	ChunkId=NP6|ChunkType=child|Translit=āek|LTranslit=āek
 18	دوسرے	دوسرا	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	20	obj	_	ChunkId=NP6|ChunkType=head|Translit=dūsre|LTranslit=dūsrā
 19	کو	کو	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP6|ChunkType=child|Translit=kū|LTranslit=kū
 20	جانتے	جانا	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	11	obj	_	ChunkId=VGF2|ChunkType=head|LTranslit=jānā|Stype=declarative|Tam=wA|Translit=jānte|Vib=تا
@@ -51811,7 +51811,7 @@
 2	شماری	شماری	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	Vib=ْ|Tam=0|ChunkId=NP|ChunkType=head|Translit=šmārī|LTranslit=šmārī
 3	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke|LTranslit=kā
 4	دن	دن	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obl	_	Vib=ْ|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dn|LTranslit=dn
-5	دونوں	دو	DET	QF	Case=Acc	6	det	_	ChunkId=NP3|ChunkType=child|Translit=dūnūñ|LTranslit=dū
+5	دونوں	دو	DET	QF	Case=Acc|PronType=Ind	6	det	_	ChunkId=NP3|ChunkType=child|Translit=dūnūñ|LTranslit=dū
 6	قائدین	قائد	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	17	nsubj	_	Vib=ْ|Tam=0|ChunkId=NP3|ChunkType=head|Translit=qājdīn|LTranslit=qājd
 7	نے	نے	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP3|ChunkType=child|Translit=ne|LTranslit=ne
 8	اول	اول	ADJ	JJ	_	11	amod	_	ChunkId=NP4|ChunkType=child|Translit=āūl|LTranslit=āūl
@@ -52813,7 +52813,7 @@
 25	کی	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	24	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kī|LTranslit=kā
 26	وجہ	وجہ	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	24	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ūjh|LTranslit=ūjh
 27	سے	سے	ADP	PSP	AdpType=Post	24	mark	_	ChunkId=VGNN|ChunkType=child|Translit=se|LTranslit=se
-28	مزید	مزید	DET	QF	Case=Acc	29	det	_	ChunkId=NP8|ChunkType=child|Translit=mzīd|LTranslit=mzīd
+28	مزید	مزید	DET	QF	Case=Acc|PronType=Ind	29	det	_	ChunkId=NP8|ChunkType=child|Translit=mzīd|LTranslit=mzīd
 29	معلمین	معلم	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	31	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=mʿlmīn|LTranslit=mʿlm
 30	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	29	case	_	ChunkId=NP8|ChunkType=child|Translit=kī|LTranslit=kā
 31	تقرری	تقرری	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	34	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=tqrrī|LTranslit=tqrrī
@@ -56107,7 +56107,7 @@
 45	لیکن	لیکن	CCONJ	CC	_	51	cc	_	ChunkId=CCP3|ChunkType=head|Translit=līkn|LTranslit=līkn
 46	کانگریس	کانگریس	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	51	nsubj	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head|Translit=kāngrīs|LTranslit=kāngrīs
 47	نے	نے	ADP	PSP	AdpType=Post	46	case	_	ChunkId=NP15|ChunkType=child|Translit=ne|LTranslit=ne
-48	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	49	det	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+48	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	49	det	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 49	کارروائی	کارروائی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	51	compound	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=head|Translit=kārrūājī|LTranslit=kārrūājī
 50	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	51	advmod	_	ChunkId=VGF4|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
 51	کی	کرنا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	25	conj	_	ChunkId=VGF4|ChunkType=head|LTranslit=krnā|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=kī|Vib=یا
@@ -58455,7 +58455,7 @@
 3	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke|LTranslit=kā
 4	احتجاج	احتجاج	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=āhtjāj|LTranslit=āhtjāj
 5	سے	سے	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP2|ChunkType=child|Translit=se|LTranslit=se
-6	تھوڑی	تھوڑی	DET	QF	Case=Acc|Gender=Fem|Number=Sing	7	det	_	ChunkId=NP3|ChunkType=child|Translit=thūrī|LTranslit=thūrī
+6	تھوڑی	تھوڑی	DET	QF	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	ChunkId=NP3|ChunkType=child|Translit=thūrī|LTranslit=thūrī
 7	دیر	دیر	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=dīr|LTranslit=dīr
 8	کے	کے	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP3|ChunkType=child|Translit=ke|LTranslit=ke
 9	لیے	لئے	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP3|ChunkType=child|Translit=līe|LTranslit=lje
@@ -63914,7 +63914,7 @@
 2	نے	نے	ADP	PSP	AdpType=Post	1	case	_	ChunkId=NP|ChunkType=child|Translit=ne|LTranslit=ne
 3	کہا	کہہنا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=khhnā|Stype=declarative|Tam=yA|Translit=khā|Vib=یا
 4	کہ	کہ	SCONJ	CC	_	23	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head|Translit=kh|LTranslit=kh
-5	بعض	بعض	DET	QF	Case=Acc	6	det	_	ChunkId=NP2|ChunkType=child|Translit=bʿḑ|LTranslit=bʿḑ
+5	بعض	بعض	DET	QF	Case=Acc|PronType=Ind	6	det	_	ChunkId=NP2|ChunkType=child|Translit=bʿḑ|LTranslit=bʿḑ
 6	حکمرانوں	حکمران	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	13	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=hkmrānūñ|LTranslit=hkmrān
 7	کی	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	6	case	_	ChunkId=NP2|ChunkType=child|Translit=kī|LTranslit=kā
 8	جانب	جانب	ADP	NST	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing|Person=3	6	case	_	AltTag=ADP-NOUN|ChunkId=NP2|ChunkType=child|Translit=jānb|LTranslit=jānb
@@ -78012,13 +78012,13 @@
 73	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	72	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kī|LTranslit=kā
 74	وجہ	وجہ	ADP	PSP	Case=Acc|Gender=Fem|Number=Sing	72	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ūjh|LTranslit=ūjh
 75	سے	سے	ADP	PSP	AdpType=Post	72	mark	_	ChunkId=VGNN|ChunkType=child|Translit=se|LTranslit=se
-76	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	77	det	_	Vib=0|Tam=0|ChunkId=NP23|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+76	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	77	det	_	Vib=0|Tam=0|ChunkId=NP23|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 77	دن	دن	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	80	nsubj	_	Vib=0|Tam=0|ChunkId=NP23|ChunkType=head|Translit=dn|LTranslit=dn
 78	ایسا	ایسا	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	80	xcomp	_	Vib=0|Tam=0|ChunkId=NP24|ChunkType=head|Translit=āīsā|LTranslit=āīsā
 79	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	80	advmod	_	ChunkId=VGF4|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
 80	گزرتا	گزرنا	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	58	conj	_	ChunkId=VGF4|ChunkType=head|LTranslit=gzrnā|Stype=declarative|Tam=wA|Translit=gzrtā|Vib=تا
 81	کہ	کہ	SCONJ	CC	_	85	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP5|ChunkType=head|Translit=kh|LTranslit=kh
-82	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	83	det	_	Vib=0|Tam=0|ChunkId=NP25|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+82	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	83	det	_	Vib=0|Tam=0|ChunkId=NP25|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 83	حادثہ	حادثہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	85	nsubj	_	Vib=0|Tam=0|ChunkId=NP25|ChunkType=head|Translit=hādþh|LTranslit=hādþh
 84	نہ	نہ	PART	NEG	Polarity=Neg|PronType=Neg	85	advmod	_	ChunkId=VGF5|ChunkType=child|Translit=nh|LTranslit=nh
 85	ہوا	ہونا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	78	acl	_	ChunkId=VGF5|ChunkType=head|LTranslit=hūnā|Stype=declarative|Tam=yA|Translit=hūā|Vib=یا
@@ -83753,7 +83753,7 @@
 15	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	14	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kā|LTranslit=kā
 16	عوام	عوام	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	22	nsubj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=ʿūām|LTranslit=ʿūām
 17	کو	کو	ADP	PSP	AdpType=Post	16	case	_	ChunkId=NP8|ChunkType=child|Translit=kū|LTranslit=kū
-18	کچھ	کچھ	DET	QF	_	20	det	_	ChunkId=NP9|ChunkType=child|Translit=kčh|LTranslit=kčh
+18	کچھ	کچھ	DET	QF	PronType=Ind	20	det	_	ChunkId=NP9|ChunkType=child|Translit=kčh|LTranslit=kčh
 19	بھی	بھی	PART	RP	_	18	dep	_	ChunkId=NP9|ChunkType=child|Translit=bhī|LTranslit=bhī
 20	فائدہ	فائدہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=fājdh|LTranslit=fājdh
 21	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	22	advmod	_	ChunkId=VGF|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
@@ -89887,7 +89887,7 @@
 8	سکتا	سکنا	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	7	aux	_	ChunkId=VGF|ChunkType=child|LTranslit=sknā|Tam=wA|Translit=sktā|Vib=تا
 9	اور	اور	CCONJ	CC	_	15	cc	_	ChunkId=CCP|ChunkType=head|Translit=āūr|LTranslit=āūr
 10	نہ	نہ	PART	NEG	Polarity=Neg|PronType=Neg	15	nmod	_	ChunkId=NEGP|ChunkType=head|Translit=nh|LTranslit=nh
-11	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3	12	det	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=ksī|LTranslit=kūjī
+11	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3|PronType=Ind	12	det	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=ksī|LTranslit=kūjī
 12	انکار	انکار	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=ānkār|LTranslit=ānkār
 13	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	12	case	_	ChunkId=NP4|ChunkType=child|Translit=kī|LTranslit=kā
 14	گنجائش	گنجائش	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=gnjājš|LTranslit=gnjājš
@@ -90281,7 +90281,7 @@
 40	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	39	case	_	ChunkId=NP11|ChunkType=child|Translit=ke|LTranslit=kā
 41	مسئلہ	مسئلہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	35	conj	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head|Translit=msjlh|LTranslit=msjlh
 42	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	41	case	_	ChunkId=NP12|ChunkType=child|Translit=kā|LTranslit=kā
-43	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	44	det	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+43	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	44	det	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 44	حل	حل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	45	nsubj	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head|Translit=hl|LTranslit=hl
 45	نکل	نکلنا	VERB	VM	Voice=Act	25	acl:relcl	_	ChunkId=VGF5|ChunkType=head|LTranslit=nklnā|Stype=declarative|Tam=0|Translit=nkl|Vib=0
 46	سکے	سکنا	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	45	aux	_	ChunkId=VGF5|ChunkType=child|LTranslit=sknā|Tam=yA|Translit=ske|Vib=یا
@@ -91407,7 +91407,7 @@
 21	کے	کے	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	20	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ke|LTranslit=ke
 22	بعد	بعد	ADV	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	20	mark	_	AltTag=ADV-NOUN|ChunkId=VGNN|ChunkType=child|Translit=bʿd|LTranslit=bʿd
 23	بھی	بھی	PART	RP	_	20	dep	_	ChunkId=VGNN|ChunkType=child|Translit=bhī|LTranslit=bhī
-24	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	25	det	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+24	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	25	det	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 25	شکار	شکار	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	obj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=škār|LTranslit=škār
 26	اس	یہ	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	28	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=ās|LTranslit=īh
 27	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	26	case	_	ChunkId=NP8|ChunkType=child|Translit=ke|LTranslit=kā
@@ -91687,7 +91687,7 @@
 5	بیٹی	بیٹی	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=bīṭī|LTranslit=bīṭī
 6	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	5	case	_	ChunkId=NP2|ChunkType=child|Translit=ke|LTranslit=kā
 7	اور	اور	ADJ	JJ	_	9	amod	_	ChunkId=NP3|ChunkType=child|Translit=āūr|LTranslit=āūr
-8	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	9	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+8	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	9	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 9	اولاد	اولاد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=āūlād|LTranslit=āūlād
 10	نہ	نہ	PART	NEG	Polarity=Neg|PronType=Neg	9	advmod	_	ChunkId=VGF|ChunkType=child|Translit=nh|LTranslit=nh
 11	تھی	تھا	AUX	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	SpaceAfter=No|AltTag=AUX-VERB|Vib=تھا|Tam=WA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=thī|LTranslit=thā
@@ -92309,7 +92309,7 @@
 25	والی	والا	ADJ	PSP	Case=Acc|Gender=Fem|Number=Sing	23	compound	_	ChunkId=VGNN|ChunkType=child|Translit=ūālī|LTranslit=ūālā
 26	بات_چیت	بات_چیت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	29	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=bāt_čīt|LTranslit=bāt_čīt
 27	مےں	مےں	ADP	PSP	AdpType=Post	26	case	_	ChunkId=NP7|ChunkType=child|Translit=meñ|LTranslit=meñ
-28	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	29	det	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+28	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	29	det	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 29	خلل	خلل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=xll|LTranslit=xll
 30	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	29	advmod	_	ChunkId=VGF3|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
 31	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	cop	_	SpaceAfter=No|AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF3|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
@@ -92341,7 +92341,7 @@
 11	ریکارڈشدہ	ریکارڈ	ADJ	JJ	Case=Acc	12	amod	_	ChunkId=NP3|ChunkType=child|Translit=rīkārḍšdh|LTranslit=rīkārḍ
 12	بات_چیت	بات_چیت	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=bāt_čīt|LTranslit=bāt_čīt
 13	مےں	مےں	ADP	PSP	AdpType=Post	12	case	_	ChunkId=NP3|ChunkType=child|Translit=meñ|LTranslit=meñ
-14	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	15	det	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+14	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	15	det	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 15	خلل_اندازی	خلل_اندازی	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=xll_āndāzī|LTranslit=xll_āndāzī
 16	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	17	advmod	_	ChunkId=VGF2|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
 17	کی	کرنا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	obj	_	ChunkId=VGF2|ChunkType=head|LTranslit=krnā|Stype=declarative|Tam=yA|Translit=kī|Vib=یا
@@ -92353,7 +92353,7 @@
 # translit = tqrīr meñ kūjī tbdīlī nhīñ kī gjī he js se vāḑh hūtā he kh sī_ḍī ke sāth kūjī čhīrčhār nhīñ hūjī.
 1	تقریر	تقریر	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=tqrīr|LTranslit=tqrīr
 2	مےں	مےں	ADP	PSP	AdpType=Post	1	case	_	ChunkId=NP|ChunkType=child|Translit=meñ|LTranslit=meñ
-3	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	4	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+3	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	4	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 4	تبدیلی	تبدیلی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=tbdīlī|LTranslit=tbdīlī
 5	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	6	advmod	_	ChunkId=VGF|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
 6	کی	کرنا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=krnā|Stype=declarative|Tam=yA|Translit=kī|Vib=یا
@@ -92368,7 +92368,7 @@
 15	سی_ڈی	سی_ڈی	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=sī_ḍī|LTranslit=sī_ḍī
 16	کے	کے	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP4|ChunkType=child|Translit=ke|LTranslit=ke
 17	ساتھ	ساتھ	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	15	case	_	AltTag=ADP-NOUN|ChunkId=NP4|ChunkType=child|Translit=sāth|LTranslit=sāth
-18	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	19	det	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+18	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	19	det	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 19	چھیڑچھاڑ	چھیڑچھاڑ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=čhīrčhār|LTranslit=čhīrčhār
 20	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	21	advmod	_	ChunkId=VGF3|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
 21	ہوئی	ہونا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	12	obj	_	ChunkId=VGF3|ChunkType=head|LTranslit=hūnā|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=hūjī|Vib=یا
@@ -93538,7 +93538,7 @@
 # translit = āsrājīl ke bʿḑ ðmh_dār adāre khte heñ kh bhle hī asrājīlī mʿāšrh krpṭ hū gīā hū līkn ġnīmt he kh ab bhī asrājīlī pūlīs, aṭārnī jnrl aūr jjs ksī se mrʿūb hūne vāle nhīñ heñ.
 1	اسرائیل	اسرائیل	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=āsrājīl|LTranslit=āsrājīl
 2	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke|LTranslit=kā
-3	بعض	بعض	DET	QF	Case=Nom	5	det	_	ChunkId=NP2|ChunkType=child|Translit=bʿḑ|LTranslit=bʿḑ
+3	بعض	بعض	DET	QF	Case=Nom|PronType=Ind	5	det	_	ChunkId=NP2|ChunkType=child|Translit=bʿḑ|LTranslit=bʿḑ
 4	ذمہ_دار	ذمہ_دار	ADJ	JJ	Case=Nom	5	amod	_	ChunkId=NP2|ChunkType=child|Translit=ðmh_dār|LTranslit=ðmh_dār
 5	ادارے	ادارہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=ādāre|LTranslit=ādārh
 6	کہتے	کہہنا	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=khhnā|Stype=declarative|Tam=wA|Translit=khte|Vib=تا
@@ -101817,7 +101817,7 @@
 13	دیا	دےنا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF2|ChunkType=head|LTranslit=denā|Stype=declarative|Tam=yA|Translit=dīā|Vib=یا
 14	کہ	کہ	SCONJ	CC	_	23	mark	_	SpaceAfter=No|AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head|Translit=kh|LTranslit=kh
 15	''	''	PUNCT	SYM	_	16	punct	_	ChunkId=NP8|ChunkType=child|Translit=''|LTranslit=''
-16	کچھ	کچھ	DET	QF	_	17	det	_	ChunkId=NP8|ChunkType=child|Translit=kčh|LTranslit=kčh
+16	کچھ	کچھ	DET	QF	PronType=Ind	17	det	_	ChunkId=NP8|ChunkType=child|Translit=kčh|LTranslit=kčh
 17	لوگ	لوگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=lūg|LTranslit=lūg
 18	گائے	گائے	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	20	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=gāje|LTranslit=gāje
 19	کو	کو	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP9|ChunkType=child|Translit=kū|LTranslit=kū
@@ -101895,7 +101895,7 @@
 1	اس	یہ	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|Translit=ās|LTranslit=īh
 2	واقعہ	واقعہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=ūāqʿh|LTranslit=ūāqʿh
 3	سے	سے	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=se|LTranslit=se
-4	کئی	کئی	DET	QF	_	5	det	_	ChunkId=NP2|ChunkType=child|Translit=kjī|LTranslit=kjī
+4	کئی	کئی	DET	QF	PronType=Ind	5	det	_	ChunkId=NP2|ChunkType=child|Translit=kjī|LTranslit=kjī
 5	باتیں	بات	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	7	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=bātīñ|LTranslit=bāt
 6	معلوم	معلوم	ADJ	JJ	_	7	compound	_	ChunkId=JJP|ChunkType=head|Translit=mʿlūm|LTranslit=mʿlūm
 7	ہوئیں	ہونا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=hūnā|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=hūjīñ|Vib=یا
@@ -103221,7 +103221,7 @@
 18	شانتی	شانتی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=šāntī|LTranslit=šāntī
 19	بھوشن	بھوشن	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	26	obl	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=bhūšn|LTranslit=bhūšn
 20	سے	سے	ADP	PSP	AdpType=Post	19	case	_	ChunkId=NP5|ChunkType=child|Translit=se|LTranslit=se
-21	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	23	det	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+21	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	23	det	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 22	قانونی	قانونی	ADJ	JJ	Case=Nom	23	amod	_	ChunkId=NP6|ChunkType=child|Translit=qānūnī|LTranslit=qānūnī
 23	نوٹس	نوٹس	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	26	obj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=nūṭs|LTranslit=nūṭs
 24	موصول	موصول	ADJ	JJ	_	26	compound	_	ChunkId=JJP|ChunkType=head|Translit=mūşūl|LTranslit=mūşūl
@@ -103275,7 +103275,7 @@
 9	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	8	case	_	ChunkId=NP3|ChunkType=child|Translit=kī|LTranslit=kā
 10	جانب	جانب	ADP	NST	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	8	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child|Translit=jānb|LTranslit=jānb
 11	سے	سے	ADP	PSP	AdpType=Post	8	case	_	ChunkId=NP3|ChunkType=child|Translit=se|LTranslit=se
-12	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	14	det	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+12	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	14	det	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 13	قانونی	قانونی	ADJ	JJ	_	14	amod	_	ChunkId=NP4|ChunkType=child|Translit=qānūnī|LTranslit=qānūnī
 14	نوٹس	نوٹس	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=nūṭs|LTranslit=nūṭs
 15	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	16	advmod	_	ChunkId=VGF2|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
@@ -103315,7 +103315,7 @@
 9	روانہ	روانہ	ADJ	JJ	_	10	compound	_	ChunkId=JJP2|ChunkType=head|Translit=rūānh|LTranslit=rūānh
 10	کرنے	کرنا	VERB	VM	Case=Acc|VerbForm=Inf	16	obl	_	ChunkId=VGNN|ChunkType=head|LTranslit=krnā|Tam=nA|Translit=krne|Vib=نا
 11	سے	سے	ADP	PSP	AdpType=Post	10	mark	_	ChunkId=VGNN|ChunkType=child|Translit=se|LTranslit=se
-12	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3	13	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=kūjī|LTranslit=kūjī
+12	کوئی	کوئی	DET	QF	Case=Nom|Number=Sing|Person=3|PronType=Ind	13	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=kūjī|LTranslit=kūjī
 13	مقصد	مقصد	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=mqşd|LTranslit=mqşd
 14	حاصل	حاصل	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=hāşl|LTranslit=hāşl
 15	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	16	advmod	_	ChunkId=VGF2|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
@@ -106435,7 +106435,7 @@
 10	رنگ	رنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	conj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=rng|LTranslit=rng
 11	کے	کے	ADP	PSP	AdpType=Post	10	case	_	ChunkId=NP2|ChunkType=child|Translit=ke|LTranslit=ke
 12	علاوہ	علاوہ	ADP	PSP	AdpType=Post	10	case	_	ChunkId=NP2|ChunkType=child|Translit=ʿlāūh|LTranslit=ʿlāūh
-13	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3	16	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=ksī|LTranslit=kūjī
+13	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3|PronType=Ind	16	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=ksī|LTranslit=kūjī
 14	بھی	بھی	PART	RP	_	13	dep	_	ChunkId=NP3|ChunkType=child|Translit=bhī|LTranslit=bhī
 15	ہلکے	ہلکا	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	16	amod	_	ChunkId=NP3|ChunkType=child|Translit=hlke|LTranslit=hlkā
 16	رنگ	رنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	conj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=rng|LTranslit=rng
@@ -106467,7 +106467,7 @@
 6	,	,	PUNCT	SYM	_	7	punct	_	ChunkId=JJP|ChunkType=child|Translit=,|LTranslit=,
 7	پرپل	پرپل	ADJ	JJ	Case=Acc	5	conj	_	ChunkId=JJP2|ChunkType=head|Translit=prpl|LTranslit=prpl
 8	یا	یا	CCONJ	CC	_	12	cc	_	ChunkId=CCP2|ChunkType=head|Translit=īā|LTranslit=īā
-9	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3	12	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=ksī|LTranslit=kūjī
+9	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3|PronType=Ind	12	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=ksī|LTranslit=kūjī
 10	بھی	بھی	PART	RP	_	9	dep	_	ChunkId=NP2|ChunkType=child|Translit=bhī|LTranslit=bhī
 11	تیز	تیز	ADJ	JJ	Case=Acc	12	amod	_	ChunkId=NP2|ChunkType=child|Translit=tīz|LTranslit=tīz
 12	رنگ	رنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	conj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=rng|LTranslit=rng
@@ -106520,7 +106520,7 @@
 1	سیاہ	سیاہ	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	ChunkId=NP|ChunkType=child|Translit=sīāh|LTranslit=sīāh
 2	رنگ	رنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=rng|LTranslit=rng
 3	کو	کو	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|Translit=kū|LTranslit=kū
-4	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3	6	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=ksī|LTranslit=kūjī
+4	کسی	کوئی	DET	QF	Case=Acc|Number=Sing|Person=3|PronType=Ind	6	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=ksī|LTranslit=kūjī
 5	ہلکے	ہلکا	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	ChunkId=NP2|ChunkType=child|Translit=hlke|LTranslit=hlkā
 6	رنگ	رنگ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=rng|LTranslit=rng
 7	کے	کے	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP2|ChunkType=child|Translit=ke|LTranslit=ke
@@ -106840,7 +106840,7 @@
 # sent_id = train-s3475
 # text = کم نمک کے استعمال سے اپنے آپ کو بلڈپریشر سے دور رکھیے۔
 # translit = km nmk ke astʿmāl se apne Āp kū blḍprīšr se dūr rkhīe.
-1	کم	کم	DET	QF	Case=Acc	2	det	_	ChunkId=NP|ChunkType=child|Translit=km|LTranslit=km
+1	کم	کم	DET	QF	Case=Acc|PronType=Ind	2	det	_	ChunkId=NP|ChunkType=child|Translit=km|LTranslit=km
 2	نمک	نمک	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=nmk|LTranslit=nmk
 3	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke|LTranslit=kā
 4	استعمال	استعمال	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=āstʿmāl|LTranslit=āstʿmāl
@@ -109385,7 +109385,7 @@
 13	کے	کے	ADP	PSP	AdpType=Post	11	case	_	ChunkId=VGNN|ChunkType=child|Translit=ke|LTranslit=ke
 14	دوران	دوران	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	11	case	_	AltTag=ADP-NOUN|ChunkId=VGNN|ChunkType=child|Translit=dūrān|LTranslit=dūrān
 15	وہ	وہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	Vib=ْ|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ūh|LTranslit=ūh
-16	کافی	کافی	DET	QF	Case=Nom	17	det	_	ChunkId=NP6|ChunkType=child|Translit=kāfī|LTranslit=kāfī
+16	کافی	کافی	DET	QF	Case=Nom|PronType=Ind	17	det	_	ChunkId=NP6|ChunkType=child|Translit=kāfī|LTranslit=kāfī
 17	نقاہت	نقاہت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	obj	_	Vib=ْ|Tam=0|ChunkId=NP6|ChunkType=head|Translit=nqāht|LTranslit=nqāht
 18	محسوس	محسوس	ADJ	JJ	_	19	compound	_	ChunkId=JJP|ChunkType=head|Translit=mhsūs|LTranslit=mhsūs
 19	کر	کرنا	VERB	VM	Voice=Act	3	obj	_	ChunkId=VGF2|ChunkType=head|LTranslit=krnā|Stype=declarative|Tam=0|Translit=kr|Vib=ْ
@@ -119865,7 +119865,7 @@
 17	3	3	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=3|LTranslit=3
 18	مئی	مئی	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	conj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=mjī|LTranslit=mjī
 19	کو	کو	ADP	PSP	AdpType=Post	18	case	_	ChunkId=NP7|ChunkType=child|Translit=kū|LTranslit=kū
-20	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing	21	det	_	ChunkId=NP8|ChunkType=child|Translit=āek|LTranslit=āek
+20	اےک	اےک	PRON	PRPC	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	21	det	_	ChunkId=NP8|ChunkType=child|Translit=āek|LTranslit=āek
 21	دوسرے	دوسرا	PRON	PRP	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	24	obl	_	ChunkId=NP8|ChunkType=head|Translit=dūsre|LTranslit=dūsrā
 22	کے	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	21	case	_	ChunkId=NP8|ChunkType=child|Translit=ke|LTranslit=kā
 23	مدمقابل	مدمقابل	ADP	NST	_	21	case	_	ChunkId=NP8|ChunkType=child|Translit=mdmqābl|LTranslit=mdmqābl

@@ -9783,8 +9783,8 @@
 # translit = kālj meñ şd fīşd hāḑrī aūr ksī dūsre ṭīūšn v kūčng ke bġīr 933 nšānāt hāşl krte hūje dūsrūñ ke lje mþāl bnī he.
 1	کالج	کالج	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=kālj|LTranslit=kālj
 2	مےں	مےں	ADP	PSP	AdpType=Post	1	case	_	ChunkId=NP|ChunkType=child|Translit=meñ|LTranslit=meñ
-3	صد	صد	DET	QF	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=şd|LTranslit=şd
-4	فیصد	فیصد	DET	QF	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=fīşd|LTranslit=fīşd
+3	صد	صد	DET	QF	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=şd|LTranslit=şd
+4	فیصد	فیصد	DET	QF	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	det	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=fīşd|LTranslit=fīşd
 5	حاضری	حاضری	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=hāḑrī|LTranslit=hāḑrī
 6	اور	اور	CCONJ	CC	_	9	cc	_	ChunkId=CCP|ChunkType=head|Translit=āūr|LTranslit=āūr
 7	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=ksī|LTranslit=kūjī
@@ -11424,7 +11424,7 @@
 19	حفاظ	حافظ	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Plur|Person=3	23	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=hfāz̧|LTranslit=hāfz̧
 20	کرام	کرام	PART	RP	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	dep	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=krām|LTranslit=krām
 21	کی	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	19	case	_	ChunkId=NP7|ChunkType=child|Translit=kī|LTranslit=kā
-22	بڑی	بڑا	DET	QF	Case=Nom|Gender=Fem|Number=Sing	23	det	_	ChunkId=NP8|ChunkType=child|Translit=brī|LTranslit=brā
+22	بڑی	بڑا	DET	QF	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	23	det	_	ChunkId=NP8|ChunkType=child|Translit=brī|LTranslit=brā
 23	تعداد	تعداد	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	25	nsubj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=tʿdād|LTranslit=tʿdād
 24	شریک	شریک	ADJ	JJ	_	25	compound	_	ChunkId=JJP|ChunkType=head|Translit=šrīk|LTranslit=šrīk
 25	تھی	تھا	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	dep	_	SpaceAfter=No|Vib=تھا|Tam=WA|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=thī|LTranslit=thā
