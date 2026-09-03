@@ -338,7 +338,7 @@
 # text = یہ ایسا واقعہ ہے جیسا کہ سال 2002 مےں گجرات مےں نریندر مودی اور ان کے حامیوں نے انجام دیا ہے۔
 # translit = īh aīsā vāqʿh he jīsā kh sāl 2002 meñ gjrāt meñ nrīndr mūdī aūr an ke hāmīūñ ne anjām dīā he.
 1	یہ	یہ	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=īh|LTranslit=īh
-2	ایسا	ایسا	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	3	nsubj	_	ChunkId=NP2|ChunkType=child|Translit=āīsā|LTranslit=āīsā
+2	ایسا	ایسا	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	3	det	_	ChunkId=NP2|ChunkType=child|Translit=āīsā|LTranslit=āīsā
 3	واقعہ	واقعہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	acl:relcl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=ūāqʿh|LTranslit=ūāqʿh
 4	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
 5	جیسا	جیسا	PRON	PRP	PronType=Prs	20	nsubj	_	ChunkId=NP3|ChunkType=head|Translit=jīsā|LTranslit=jīsā
