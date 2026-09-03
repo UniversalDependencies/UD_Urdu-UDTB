@@ -64,7 +64,7 @@
     <feat name="Poss" value="Yes" upos="PRON">35</feat><!-- ان, ہم, میری, میرا, اس, جس, میرے, ہمارے -->
     <feat name="PronType" value="Dem" upos="DET,PRON">1903</feat><!-- اس, یہ, ان, اسی, ایسے, جو, وہ, ایسی, یہی, ایسا -->
     <feat name="PronType" value="Ind" upos="DET,PART">479</feat><!-- کئی, تمام, کچھ, ہر, چند, بعض, زیادہ, کم, بہت, اور -->
-    <feat name="PronType" value="Int" upos="DET,PRON">91</feat><!-- کیا, کیوں, کس, کہاں, کون, آیا, کیسے, کب, کونسا, کیسا -->
+    <feat name="PronType" value="Int" upos="DET,PRON">105</feat><!-- کیا, کیوں, کس, کہاں, آیا, کون, کیسے, کیسا, کب, کونسا -->
     <feat name="PronType" value="Neg" upos="PART">805</feat><!-- نہیں, نہ, بغیر, بجائے, عدم, بنا, سوا, سوائے -->
     <feat name="PronType" value="Prs" upos="PRON">5498</feat><!-- اس, وہ, ان, انہوں, اپنے, جو, جس, یہ, اپنی, انہیں -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">688</feat><!-- گے, جائےگا, گا, گی, کریں_گے, جائےگی, جائیں_گے, کرےگی, ہوں_گے, دیں_گے -->
