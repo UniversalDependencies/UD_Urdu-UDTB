@@ -50204,7 +50204,7 @@
 1	اب	اب	PRON	PRP	Case=Nom|PronType=Prs	3	obl	_	ChunkId=NP|ChunkType=head|Translit=āb|LTranslit=āb
 2	وقت	وقت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=ūqt|LTranslit=ūqt
 3	آ	آنا	VERB	VM	Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=Ānā|Stype=declarative|Tam=0|Translit=Ā|Vib=0
-4	گیا	جانا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part	3	aux	_	ChunkId=VGF|ChunkType=child|LTranslit=jānā|Tam=yA1|Translit=gīā|Vib=1یا
+4	گیا	جانا	AUX	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part	3	aux	_	ChunkId=VGF|ChunkType=child|LTranslit=jānā|Tam=yA1|Translit=gīā|Vib=1یا
 5	ہے	ہے	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=he|LTranslit=he
 6	کہ	کہ	SCONJ	CC	_	12	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head|Translit=kh|LTranslit=kh
 7	عالمی	عالمی	ADJ	JJ	Case=Nom	8	amod	_	ChunkId=NP3|ChunkType=child|Translit=ʿālmī|LTranslit=ʿālmī
@@ -72861,7 +72861,7 @@
 15	کمیٹی	کمیٹی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kmīṭī|LTranslit=kmīṭī
 16	وزارت	وزارت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ūzārt|LTranslit=ūzārt
 17	اطلاعات	اطلاع	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Plur|Person=3	19	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=āţlāʿāt|LTranslit=āţlāʿ
-18	و	و	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	cc	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=ū|LTranslit=ū
+18	و	و	CCONJ	NNPC	_	19	cc	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=ū|LTranslit=ū
 19	نشریات	نشر	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Plur|Person=3	16	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=nšrīāt|LTranslit=nšr
 20	حکومت	حکومت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	23	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=hkūmt|LTranslit=hkūmt
 21	ہند	ہند	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	dislocated	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=hnd|LTranslit=hnd
@@ -115958,7 +115958,7 @@
 26	مقابلہ	مقابلہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=mqāblh|LTranslit=mqāblh
 27	کھیل	کھیلنا	VERB	VM	Case=Nom|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	ChunkId=VGF2|ChunkType=head|LTranslit=khīlnā|Stype=declarative|Tam=0|Translit=khīl|Vib=0
 28	نہیں	نہیں	PART	NEG	Polarity=Neg|PronType=Neg	27	advmod	_	ChunkId=VGF2|ChunkType=child|Translit=nhīñ|LTranslit=nhīñ
-29	سکے	سکنا	VERB	VM	Aspect=Perf|Number=Sing|Person=3|VerbForm=Part	27	aux	_	ChunkId=VGF2|ChunkType=child|LTranslit=sknā|SpaceAfter=No|Tam=yA|Translit=ske|Vib=یا
+29	سکے	سکنا	AUX	VM	Aspect=Perf|Number=Sing|Person=3|VerbForm=Part	27	aux	_	ChunkId=VGF2|ChunkType=child|LTranslit=sknā|SpaceAfter=No|Tam=yA|Translit=ske|Vib=یا
 30	۔	۔	PUNCT	SYM	_	27	punct	_	ChunkId=VGF2|ChunkType=child|Translit=.|LTranslit=.
 
 # sent_id = train-s3758
@@ -119117,7 +119117,7 @@
 49	اوپن	اوپن	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	51	nmod	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=head|Translit=āūpn|LTranslit=āūpn
 50	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	49	case	_	ChunkId=NP14|ChunkType=child|Translit=kā|LTranslit=kā
 51	ڈرا	ڈرا	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	54	nsubj	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head|Translit=ḍrā|LTranslit=ḍrā
-52	کسی	کوئ	ADV	INTFC	Case=Nom|Number=Sing|Person=3	53	det	_	Vib=0|Tam=0|ChunkId=JJP2|ChunkType=child|Translit=ksī|LTranslit=kūj
+52	کسی	کوئ	ADV	INTFC	Case=Nom|Number=Sing|Person=3	53	compound	_	Vib=0|Tam=0|ChunkId=JJP2|ChunkType=child|Translit=ksī|LTranslit=kūj
 53	قدر	قدر	ADV	INTF	Case=Acc|Gender=Masc|Number=Sing|Person=3	54	advmod	_	Vib=0|Tam=0|ChunkId=JJP2|ChunkType=child|Translit=qdr|LTranslit=qdr
 54	راحت_بخش	راحت_بخش	ADJ	JJ	_	38	conj	_	ChunkId=JJP2|ChunkType=head|Translit=rāht_bxš|LTranslit=rāht_bxš
 55	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	54	cop	_	SpaceAfter=No|AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
