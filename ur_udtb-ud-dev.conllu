@@ -341,7 +341,7 @@
 2	ایسا	ایسا	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	3	det	_	ChunkId=NP2|ChunkType=child|Translit=āīsā|LTranslit=āīsā
 3	واقعہ	واقعہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	acl:relcl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=ūāqʿh|LTranslit=ūāqʿh
 4	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
-5	جیسا	جیسا	PRON	PRP	PronType=Prs	20	advmod	_	ChunkId=NP3|ChunkType=head|Translit=jīsā|LTranslit=jīsā
+5	جیسا	جیسا	PRON	PRP	PronType=Prs	20	obl	_	ChunkId=NP3|ChunkType=head|Translit=jīsā|LTranslit=jīsā
 6	کہ	کہ	PART	RP	_	5	dep	_	ChunkId=NP3|ChunkType=child|Translit=kh|LTranslit=kh
 7	سال	سال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=sāl|LTranslit=sāl
 8	2002	2002	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=2002|LTranslit=2002

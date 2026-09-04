@@ -29045,7 +29045,7 @@
 12	کی	کا	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	11	case	_	ChunkId=NP5|ChunkType=child|Translit=kī|LTranslit=kā
 13	عمومی	عمومی	ADJ	JJ	Case=Nom	14	amod	_	ChunkId=NP6|ChunkType=child|Translit=ʿmūmī|LTranslit=ʿmūmī
 14	سوچ	سوچ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=sūč|LTranslit=sūč
-15	کچھ	کچھ	PRON	PRPC	PronType=Ind	16	advmod	_	ChunkId=NP7|ChunkType=child|Translit=kčh|LTranslit=kčh
+15	کچھ	کچھ	PRON	PRPC	PronType=Ind	16	obl	_	ChunkId=NP7|ChunkType=child|Translit=kčh|LTranslit=kčh
 16	ایسی	ایسا	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	0	root	_	ChunkId=NP7|ChunkType=head|Translit=āīsī|LTranslit=āīsā
 17	ہی	ہی	PART	RP	_	16	dep	_	ChunkId=NP7|ChunkType=child|Translit=hī|LTranslit=hī
 18	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	SpaceAfter=No|AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
