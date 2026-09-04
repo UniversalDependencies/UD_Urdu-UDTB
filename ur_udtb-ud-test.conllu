@@ -2151,7 +2151,7 @@
 7	و	و	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=ū|LTranslit=ū
 8	تعالیٰ	تعالیٰ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=tʿālīā|LTranslit=tʿālīā
 9	توبہ	توبہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=tūbh|LTranslit=tūbh
-10	کرنے	کرنا	VERB	VM	Case=Acc|VerbForm=Inf	14	nsubj	_	ChunkId=VGNN|ChunkType=head|LTranslit=krnā|Tam=nA|Translit=krne|Vib=نا
+10	کرنے	کرنا	VERB	VM	Case=Acc|VerbForm=Inf	14	obj	_	ChunkId=VGNN|ChunkType=head|LTranslit=krnā|Tam=nA|Translit=krne|Vib=نا
 11	والوں	والا	ADJ	PSP	Case=Acc|Gender=Masc|Number=Plur	10	compound	_	ChunkId=VGNN|ChunkType=child|Translit=ūālūñ|LTranslit=ūālā
 12	کو	کو	ADP	PSP	AdpType=Post	10	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kū|LTranslit=kū
 13	پسند	پسند	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=psnd|LTranslit=psnd
@@ -2875,7 +2875,7 @@
 29	بغیر	بغیر	PART	RP	Case=Acc	30	dep	_	ChunkId=NP10|ChunkType=child|Translit=bġīr|LTranslit=bġīr
 30	آواز	آواز	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	32	nmod	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=Āūāz|LTranslit=Āūāz
 31	کا	کا	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	30	case	_	ChunkId=NP10|ChunkType=child|Translit=kā|LTranslit=kā
-32	جنریٹر	جنریٹر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	nsubj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head|Translit=jnrīṭr|LTranslit=jnrīṭr
+32	جنریٹر	جنریٹر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	obj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head|Translit=jnrīṭr|LTranslit=jnrīṭr
 33	نصب	نصب	ADJ	JJ	_	34	compound	_	ChunkId=JJP|ChunkType=head|Translit=nşb|LTranslit=nşb
 34	کروائیں_گے	کروانا	VERB	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	ccomp	_	ChunkId=VGF2|ChunkType=head|LTranslit=krūānā|SpaceAfter=No|Stype=declarative|Tam=gA|Translit=krūājīñ_ge|Vib=گا
 35	۔	۔	PUNCT	SYM	_	34	punct	_	ChunkId=VGF2|ChunkType=child|Translit=.|LTranslit=.
@@ -3066,7 +3066,7 @@
 34	نارائنا	نارائنا	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	37	nsubj	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head|Translit=nārājnā|LTranslit=nārājnā
 35	اےک	اےک	NUM	QC	NumType=Card	37	nummod	_	SpaceAfter=No|ChunkId=NP12|ChunkType=child|Translit=āek|LTranslit=āek
 36	''	''	PUNCT	SYM	_	35	punct	_	ChunkId=NP12|ChunkType=child|Translit=''|LTranslit=''
-37	لیجینڈ	لیجینڈ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	nsubj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP12|ChunkType=head|Translit=lījīnḍ|LTranslit=lījīnḍ
+37	لیجینڈ	لیجینڈ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	ccomp	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP12|ChunkType=head|Translit=lījīnḍ|LTranslit=lījīnḍ
 38	''	''	PUNCT	SYM	_	37	punct	_	ChunkId=NP12|ChunkType=child|Translit=''|LTranslit=''
 39	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	cop	_	SpaceAfter=No|AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
 40	۔	۔	PUNCT	SYM	_	30	punct	_	ChunkId=VGF2|ChunkType=child|Translit=.|LTranslit=.
@@ -4985,7 +4985,7 @@
 3	کہنا	کہہنا	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf	4	nsubj	_	ChunkId=VGNN|ChunkType=head|LTranslit=khhnā|Tam=nA|Translit=khnā|Vib=نا
 4	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
 5	کہ	کہ	SCONJ	CC	_	8	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head|Translit=kh|LTranslit=kh
-6	انہیں	وہ	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|Polite=Form|PronType=Prs	8	nsubj	_	Vib=کو|Tam=ko|ChunkId=NP2|ChunkType=head|Translit=ānhīñ|LTranslit=ūh
+6	انہیں	وہ	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|Polite=Form|PronType=Prs	8	iobj	_	Vib=کو|Tam=ko|ChunkId=NP2|ChunkType=head|Translit=ānhīñ|LTranslit=ūh
 7	امید	امید	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=āmīd|LTranslit=āmīd
 8	ہے	ہے	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	Vib=ہے|Tam=hE|ChunkId=VGF2|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
 9	کہ	کہ	SCONJ	CC	_	21	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP2|ChunkType=head|Translit=kh|LTranslit=kh
@@ -5000,7 +5000,7 @@
 18	سے	سے	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP6|ChunkType=child|Translit=se|LTranslit=se
 19	پردے	پردہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	21	obj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=prde|LTranslit=prdh
 20	فاش	فاش	ADJ	JJ	_	21	compound	_	ChunkId=JJP|ChunkType=head|Translit=fāš|LTranslit=fāš
-21	کریں_گے	کرنا	VERB	VM	Mood=Ind|Number=Plur|Tense=Fut|VerbForm=Fin|Voice=Act	8	nsubj	_	ChunkId=VGF3|ChunkType=head|LTranslit=krnā|Stype=declarative|Tam=gA|Translit=krīñ_ge|Vib=گا
+21	کریں_گے	کرنا	VERB	VM	Mood=Ind|Number=Plur|Tense=Fut|VerbForm=Fin|Voice=Act	8	advcl	_	ChunkId=VGF3|ChunkType=head|LTranslit=krnā|Stype=declarative|Tam=gA|Translit=krīñ_ge|Vib=گا
 22	تو	تو	SCONJ	CC	_	21	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP3|ChunkType=head|Translit=tū|LTranslit=tū
 23	مزید	مزید	ADV	INTF	AdvType=Deg	24	advmod	_	ChunkId=NP8|ChunkType=child|Translit=mzīd|LTranslit=mzīd
 24	بڑے	بڑا	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	25	amod	_	ChunkId=NP8|ChunkType=child|Translit=bre|LTranslit=brā
@@ -7677,7 +7677,7 @@
 # sent_id = test-s240
 # text = یہاں یہ تذکرہ ضروری ہے کہ گزشتہ دس دن کے دوران اس محلہ مےں موٹر سائیکلوں کی چوری کی یہ چوتھی واردات ہے۔
 # translit = īhāñ yh tðkrh ḑrūrī he kh gzšth ds dn ke dūrān as mhlh meñ mūṭr sājīklūñ kī čūrī kī yh čūthī vārdāt he.
-1	یہاں	یہاں	PRON	PRP	Case=Nom|PronType=Prs	4	nsubj	_	ChunkId=NP|ChunkType=head|Translit=īhāñ|LTranslit=īhāñ
+1	یہاں	یہاں	PRON	PRP	Case=Nom|PronType=Prs	4	obl	_	ChunkId=NP|ChunkType=head|Translit=īhāñ|LTranslit=īhāñ
 2	یہ	یہ	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	3	det	_	ChunkId=NP2|ChunkType=child|Translit=īh|LTranslit=īh
 3	تذکرہ	تذکرہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=tðkrh|LTranslit=tðkrh
 4	ضروری	ضروری	ADJ	JJ	_	0	root	_	ChunkId=JJP|ChunkType=head|Translit=ḑrūrī|LTranslit=ḑrūrī
@@ -9264,7 +9264,7 @@
 8	ہےں	ہے	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=heñ|LTranslit=he
 9	اور	اور	CCONJ	CC	_	16	cc	_	ChunkId=CCP|ChunkType=head|Translit=āūr|LTranslit=āūr
 10	کوئی	کوئی	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kūjī|LTranslit=kūjī
-11	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ksī|LTranslit=kūjī
+11	کسی	کوئی	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ksī|LTranslit=kūjī
 12	کو	کو	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP5|ChunkType=child|Translit=kū|LTranslit=kū
 13	اٹھتا	اٹھنا	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	16	xcomp	_	ChunkId=VGNF|ChunkType=head|LTranslit=āṭhnā|Tam=wA|Translit=āṭhtā|Vib=تا
 14	ہوا	ہونا	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	13	aux	_	ChunkId=VGNF|ChunkType=child|LTranslit=hūnā|Tam=yA|Translit=hūā|Vib=یا
@@ -10948,8 +10948,8 @@
 4	کتاب	کتاب	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=ktāb|LTranslit=ktāb
 5	ہے	ہے	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	AltTag=AUX-VERB|Vib=ہے|Tam=hE|ChunkId=VGF|ChunkType=head|Stype=declarative|Translit=he|LTranslit=he
 6	جو	جو	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=jū|LTranslit=jū
-7	سب	سب	ADV	INTFC	Case=Acc	9	nsubj	_	ChunkId=RBP|ChunkType=child|Translit=sb|LTranslit=sb
-8	سے	سے	ADV	INTF	_	9	nsubj	_	ChunkId=RBP|ChunkType=child|Translit=se|LTranslit=se
+7	سب	سب	ADV	INTFC	Case=Acc	9	obl	_	ChunkId=RBP|ChunkType=child|Translit=sb|LTranslit=sb
+8	سے	سے	ADV	INTF	_	7	case	_	ChunkId=RBP|ChunkType=child|Translit=se|LTranslit=se
 9	زیادہ	زیادہ	ADV	RB	_	10	advmod	_	ChunkId=RBP|ChunkType=head|Translit=zīādh|LTranslit=zīādh
 10	پڑھی	پڑھنا	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	2	acl:relcl	_	ChunkId=VGF2|ChunkType=head|LTranslit=prhnā|Stype=declarative|Tam=yA|Translit=prhī|Vib=یا
 11	جاتی	جانا	AUX	VAUX	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	10	aux	_	ChunkId=VGF2|ChunkType=child|LTranslit=jānā|Tam=wA|Translit=jātī|Vib=تا
@@ -12144,7 +12144,7 @@
 10	کہ	کہ	SCONJ	CC	_	21	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP|ChunkType=head|Translit=kh|LTranslit=kh
 11	کئی	کئی	DET	QF	PronType=Ind	13	det	_	ChunkId=NP5|ChunkType=child|Translit=kjī|LTranslit=kjī
 12	اہم	اہم	ADJ	JJ	Case=Nom	13	amod	_	ChunkId=NP5|ChunkType=child|Translit=āhm|LTranslit=āhm
-13	مسلم	مسلم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=mslm|LTranslit=mslm
+13	مسلم	مسلم	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	amod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=mslm|LTranslit=mslm
 14	ارکان	ارکان	NOUN	NNZ	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=ārkān|LTranslit=ārkān
 15	پارلیمنٹ	پارلیمنٹ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=pārlīmnṭ|LTranslit=pārlīmnṭ
 16	نے	نے	ADP	PSP	AdpType=Post	14	dislocated	_	ChunkId=FRAGP|ChunkType=head|Translit=ne|LTranslit=ne
@@ -12643,7 +12643,7 @@
 10	اور	اور	CCONJ	CC	_	11	cc	_	ChunkId=CCP|ChunkType=head|Translit=āūr|LTranslit=āūr
 11	کہا	کہہنا	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	conj	_	ChunkId=VGF2|ChunkType=head|LTranslit=khhnā|Stype=declarative|Tam=yA|Translit=khā|Vib=یا
 12	کہ	کہ	SCONJ	CC	_	17	mark	_	AltTag=SCONJ-CCONJ|ChunkId=CCP2|ChunkType=head|Translit=kh|LTranslit=kh
-13	انہیں	وہ	PRON	PRP	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	Vib=کو|Tam=ko|ChunkId=NP6|ChunkType=head|Translit=ānhīñ|LTranslit=ūh
+13	انہیں	وہ	PRON	PRP	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	17	iobj	_	Vib=کو|Tam=ko|ChunkId=NP6|ChunkType=head|Translit=ānhīñ|LTranslit=ūh
 14	جو	جو	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=jū|LTranslit=jū
 15	کچھ	کچھ	DET	QF	PronType=Ind	17	det	_	ChunkId=NP7|ChunkType=child|Translit=kčh|LTranslit=kčh
 16	بھی	بھی	PART	RP	_	15	dep	_	ChunkId=NP7|ChunkType=child|Translit=bhī|LTranslit=bhī
@@ -12894,7 +12894,7 @@
 6	مےں	مےں	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child|Translit=meñ|LTranslit=meñ
 7	داخل_کردہ	داخل_کردہ	ADJ	JJ	_	9	amod	_	ChunkId=JJP|ChunkType=head|Translit=dāxl_krdh|LTranslit=dāxl_krdh
 8	اپنے	اپنا	PRON	PRP	Case=Acc|PronType=Prs	9	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=āpne|LTranslit=āpnā
-9	حلف_نامہ	حلف_نامہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=hlf_nāmh|LTranslit=hlf_nāmh
+9	حلف_نامہ	حلف_نامہ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=hlf_nāmh|LTranslit=hlf_nāmh
 10	مےں	مےں	ADP	PSP	AdpType=Post	9	case	_	ChunkId=NP4|ChunkType=child|Translit=meñ|LTranslit=meñ
 11	الزام	الزام	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ālzām|LTranslit=ālzām
 12	عائد	عائد	ADJ	JJ	_	13	compound	_	ChunkId=JJP2|ChunkType=head|Translit=ʿājd|LTranslit=ʿājd
@@ -13691,9 +13691,9 @@
 33	و	و	CCONJ	CC	_	34	cc	_	ChunkId=CCP4|ChunkType=head|Translit=ū|LTranslit=ū
 34	مالی	مالی	ADJ	JJ	_	32	conj	_	ChunkId=JJP4|ChunkType=head|Translit=mālī|LTranslit=mālī
 35	نقصانات	نقصان	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	39	nsubj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=nqşānāt|LTranslit=nqşān
-36	کم	کم	ADJ	JJ	_	38	nsubj	_	ChunkId=JJP5|ChunkType=child|Translit=km|LTranslit=km
-37	سے	سے	PART	RP	_	38	nsubj	_	ChunkId=JJP5|ChunkType=child|Translit=se|LTranslit=se
-38	کم	کم	ADJ	JJ	_	4	nsubj	_	ChunkId=JJP5|ChunkType=child|CycleHead=38|Translit=km|LTranslit=km
+36	کم	کم	ADJ	JJ	_	38	fixed	_	ChunkId=JJP5|ChunkType=child|Translit=km|LTranslit=km
+37	سے	سے	PART	RP	_	38	fixed	_	ChunkId=JJP5|ChunkType=child|Translit=se|LTranslit=se
+38	کم	کم	ADJ	JJ	_	39	advmod	_	ChunkId=JJP5|ChunkType=child|CycleHead=38|Translit=km|LTranslit=km
 39	ہوئے	ہونا	VERB	VM	Aspect=Perf|Number=Sing|Person=3|VerbForm=Part|Voice=Act	29	conj	_	ChunkId=VGF4|ChunkType=head|LTranslit=hūnā|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=hūje|Vib=یا
 40	۔	۔	PUNCT	SYM	_	39	punct	_	ChunkId=VGF4|ChunkType=child|Translit=.|LTranslit=.
 

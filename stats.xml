@@ -80,34 +80,36 @@
     <feat name="Voice" value="Pass" upos="ADJ,AUX,NOUN,VERB">1234</feat><!-- کیا, کی, کر, کریں, دی, دیا, کیے, کہا, کئے, ہو -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="28">
+  <deps unique="30">
     <dep name="acl">808</dep>
     <dep name="acl:relcl">861</dep>
-    <dep name="advcl">2201</dep>
-    <dep name="advmod">1675</dep>
-    <dep name="amod">7045</dep>
-    <dep name="aux">7885</dep>
-    <dep name="case">25907</dep>
-    <dep name="cc">3302</dep>
-    <dep name="ccomp">281</dep>
-    <dep name="compound">19596</dep>
+    <dep name="advcl">2202</dep>
+    <dep name="advmod">1677</dep>
+    <dep name="amod">7046</dep>
+    <dep name="appos">1</dep>
+    <dep name="aux">7888</dep>
+    <dep name="case">25908</dep>
+    <dep name="cc">3304</dep>
+    <dep name="ccomp">283</dep>
+    <dep name="compound">19601</dep>
     <dep name="conj">3883</dep>
     <dep name="cop">1187</dep>
-    <dep name="dep">2349</dep>
-    <dep name="det">2721</dep>
+    <dep name="dep">2355</dep>
+    <dep name="det">2725</dep>
     <dep name="discourse">9</dep>
     <dep name="dislocated">342</dep>
-    <dep name="flat">4</dep>
-    <dep name="iobj">922</dep>
+    <dep name="fixed">6</dep>
+    <dep name="flat">6</dep>
+    <dep name="iobj">931</dep>
     <dep name="mark">4308</dep>
-    <dep name="nmod">13931</dep>
-    <dep name="nsubj">7238</dep>
+    <dep name="nmod">13932</dep>
+    <dep name="nsubj">7172</dep>
     <dep name="nummod">2127</dep>
-    <dep name="obj">6254</dep>
-    <dep name="obl">10532</dep>
+    <dep name="obj">6262</dep>
+    <dep name="obl">10542</dep>
     <dep name="punct">6911</dep>
     <dep name="root">5130</dep>
     <dep name="vocative">15</dep>
-    <dep name="xcomp">653</dep>
+    <dep name="xcomp">655</dep>
   </deps>
 </treebank>
