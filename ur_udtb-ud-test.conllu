@@ -13691,7 +13691,7 @@
 33	و	و	CCONJ	CC	_	34	cc	_	ChunkId=CCP4|ChunkType=head|Translit=ū|LTranslit=ū
 34	مالی	مالی	ADJ	JJ	_	32	conj	_	ChunkId=JJP4|ChunkType=head|Translit=mālī|LTranslit=mālī
 35	نقصانات	نقصان	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	39	nsubj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=nqşānāt|LTranslit=nqşān
-36	کم	کم	ADJ	JJ	_	39	advmod	_	ChunkId=JJP5|ChunkType=child|Translit=km|LTranslit=km
+36	کم	کم	ADJ	JJ	ExtPos=ADV	39	advmod	_	ChunkId=JJP5|ChunkType=child|Translit=km|LTranslit=km
 37	سے	سے	PART	RP	_	36	fixed	_	ChunkId=JJP5|ChunkType=child|Translit=se|LTranslit=se
 38	کم	کم	ADJ	JJ	_	36	fixed	_	ChunkId=JJP5|ChunkType=child|CycleHead=38|Translit=km|LTranslit=km
 39	ہوئے	ہونا	VERB	VM	Aspect=Perf|Number=Sing|Person=3|VerbForm=Part|Voice=Act	29	conj	_	ChunkId=VGF4|ChunkType=head|LTranslit=hūnā|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=hūje|Vib=یا
